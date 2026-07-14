@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  models: read # free GitHub Models inference for the AI digest
 
 concurrency:
   group: refresh-news
@@ -30,6 +31,11 @@ jobs:
       - name: Fetch news
         id: fetch
         continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: add ANTHROPIC_API_KEY as a repo secret to upgrade the
+          # AI digest from GitHub Models (free) to the Claude API.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node fetch-news.mjs
 
       - name: Commit and push if changed

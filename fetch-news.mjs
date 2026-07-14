@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 
 const OUT_FILE = new URL('./docs/news.json', import.meta.url);
 const KEEP_DAYS = 21;
-const MAX_ITEMS = 600;
+const MAX_ITEMS = 800;
 const FETCH_TIMEOUT_MS = 20_000;
 
 const GN = (q) =>
@@ -21,6 +21,8 @@ const FEEDS = [
   { url: GN('"Airbnb Experiences" OR "Musement" OR "Civitatis" when:7d'), category: 'Competitors' },
   { url: GN('"Fever" ("Feverup" OR "live entertainment" OR "Candlelight concerts") when:7d'), category: 'Competitors' },
   { url: GN('"Tripadvisor" (Viator OR TheFork OR acquisition OR subscription OR earnings OR OTA) when:7d'), category: 'Competitors' },
+  { url: GN('"live entertainment" (venue OR ticketing OR "immersive experience" OR concert OR arena) when:7d'), category: 'Live entertainment' },
+  { url: GN('site:blooloop.com when:7d'), category: 'Live entertainment' },
   { url: GN('"tours and activities" (booking OR platform OR operators OR market OR startup) OR "attractions industry" OR "experience economy" when:7d'), category: 'Experiences economy' },
   { url: GN('"MakeMyTrip" OR "ixigo" OR "Cleartrip" OR "EaseMyTrip" OR "Thrillophilia" OR "Yatra Online" when:7d'), category: 'India travel' },
   { url: GN('("travel tech" OR "travel technology" OR traveltech) (funding OR funded OR raises OR raised OR acquisition OR acquires OR startup OR "Series A" OR "Series B") when:7d'), category: 'Travel tech & funding' },
@@ -32,9 +34,9 @@ const FEEDS = [
 // Recurring junk that survives the queries: scraper databases, stock-note
 // mills, award-PR boilerplate, school sports pages that share brand names.
 const NOISE_SOURCES =
-  /^(Tracxn|MarketBeat|Simply Wall St|simplywall\.st|TipRanks|TradingView|Kalkine|Kavout|Wall Street Zen|ETF Daily News|Defense World|Zacks|MaxPreps|Prep Baseball|Sortir à Paris|UNiDAYS)/i;
+  /^(Tracxn|MarketBeat|Simply Wall St|simplywall\.st|TipRanks|TradingView|Kalkine|Kavout|Wall Street Zen|ETF Daily News|Defense World|Zacks|MaxPreps|Prep Baseball|Sortir à Paris|UNiDAYS|Encyclopedia Britannica)/i;
 const NOISE_TITLES =
-  /travell?ers['’]? choice|\bpromo codes?\b|\bdiscount codes?\b|\bcoupons?\b|obituar|undervalued|overvalued|price target|fair value|rating (?:lowered|raised|reiterated)|[\d,]+ shares\b|\bSt\.? Viator\b/i;
+  /travell?ers['’]? choice|\bpromo codes?\b|\bdiscount codes?\b|\bcoupons?\b|obituar|undervalued|overvalued|price target|fair value|rating (?:lowered|raised|reiterated)|[\d,]+ shares\b|\bSt\.? Viator\b|^news archives$/i;
 
 function decodeEntities(s) {
   return s
@@ -118,12 +120,200 @@ async function fetchFeed(feed) {
   }
 }
 
-function loadExisting() {
+function loadPrevious() {
   try {
-    const prev = JSON.parse(readFileSync(OUT_FILE, 'utf8'));
-    return Array.isArray(prev.items) ? prev.items : [];
+    return JSON.parse(readFileSync(OUT_FILE, 'utf8'));
   } catch {
-    return [];
+    return {};
+  }
+}
+
+function loadExisting() {
+  const prev = loadPrevious();
+  return Array.isArray(prev.items) ? prev.items : [];
+}
+
+// ---------- AI digest (per-category summaries + opportunities for Headout) ----------
+// Uses the Claude API when ANTHROPIC_API_KEY is set; otherwise falls back to
+// GitHub Models, which is free in Actions with the workflow's GITHUB_TOKEN
+// (needs `models: read` permission). On any failure, yesterday's digest is kept.
+
+function buildDigestPrompt(items) {
+  const byCat = {};
+  for (const it of items) (byCat[it.category] ||= []).push(it);
+  const cats = Object.keys(byCat);
+  const digest = cats
+    .map((cat) => `## ${cat}\n` + byCat[cat].slice(0, 14).map((i) => `- ${i.title} (${i.source})`).join('\n'))
+    .join('\n\n');
+  const prompt = `You write the daily morning briefing for people working in the tours, activities & experiences industry — the space Headout operates in (competitors: GetYourGuide, Viator, Klook, Tiqets, KKday, Fever, Airbnb Experiences). Today's headlines by category:
+
+${digest}
+
+Return a JSON object with exactly two keys:
+"summaries": an object mapping each category name (${cats.map((c) => JSON.stringify(c)).join(', ')}) to a 2-3 sentence summary of what happened and why it matters to someone in this industry. Name specific companies and numbers; no filler.
+"opportunities": an array of 3 to 5 objects, each {"title": <short punchy title>, "insight": <1-2 sentences describing a concrete opportunity for Headout — a partnership, market entry, supply expansion, or product move — grounded in specific headlines above>}.`;
+  return { prompt, cats };
+}
+
+async function fetchJson(url, options, timeoutMs = 90_000) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, { ...options, signal: ctrl.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function digestSchema(cats) {
+  return {
+    type: 'object',
+    properties: {
+      summaries: {
+        type: 'object',
+        properties: Object.fromEntries(cats.map((c) => [c, { type: 'string' }])),
+        required: cats,
+        additionalProperties: false,
+      },
+      opportunities: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: { title: { type: 'string' }, insight: { type: 'string' } },
+          required: ['title', 'insight'],
+          additionalProperties: false,
+        },
+      },
+    },
+    required: ['summaries', 'opportunities'],
+    additionalProperties: false,
+  };
+}
+
+async function claudeDigest(prompt, cats) {
+  const schema = digestSchema(cats);
+  const data = await fetchJson('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+      'x-api-key': process.env.ANTHROPIC_API_KEY,
+      'anthropic-version': '2023-06-01',
+    },
+    body: JSON.stringify({
+      model: 'claude-opus-4-8',
+      max_tokens: 3000,
+      output_config: { format: { type: 'json_schema', schema } },
+      messages: [{ role: 'user', content: prompt }],
+    }),
+  });
+  if (data.stop_reason === 'refusal') throw new Error('Claude refused the request');
+  const text = data.content.find((b) => b.type === 'text')?.text;
+  return { parsed: JSON.parse(text), model: 'claude-opus-4-8' };
+}
+
+async function githubModelsDigest(prompt, cats) {
+  const call = (response_format) =>
+    fetchJson('https://models.github.ai/inference/chat/completions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'openai/gpt-4o-mini',
+        messages: [{ role: 'user', content: prompt + '\n\nRespond with only the JSON object.' }],
+        response_format,
+        max_tokens: 2500,
+      }),
+    });
+  let data;
+  try {
+    // Strict schema keeps the summary keys exactly equal to the category names.
+    data = await call({
+      type: 'json_schema',
+      json_schema: { name: 'digest', strict: true, schema: digestSchema(cats) },
+    });
+  } catch {
+    data = await call({ type: 'json_object' });
+  }
+  return { parsed: JSON.parse(data.choices[0].message.content), model: 'openai/gpt-4o-mini' };
+}
+
+// Map loosely-named summary keys ("Travel tech and funding") back to the exact
+// category names used by the dashboard.
+function remapSummaryKeys(summaries, cats) {
+  const tokens = (s) => new Set(
+    s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, ' ').trim().split(' ').filter(Boolean)
+  );
+  const catTokens = cats.map((c) => [c, tokens(c)]);
+  const out = {};
+  for (const [key, text] of Object.entries(summaries)) {
+    if (cats.includes(key)) { out[key] = text; continue; }
+    const kt = tokens(key);
+    let best = null, bestScore = 0;
+    for (const [cat, ct] of catTokens) {
+      const inter = [...kt].filter((t) => ct.has(t) && t !== 'and').length;
+      const score = inter / Math.max(kt.size, ct.size);
+      if (score > bestScore) { bestScore = score; best = cat; }
+    }
+    if (best && bestScore >= 0.5 && !(best in out)) out[best] = text;
+  }
+  return out;
+}
+
+// A kept-on-failure digest is only reused for a few days; after that it's
+// better to show nothing than a week-old briefing presented as current.
+function usablePrevious() {
+  const prev = loadPrevious().ai || null;
+  if (!prev?.generatedAt) return null;
+  const ageDays = (Date.now() - new Date(prev.generatedAt).getTime()) / 864e5;
+  return ageDays < 3 ? prev : null;
+}
+
+async function generateAiDigest(items) {
+  const { prompt, cats } = buildDigestPrompt(items);
+  try {
+    let result;
+    if (process.env.ANTHROPIC_API_KEY) {
+      try {
+        result = await claudeDigest(prompt, cats);
+      } catch (err) {
+        if (!process.env.GITHUB_TOKEN) throw err;
+        console.log(`::warning::Claude digest failed (${err.message}) — falling back to GitHub Models.`);
+        result = await githubModelsDigest(prompt, cats);
+      }
+    } else if (process.env.GITHUB_TOKEN) {
+      result = await githubModelsDigest(prompt, cats);
+    } else {
+      console.log('No ANTHROPIC_API_KEY or GITHUB_TOKEN — keeping previous AI digest.');
+      return usablePrevious();
+    }
+    const { summaries, opportunities } = result.parsed;
+    if (!summaries || typeof summaries !== 'object' || !Array.isArray(opportunities)) {
+      throw new Error('AI digest has unexpected shape');
+    }
+    const cleanSummaries = {};
+    for (const [cat, text] of Object.entries(remapSummaryKeys(summaries, cats))) {
+      if (typeof text === 'string' && text.trim()) cleanSummaries[cat] = text.trim();
+    }
+    const cleanOpps = opportunities
+      .filter((o) => o && typeof o.title === 'string' && typeof o.insight === 'string')
+      .slice(0, 6);
+    if (Object.keys(cleanSummaries).length === 0 || cleanOpps.length === 0) {
+      throw new Error(`AI digest effectively empty (${Object.keys(cleanSummaries).length} summaries, ${cleanOpps.length} opportunities)`);
+    }
+    console.log(`AI digest: ${Object.keys(cleanSummaries).length} summaries, ${cleanOpps.length} opportunities (${result.model})`);
+    return {
+      summaries: cleanSummaries,
+      opportunities: cleanOpps,
+      generatedAt: new Date().toISOString(),
+      model: result.model,
+    };
+  } catch (err) {
+    console.log(`::warning::AI digest failed (${err.message}) — keeping previous digest.`);
+    return usablePrevious();
   }
 }
 
@@ -179,11 +369,23 @@ for (const item of [...fresh, ...loadExisting()]) {
 }
 
 merged.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
-const items = merged.slice(0, MAX_ITEMS);
+// Cap the file size without letting high-volume categories evict the old items
+// that extended keepDays windows (Headout 90d, Arival 30d) deliberately retain.
+let items = merged;
+if (merged.length > MAX_ITEMS) {
+  const protectedItems = merged.filter((it) => (keepDaysByCat[it.category] || KEEP_DAYS) > KEEP_DAYS);
+  const rest = merged.filter((it) => (keepDaysByCat[it.category] || KEEP_DAYS) <= KEEP_DAYS);
+  items = protectedItems
+    .concat(rest.slice(0, Math.max(0, MAX_ITEMS - protectedItems.length)))
+    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  console.log(`::warning::Item cap hit: kept ${items.length} of ${merged.length} items (MAX_ITEMS=${MAX_ITEMS}).`);
+}
+
+const ai = await generateAiDigest(items);
 
 writeFileSync(
   OUT_FILE,
-  JSON.stringify({ updatedAt: new Date().toISOString(), sources, items }, null, 1)
+  JSON.stringify({ updatedAt: new Date().toISOString(), sources, ai, items }, null, 1)
 );
 console.log(`\nWrote ${items.length} items to docs/news.json`);
 
