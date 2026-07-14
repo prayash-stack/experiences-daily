@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experiences Daily — news from the tours &amp; activities space</title>
+<meta name="description" content="Daily news digest for the experiences, tours, activities and attractions industry. Refreshed every morning at 8:00 IST.">
+<style>
+  :root {
+    --bg: #faf9f7;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #e8e5e0;
+    --accent: #7c3aed;
+    --accent-soft: #f3eeff;
+    --new: #059669;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --surface: #1c1c1e;
+      --text: #ececec;
+      --muted: #9a9a9a;
+      --border: #2c2c2e;
+      --accent: #a78bfa;
+      --accent-soft: #2a2440;
+      --new: #34d399;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 28px 20px 64px; }
+  header h1 { font-size: 1.55rem; letter-spacing: -0.02em; }
+  header h1 span { color: var(--accent); }
+  .tagline { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+  .updated { color: var(--muted); font-size: 0.8rem; margin-top: 10px; }
+  .updated b { color: var(--text); font-weight: 600; }
+
+  .controls { position: sticky; top: 0; background: var(--bg); padding: 14px 0 10px; z-index: 5; }
+  .search {
+    width: 100%;
+    padding: 9px 14px;
+    font-size: 16px; /* below 16px iOS Safari auto-zooms on focus */
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    outline: none;
+  }
+  .search:focus { border-color: var(--accent); }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 10px 0 4px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: 0 0 auto;
+    padding: 5px 12px;
+    font-size: 0.82rem;
+    color: var(--muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .chip.active { color: var(--accent); background: var(--accent-soft); border-color: var(--accent); font-weight: 600; }
+  .chip .n { opacity: 0.7; font-weight: 400; }
+
+  section { margin-top: 26px; }
+  section h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .item { padding: 13px 0; border-bottom: 1px solid var(--border); }
+  .item a { color: var(--text); text-decoration: none; font-weight: 550; font-size: 0.98rem; }
+  .item a:hover { color: var(--accent); }
+  .meta { display: flex; align-items: center; gap: 6px; margin-top: 4px; font-size: 0.78rem; color: var(--muted); }
+  .dot-new { width: 7px; height: 7px; border-radius: 50%; background: var(--new); flex: 0 0 auto; }
+  .empty { color: var(--muted); text-align: center; padding: 48px 0; }
+  footer { margin-top: 44px; font-size: 0.75rem; color: var(--muted); text-align: center; line-height: 1.7; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Experiences <span>Daily</span></h1>
+    <p class="tagline">News from the tours, activities, attractions &amp; travel-tech space.</p>
+    <p class="updated" id="updated">Loading…</p>
+  </header>
+
+  <div class="controls">
+    <input class="search" id="search" type="search" placeholder="Search headlines, sources…" autocomplete="off">
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <main id="feed"></main>
+
+  <footer>
+    Auto-refreshes every morning around 8:00 IST via GitHub Actions.<br>
+    Sources: Google News, Skift, PhocusWire, Arival · <a href="https://github.com/prayash-stack/experiences-daily">Source on GitHub</a>
+  </footer>
+</div>
+
+<script>
+const CATEGORY_ORDER = [
+  'Headout', 'Competitors', 'Experiences economy',
+  'India travel', 'Travel tech & funding', 'Industry reads',
+];
+const state = { items: [], category: 'All', query: '' };
+
+function relTime(iso) {
+  const mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+  if (mins < 60) return mins <= 1 ? 'just now' : mins + 'm ago';
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  const days = Math.round(hrs / 24);
+  if (days === 1) return 'yesterday';
+  if (days < 7) return days + 'd ago';
+  return new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', timeZone: 'Asia/Kolkata' });
+}
+
+// CATEGORY_ORDER first, then any categories the data has that we don't know about.
+function orderedCats() {
+  const present = [...new Set(state.items.map(it => it.category))];
+  return CATEGORY_ORDER.filter(c => present.includes(c))
+    .concat(present.filter(c => !CATEGORY_ORDER.includes(c)).sort());
+}
+
+function isNew(iso) {
+  return Date.now() - new Date(iso).getTime() < 24 * 3600 * 1000;
+}
+
+function el(tag, cls, text) {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text != null) node.textContent = text;
+  return node;
+}
+
+function visibleItems() {
+  const q = state.query.trim().toLowerCase();
+  return state.items.filter(it =>
+    (state.category === 'All' || it.category === state.category) &&
+    (!q || it.title.toLowerCase().includes(q) || it.source.toLowerCase().includes(q))
+  );
+}
+
+function renderChips() {
+  const counts = {};
+  for (const it of state.items) counts[it.category] = (counts[it.category] || 0) + 1;
+  const chips = document.getElementById('chips');
+  chips.replaceChildren();
+  for (const cat of ['All', ...orderedCats()]) {
+    const chip = el('button', 'chip' + (state.category === cat ? ' active' : ''));
+    chip.append(cat + ' ');
+    chip.append(el('span', 'n', cat === 'All' ? String(state.items.length) : String(counts[cat])));
+    chip.onclick = () => { state.category = cat; render(); };
+    chips.append(chip);
+  }
+}
+
+function renderFeed() {
+  const feed = document.getElementById('feed');
+  feed.replaceChildren();
+  const items = visibleItems();
+  if (!items.length) {
+    feed.append(el('p', 'empty', 'Nothing matches — try another search or category.'));
+    return;
+  }
+  const cats = state.category === 'All'
+    ? orderedCats().filter(c => items.some(it => it.category === c))
+    : [state.category];
+  for (const cat of cats) {
+    const section = el('section');
+    section.append(el('h2', null, cat));
+    for (const it of items.filter(i => i.category === cat)) {
+      const row = el('div', 'item');
+      const a = el('a', null, it.title);
+      a.href = it.link; a.target = '_blank'; a.rel = 'noopener';
+      const meta = el('div', 'meta');
+      if (isNew(it.publishedAt)) meta.append(el('span', 'dot-new'));
+      meta.append(el('span', null, it.source + ' · ' + relTime(it.publishedAt)));
+      row.append(a, meta);
+      section.append(row);
+    }
+    feed.append(section);
+  }
+}
+
+function render() { renderChips(); renderFeed(); }
+
+document.getElementById('search').addEventListener('input', e => {
+  state.query = e.target.value;
+  renderFeed();
+});
+
+fetch('news.json?ts=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(data => {
+    state.items = data.items || [];
+    const upd = new Date(data.updatedAt);
+    const failed = (data.sources || []).filter(s => !s.ok).length;
+    document.getElementById('updated').innerHTML =
+      'Updated <b>' + upd.toLocaleString('en-IN', {
+        timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short',
+        hour: 'numeric', minute: '2-digit', hour12: true,
+      }) + ' IST</b> · ' + state.items.length + ' stories' +
+      (failed ? ' · ⚠ ' + failed + ' source' + (failed > 1 ? 's' : '') + ' failed on last refresh' : '');
+    render();
+  })
+  .catch(err => {
+    document.getElementById('updated').textContent = 'Could not load news (' + err.message + ').';
+    document.getElementById('feed').replaceChildren(
+      el('p', 'empty', 'Could not load the news feed — try refreshing the page.'));
+  });
+</script>
+</body>
+</html>
