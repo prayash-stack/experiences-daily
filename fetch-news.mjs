@@ -9,26 +9,39 @@ const KEEP_DAYS = 21;
 const MAX_ITEMS = 800;
 const FETCH_TIMEOUT_MS = 20_000;
 
-const GN = (q) =>
-  `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-IN&gl=IN&ceid=IN:en`;
+// Default locale is US so results skew to the big global live-entertainment
+// markets; pass 'IN' only for feeds that should stay India-scoped.
+const GN = (q, cc = 'US') =>
+  `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-${cc}&gl=${cc}&ceid=${cc}:en`;
+
+// Display/priority order — Live entertainment first: the reader's mandate is
+// expanding Headout's live-entertainment business globally.
+const CATEGORY_PRIORITY = [
+  'Headout', 'Live entertainment', 'Competitors', 'Experiences economy',
+  'Travel tech & funding', 'Industry reads', 'India travel',
+];
 
 // NOTE: never use the "-term" / "-site:" exclusion operators in Google News
 // RSS queries — they flip the endpoint into a loose-match mode that returns
 // x.com posts, LinkedIn job ads and spam domains. Filter noise below instead.
 const FEEDS = [
   { url: GN('"Headout" when:90d'), category: 'Headout', keepDays: 90 },
+  { url: GN('"live entertainment" (venue OR ticketing OR "immersive experience" OR concert OR arena) when:7d'), category: 'Live entertainment' },
+  { url: GN('"Ticketmaster" OR "Live Nation" OR "AXS" (earnings OR acquisition OR expansion OR lawsuit OR market OR ticketing) when:7d'), category: 'Live entertainment' },
+  { url: GN('"Dice.fm" OR "SeatGeek" OR "StubHub" when:7d'), category: 'Live entertainment' },
+  { url: GN('"live entertainment market" OR "concert industry" OR "live music industry" OR "theatre industry" when:7d'), category: 'Live entertainment' },
+  { url: GN('site:blooloop.com when:7d'), category: 'Live entertainment' },
+  { url: GN('"TodayTix" when:14d'), category: 'Competitors', keepDays: 30 },
   { url: GN('"GetYourGuide" OR "Viator" OR "Klook" OR "Tiqets" OR "KKday" when:7d'), category: 'Competitors' },
   { url: GN('"Airbnb Experiences" OR "Musement" OR "Civitatis" when:7d'), category: 'Competitors' },
   { url: GN('"Fever" ("Feverup" OR "live entertainment" OR "Candlelight concerts") when:7d'), category: 'Competitors' },
   { url: GN('"Tripadvisor" (Viator OR TheFork OR acquisition OR subscription OR earnings OR OTA) when:7d'), category: 'Competitors' },
-  { url: GN('"live entertainment" (venue OR ticketing OR "immersive experience" OR concert OR arena) when:7d'), category: 'Live entertainment' },
-  { url: GN('site:blooloop.com when:7d'), category: 'Live entertainment' },
   { url: GN('"tours and activities" (booking OR platform OR operators OR market OR startup) OR "attractions industry" OR "experience economy" when:7d'), category: 'Experiences economy' },
-  { url: GN('"MakeMyTrip" OR "ixigo" OR "Cleartrip" OR "EaseMyTrip" OR "Thrillophilia" OR "Yatra Online" when:7d'), category: 'India travel' },
   { url: GN('("travel tech" OR "travel technology" OR traveltech) (funding OR funded OR raises OR raised OR acquisition OR acquires OR startup OR "Series A" OR "Series B") when:7d'), category: 'Travel tech & funding' },
   { url: GN('site:phocuswire.com when:7d'), category: 'Industry reads' },
   { url: GN('site:arival.travel when:30d'), category: 'Industry reads', keepDays: 30 },
   { url: 'https://skift.com/feed/', category: 'Industry reads', source: 'Skift' },
+  { url: GN('"MakeMyTrip" OR "ixigo" OR "Cleartrip" OR "EaseMyTrip" OR "Thrillophilia" OR "Yatra Online" when:7d', 'IN'), category: 'India travel' },
 ];
 
 // Recurring junk that survives the queries: scraper databases, stock-note
@@ -71,6 +84,53 @@ function normTitle(t) {
   return t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
+// Country tagging for the dashboard's country filter — first match wins, so
+// more specific markers come before broader ones.
+const COUNTRY_RULES = [
+  ['UAE', /\b(UAE|Dubai|Abu Dhabi|Sharjah)\b/i],
+  ['Saudi Arabia', /\b(Saudi|Riyadh|Jeddah|Diriyah|NEOM|AlUla)\b/i],
+  ['Qatar', /\b(Qatar|Doha)\b/i],
+  // (?!\w) instead of a trailing \b so AP-style "U.S."/"U.K." (ending on a
+  // period) still match; USA?(?!-) keeps "US-Iran"-style geopolitical
+  // compounds from tagging as USA. The USA rule is deliberately
+  // case-sensitive so the pronoun "us" never matches.
+  ['UK', /\b(?:UK|U\.K\.|United Kingdom|Britain|British|England|Scotland|Wales|London|West End|Manchester|Edinburgh|Glasgow)(?!\w)/i],
+  ['USA', /\b(?:USA?(?!-)|U\.S\.A?\.?|United States|America|Broadway|New York|NYC|Las Vegas|Los Angeles|Hollywood|Chicago|Orlando|Miami|San Francisco|Nashville|Boston|Seattle|Atlanta|Dallas|Houston|Texas|California|Florida)(?!\w)/],
+  ['India', /\b(India|Indian|Mumbai|Delhi|Bengaluru|Bangalore|Hyderabad|Chennai|Kolkata|Jaipur|Goa|Pune)\b/i],
+  ['Japan', /\b(Japan|Japanese|Tokyo|Osaka|Kyoto)\b/i],
+  ['South Korea', /\b(Korea|Korean|Seoul)\b/i],
+  ['Singapore', /\bSingapore\b/i],
+  ['Hong Kong', /\bHong Kong\b/i],
+  ['China', /\b(China|Chinese|Shanghai|Beijing|Macau|Shenzhen)\b/i],
+  ['Australia', /\b(Australia|Australian|Sydney|Melbourne|Brisbane|Perth)\b/i],
+  ['New Zealand', /\b(New Zealand|Auckland)\b/i],
+  ['Spain', /\b(Spain|Spanish|Madrid|Barcelona|Ibiza|Mallorca)\b/i],
+  ['France', /\b(France|French|Paris)\b/i],
+  ['Germany', /\b(Germany|German|Berlin|Munich)\b/i],
+  ['Italy', /\b(Italy|Italian|Rome|Milan|Venice)\b/i],
+  ['Netherlands', /\b(Netherlands|Dutch|Amsterdam)\b/i],
+  ['Portugal', /\b(Portugal|Lisbon|Porto)\b/i],
+  ['Greece', /\b(Greece|Greek|Athens|Santorini)\b/i],
+  ['Ireland', /\b(Ireland|Irish|Dublin)\b/i],
+  ['Turkey', /\b(Turkey|Turkish|Istanbul)\b/i],
+  ['Egypt', /\b(Egypt|Egyptian|Cairo)\b/i],
+  ['Thailand', /\b(Thailand|Thai|Bangkok|Phuket)\b/i],
+  ['Indonesia', /\b(Indonesia|Indonesian|Bali|Jakarta)\b/i],
+  ['Malaysia', /\b(Malaysia|Malaysian|Kuala Lumpur)\b/i],
+  ['Vietnam', /\b(Vietnam|Vietnamese|Hanoi)\b/i],
+  ['Philippines', /\b(Philippines|Filipino|Manila)\b/i],
+  ['Canada', /\b(Canada|Canadian|Toronto|Vancouver|Montreal)\b/i],
+  ['Mexico', /\b(Mexico|Mexican|Cancun|Mexico City)\b/i],
+  ['Brazil', /\b(Brazil|Brazilian|Rio de Janeiro|S[aã]o Paulo)\b/i],
+];
+
+function inferCountry(title) {
+  for (const [country, re] of COUNTRY_RULES) {
+    if (re.test(title)) return country;
+  }
+  return null;
+}
+
 function parseFeed(xml, feed) {
   const items = [];
   for (const block of xml.match(/<item(?:\s[^>]*)?>[\s\S]*?<\/item>/gi) || []) {
@@ -96,6 +156,7 @@ function parseFeed(xml, feed) {
       source,
       category: feed.category,
       publishedAt: publishedAt.toISOString(),
+      keepDays: feed.keepDays || KEEP_DAYS,
     });
   }
   return items;
@@ -141,17 +202,18 @@ function loadExisting() {
 function buildDigestPrompt(items) {
   const byCat = {};
   for (const it of items) (byCat[it.category] ||= []).push(it);
-  const cats = Object.keys(byCat);
+  const rank = (c) => { const i = CATEGORY_PRIORITY.indexOf(c); return i === -1 ? 999 : i; };
+  const cats = Object.keys(byCat).sort((a, b) => rank(a) - rank(b));
   const digest = cats
     .map((cat) => `## ${cat}\n` + byCat[cat].slice(0, 14).map((i) => `- ${i.title} (${i.source})`).join('\n'))
     .join('\n\n');
-  const prompt = `You write the daily morning briefing for people working in the tours, activities & experiences industry — the space Headout operates in (competitors: GetYourGuide, Viator, Klook, Tiqets, KKday, Fever, Airbnb Experiences). Today's headlines by category:
+  const prompt = `You write the daily morning briefing for a growth lead at Headout whose mandate is expanding Headout's LIVE ENTERTAINMENT business globally and identifying the biggest markets (US/Broadway/Vegas, UK/West End, UAE & Saudi Arabia, Japan, South Korea, Australia, Western Europe). Reference competitors in live entertainment: TodayTix, Fever, Ticketmaster/Live Nation, DICE, SeatGeek, StubHub; in experiences: GetYourGuide, Viator, Klook, Tiqets, KKday. Today's headlines by category:
 
 ${digest}
 
 Return a JSON object with exactly two keys:
-"summaries": an object mapping each category name (${cats.map((c) => JSON.stringify(c)).join(', ')}) to a 2-3 sentence summary of what happened and why it matters to someone in this industry. Name specific companies and numbers; no filler.
-"opportunities": an array of 3 to 5 objects, each {"title": <short punchy title>, "insight": <1-2 sentences describing a concrete opportunity for Headout — a partnership, market entry, supply expansion, or product move — grounded in specific headlines above>}.`;
+"summaries": an object mapping each category name (${cats.map((c) => JSON.stringify(c)).join(', ')}) to a 2-3 sentence summary of what happened and why it matters to this reader. Weight toward global market signals — market size, expansion moves, ticketing deals, venue/attraction openings. Name specific companies, markets and numbers; no filler.
+"opportunities": an array of 3 to 5 objects, each {"title": <short punchy title>, "insight": <1-2 sentences describing a concrete opportunity for Headout — prioritize live-entertainment expansion, market entry into big markets, ticketing/venue partnerships, and supply acquisition — grounded in specific headlines above>}. India-specific opportunities are low priority unless strategically major.`;
   return { prompt, cats };
 }
 
@@ -340,14 +402,14 @@ if (fresh.length === 0) {
   process.exit(1);
 }
 
-// The Headout feed queries 90 days back; give its category a matching
-// retention window instead of the default.
+// Retention is per item (stamped from its feed's keepDays); the per-category
+// map is only a fallback for legacy items stored before the field existed.
 const keepDaysByCat = {};
 for (const f of FEEDS) {
   keepDaysByCat[f.category] = Math.max(keepDaysByCat[f.category] || 0, f.keepDays || KEEP_DAYS);
 }
-const cutoffFor = (cat) =>
-  Date.now() - (keepDaysByCat[cat] || KEEP_DAYS) * 24 * 3600 * 1000;
+const keepFor = (it) => it.keepDays || keepDaysByCat[it.category] || KEEP_DAYS;
+const ageMs = (it) => Date.now() - new Date(it.publishedAt).getTime();
 
 const seenLinks = new Set();
 const seenTitles = new Set();
@@ -360,24 +422,30 @@ const merged = [];
 for (const item of [...fresh, ...loadExisting()]) {
   const t = normTitle(item.title);
   if (!t) continue;
-  if (new Date(item.publishedAt).getTime() < cutoffFor(item.category)) continue;
+  if (ageMs(item) > keepFor(item) * 24 * 3600 * 1000) continue;
   const keys = [`cat:${item.category}|${t}`, `src:${(item.source || '').toLowerCase()}|${t}`];
   if (seenLinks.has(item.link) || keys.some((k) => seenTitles.has(k))) continue;
   seenLinks.add(item.link);
   keys.forEach((k) => seenTitles.add(k));
+  // Recomputed every run so COUNTRY_RULES improvements apply retroactively.
+  item.country = inferCountry(item.title);
   merged.push(item);
 }
 
 merged.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 // Cap the file size without letting high-volume categories evict the old items
-// that extended keepDays windows (Headout 90d, Arival 30d) deliberately retain.
+// that extended keepDays windows (Headout 90d, TodayTix/Arival 30d) retain.
+// Only items already PAST the default window are protected — recent items in
+// long-retention feeds still compete under the cap like everything else.
 let items = merged;
 if (merged.length > MAX_ITEMS) {
-  const protectedItems = merged.filter((it) => (keepDaysByCat[it.category] || KEEP_DAYS) > KEEP_DAYS);
-  const rest = merged.filter((it) => (keepDaysByCat[it.category] || KEEP_DAYS) <= KEEP_DAYS);
+  const isProtected = (it) => keepFor(it) > KEEP_DAYS && ageMs(it) > KEEP_DAYS * 24 * 3600 * 1000;
+  const protectedItems = merged.filter(isProtected);
+  const rest = merged.filter((it) => !isProtected(it));
   items = protectedItems
     .concat(rest.slice(0, Math.max(0, MAX_ITEMS - protectedItems.length)))
-    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+    .slice(0, MAX_ITEMS);
   console.log(`::warning::Item cap hit: kept ${items.length} of ${merged.length} items (MAX_ITEMS=${MAX_ITEMS}).`);
 }
 

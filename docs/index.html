@@ -104,6 +104,30 @@
   }
   .search:focus { border-color: var(--accent); }
   .search::placeholder { color: var(--muted); }
+  .filter-row { display: flex; gap: 8px; }
+  .filter-row .search { flex: 1 1 auto; min-width: 0; }
+  .country-select {
+    flex: 0 1 175px;
+    padding: 10px 10px;
+    font-size: 14px; font-family: inherit;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 11px;
+    outline: none;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+  }
+  .country-select:focus { border-color: var(--accent); }
+  .showmore {
+    display: block; width: 100%;
+    margin-top: 6px; padding: 10px;
+    font-size: 0.82rem; font-weight: 600; font-family: inherit;
+    color: var(--accent);
+    background: transparent; border: none; border-radius: 8px;
+    cursor: pointer;
+  }
+  .showmore:hover { background: var(--accent-soft); }
   .chips { display: flex; gap: 7px; overflow-x: auto; padding: 10px 0 6px; scrollbar-width: none; }
   .chips::-webkit-scrollbar { display: none; }
   .chip {
@@ -253,7 +277,10 @@
   </header>
 
   <div class="controls">
-    <input class="search" id="search" type="search" placeholder="Search headlines, sources…  ( / )" autocomplete="off">
+    <div class="filter-row">
+      <input class="search" id="search" type="search" placeholder="Search headlines, sources…  ( / )" autocomplete="off">
+      <select class="country-select" id="country" aria-label="Filter by country"></select>
+    </div>
     <div class="chips" id="chips"></div>
   </div>
 
@@ -281,15 +308,17 @@
 <script>
 const REPO = 'prayash-stack/experiences-daily';
 const CATEGORY_ORDER = [
-  'Headout', 'Competitors', 'Live entertainment', 'Experiences economy',
-  'India travel', 'Travel tech & funding', 'Industry reads',
+  'Headout', 'Live entertainment', 'Competitors', 'Experiences economy',
+  'Travel tech & funding', 'Industry reads', 'India travel',
 ];
+const SECTION_LIMIT = 20; // per-category rows shown before "Show more"
 const LS = { saved: 'xd:saved', later: 'xd:later', token: 'xd:ghToken' };
 
 const state = {
   items: [], ai: null, updatedAt: null, sources: [],
-  view: 'All', query: '',
+  view: 'All', query: '', country: 'All',
   saved: loadMap(LS.saved), later: loadMap(LS.later),
+  expanded: new Set(),
   refreshing: false,
 };
 
@@ -347,12 +376,28 @@ function orderedCats() {
 
 function matchesQuery(it) {
   const q = state.query.trim().toLowerCase();
-  return !q || it.title.toLowerCase().includes(q) || (it.source || '').toLowerCase().includes(q);
+  return !q || (it.title || '').toLowerCase().includes(q) || (it.source || '').toLowerCase().includes(q);
+}
+function matchesCountry(it) {
+  return state.country === 'All' || it.country === state.country;
+}
+
+function renderCountrySelect() {
+  const sel = document.getElementById('country');
+  const counts = {};
+  for (const it of state.items) if (it.country) counts[it.country] = (counts[it.country] || 0) + 1;
+  const countries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  sel.replaceChildren();
+  sel.append(Object.assign(el('option', null, '🌍 All countries'), { value: 'All' }));
+  for (const [c, n] of countries) {
+    sel.append(Object.assign(el('option', null, `${c} (${n})`), { value: c }));
+  }
+  sel.value = counts[state.country] ? state.country : (state.country = 'All', 'All');
 }
 
 function renderChips() {
   const counts = {};
-  for (const it of state.items) counts[it.category] = (counts[it.category] || 0) + 1;
+  for (const it of state.items.filter(matchesCountry)) counts[it.category] = (counts[it.category] || 0) + 1;
   const chips = document.getElementById('chips');
   chips.replaceChildren();
   const make = (label, count, view) => {
@@ -362,8 +407,10 @@ function renderChips() {
     chip.onclick = () => { state.view = view; render(); };
     chips.append(chip);
   };
-  make('All', state.items.length, 'All');
-  for (const cat of orderedCats()) make(cat, counts[cat], cat);
+  make('All', state.items.filter(matchesCountry).length, 'All');
+  for (const cat of orderedCats().filter(c => counts[c] || c === state.view)) {
+    make(cat, counts[cat] || 0, cat);
+  }
   chips.append(el('div', 'chip-sep'));
   make('🕘 Read later', state.later.size, 'Read later');
   make('🔖 Saved', state.saved.size, 'Saved');
@@ -377,6 +424,7 @@ function itemRow(it, { showCategory = false } = {}) {
   const meta = el('div', 'meta');
   if (isNew(it.publishedAt)) meta.append(el('span', 'dot-new'));
   const parts = [it.source, relTime(it.publishedAt)];
+  if (it.country) parts.push(it.country);
   if (showCategory && it.category) parts.push(it.category);
   meta.append(el('span', null, parts.filter(Boolean).join(' · ')));
   main.append(a, meta);
@@ -453,6 +501,8 @@ function renderFeed() {
   feed.replaceChildren();
 
   if (state.view === 'Saved' || state.view === 'Read later') {
+    // Personal lists are deliberately NOT country-filtered: entries saved
+    // before country tagging existed have no country field at all.
     const map = state.view === 'Saved' ? state.saved : state.later;
     const list = [...map.values()].filter(matchesQuery)
       .sort((a, b) => new Date(b.savedAt || 0) - new Date(a.savedAt || 0));
@@ -470,7 +520,7 @@ function renderFeed() {
   }
 
   const visible = state.items.filter(it =>
-    (state.view === 'All' || it.category === state.view) && matchesQuery(it));
+    (state.view === 'All' || it.category === state.view) && matchesQuery(it) && matchesCountry(it));
 
   if (!visible.length) {
     feed.append(emptyState('🔍', 'Nothing matches — try another search or category.'));
@@ -492,7 +542,20 @@ function renderFeed() {
     section.append(el('h2', null, cat));
     const summary = state.ai?.summaries?.[cat];
     if (summary && !searching) section.append(summaryCard(summary));
-    for (const it of visible.filter(i => i.category === cat)) section.append(itemRow(it));
+    const list = visible.filter(i => i.category === cat);
+    // Long sections collapse behind "Show more" so lower categories stay reachable.
+    const expandable = state.view === 'All' && !searching && list.length > SECTION_LIMIT + 5;
+    const collapsed = expandable && !state.expanded.has(cat);
+    for (const it of (collapsed ? list.slice(0, SECTION_LIMIT) : list)) section.append(itemRow(it));
+    if (expandable) {
+      const more = el('button', 'showmore',
+        collapsed ? `Show ${list.length - SECTION_LIMIT} more ↓` : 'Show less ↑');
+      more.onclick = () => {
+        if (collapsed) state.expanded.add(cat); else state.expanded.delete(cat);
+        renderFeed();
+      };
+      section.append(more);
+    }
     feed.append(section);
   }
 }
@@ -508,7 +571,7 @@ function renderHeader() {
   if (failed) upd.append(' · ', el('span', 'warn', `⚠ ${failed} source${failed > 1 ? 's' : ''} failed`));
 }
 
-function render() { renderHeader(); renderChips(); renderFeed(); }
+function render() { renderHeader(); renderCountrySelect(); renderChips(); renderFeed(); }
 
 /* ---------- data loading ---------- */
 async function loadData() {
@@ -519,6 +582,7 @@ async function loadData() {
   state.ai = data.ai || null;
   state.updatedAt = data.updatedAt || null;
   state.sources = data.sources || [];
+  state.expanded.clear();
   return data;
 }
 
@@ -661,6 +725,11 @@ document.getElementById('token-clear').addEventListener('click', () => {
 });
 document.getElementById('search').addEventListener('input', e => {
   state.query = e.target.value;
+  renderFeed();
+});
+document.getElementById('country').addEventListener('change', e => {
+  state.country = e.target.value;
+  renderChips();
   renderFeed();
 });
 document.addEventListener('keydown', e => {
