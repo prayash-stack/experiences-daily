@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-15T05:17:29.294Z",
+ "updatedAt": "2026-07-15T05:18:26.233Z",
  "sources": [
   {
    "category": "Headout",
@@ -11,13 +11,13 @@
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22live%20entertainment%22%20(venue%20OR%20ticketing%20OR%20%22immersive%20experience%22%20OR%20concert%20OR%20arena)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 80
+   "count": 81
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22Ticketmaster%22%20OR%20%22Live%20Nation%22%20OR%20%22AXS%22%20(earnings%20OR%20acquisition%20OR%20expansion%20OR%20lawsuit%20OR%20market%20OR%20ticketing)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 74
+   "count": 75
   },
   {
    "category": "Live entertainment",
@@ -59,7 +59,7 @@
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22Fever%22%20(%22Feverup%22%20OR%20%22live%20entertainment%22%20OR%20%22Candlelight%20concerts%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 9
+   "count": 8
   },
   {
    "category": "Competitors",
@@ -83,7 +83,7 @@
    "category": "Industry reads",
    "url": "https://news.google.com/rss/search?q=site%3Aphocuswire.com%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 19
+   "count": 18
   },
   {
    "category": "Industry reads",
@@ -106,37 +106,37 @@
  ],
  "ai": {
   "summaries": {
-   "Competitors": "Klook is forming unique partnerships, such as its collaboration with Mountain Dew for food festivals, while Fever is teaming up with London & Partners to assist experience creators. These moves indicate a trend of strategic alliances enhancing brand visibility and service offerings, which Headout could emulate.",
-   "Experiences economy": "Emerging culinary tours and active tourism shifts suggest a growing appetite for immersive and culturally rich experiences in travel. As awareness increases about such offerings, Headout can develop specialized tours around culinary or culturally significant events.",
-   "Headout": "Recent articles highlight various ways to secure discounts for popular attractions like the London Eye and major shows in the West End. This focus on affordability aligns well with Headout’s mission to provide accessible experiences, vital for expanding its user base.",
-   "India travel": "Companies like EaseMyTrip are enhancing tourism visibility through government partnerships, which signals potential growth opportunities in India’s travel sector. Headout might consider similar local collaborations to strengthen its presence in this rapidly evolving market.",
-   "Industry reads": "U.S. tourism shows signs of stagnation post-World Cup, emphasizing the importance of innovative travel strategies. Insights from industry leaders suggest leveraging customer reviews as growth catalysts, which could inform Headout’s marketing and operational approaches.",
-   "Live entertainment": "Live Nation's stable stock performance reflects ongoing demand for live events, indicating a robust market in regions like the U.S. As Headout strategizes global expansion, tapping into this growing concert and event ticket arena could provide substantial growth.",
-   "Travel tech & funding": "Significant investments are flowing into travel technology startups, such as Elevation Capital's AI fund. This evolution in tech adoption within the sector could offer Headout insights into incorporating AI for enhancing booking experiences, making operations more streamlined."
+   "Competitors": "Ticketing player Fever is collaborating with London & Partners to assist global experience creators, reflecting the growing trend in tailored tourism experiences. Meanwhile, Klook is ramping up its experiential offerings with brand partnerships, showing an increasing market interest in unique activities.",
+   "Experiences economy": "Emerging trends in the APAC travel market indicate a structural shift, emphasizing the importance of unique culinary and cultural experiences as key drivers for growth in local tourism sectors. This evolution creates opportunities for businesses to innovate and differentiate their offerings.",
+   "Headout": "Headout featured prominently in articles about accessing discounted tickets for popular London attractions, showcasing the platform's visibility among travelers and potential to capture the market's interest in theater and sight-seeing experiences.",
+   "India travel": "Despite setbacks, EaseMyTrip is collaborating with Jharkhand to enhance tourism visibility, indicating a robust competitive landscape in India. The partnership highlights opportunities for expanding local tourism initiatives that could also appeal to international travelers venturing into India.",
+   "Industry reads": "Recent reports suggest a decline in U.S. tourism, particularly post-World Cup, which may affect overall travel sentiment. However, insights into behavior shifts indicate a need for adaptive strategies among travel firms to maintain growth amidst changing patterns.",
+   "Live entertainment": "Live Nation has solidified its position with stable stock performance driven by increasing concert attendance, underscoring the resilience and potential growth in the live entertainment sector. This trend reflects an opportunity for platforms like Headout to expand ticketing services.",
+   "Travel tech & funding": "Elevations in investment within travel tech, with companies like Atlys entering the Dubai market, signals a growing focus on technology-driven solutions in tourism. This could present new opportunities for Headout to integrate innovative technologies into its service offerings."
   },
   "opportunities": [
    {
-    "insight": "Partnering with AXS could enhance ticket access for shows at Sydney's Hordern Pavilion, a key venue for live events in Australia, positioning Headout as a competitor against local players and expanding its market share in the region.",
-    "title": "Leverage AXS Partnership for Sydney Expansion"
+    "insight": "Headout could pursue a ticketing partnership similar to AXS's agreement with Sydney's Hordern Pavilion, tapping into the growing live entertainment market in Australia, especially with venues rebranding and expanding their offerings.",
+    "title": "Partner with Sydney Venues to Expand Reach"
    },
    {
-    "insight": "With Live Nation showing steady growth, particularly in concert demand, Headout can explore collaboration opportunities or bundle ticket offerings with Live Nation events to tap into their customer base and enhance its live entertainment offerings.",
-    "title": "Collaborate with Live Nation for Bundled Offerings"
+    "insight": "Given Live Nation's steady stock performance due to consistent concert demand, Headout should consider expanding its partnerships with local theaters and concert venues in major U.S. markets like Broadway and Vegas to capture more of this lucrative market.",
+    "title": "Focus on U.S. Theaters and Concerts"
    },
    {
-    "insight": "The new partnership between Fever and London & Partners can serve as a model for Headout; similar alliances in key cities could enhance brand visibility and facilitate access to exclusive experiences, particularly in Europe and North America.",
-    "title": "Explore City Partnerships like Fever's in London"
+    "insight": "With StubHub facing legal challenges related to ticket scalping, there's a potential opening for Headout to position itself as a more ethical ticketing platform that provides fair access to live events and performances in major cities.",
+    "title": "Leverage Ethical Ticketing in Major Markets"
    },
    {
-    "insight": "Considering the recent expansion efforts of competitors like Klook and their unique partnerships, Headout should explore similar collaborations, especially in the ASEAN region, to boost its experience offerings and customer engagement.",
-    "title": "Expand Collaborations in Southeast Asia"
+    "insight": "The recent collaboration between London & Partners and Fever to support experience creators reflects a growing trend in curated local experiences in the UK; Headout could replicate this model to enhance its offerings in top European destinations.",
+    "title": "Capitalize on UK Experiences Collaboration"
    },
    {
-    "insight": "The legal troubles surrounding StubHub regarding scalping may present an opportunity for Headout to capture users seeking a more ethical ticketing alternative while focusing on a transparent resale platform in key markets.",
-    "title": "Position Headout as Ethical Alternative to Ticketing Scalpers"
+    "insight": "Klook's partnership with Mountain Dew for food tours in the Philippines highlights the growth of experiential travel; exploring similar partnerships for unique food and cultural experiences in markets like Japan and South Korea could drive customer engagement.",
+    "title": "Develop Food & Culture Tours in Asia"
    }
   ],
-  "generatedAt": "2026-07-15T05:17:29.294Z",
+  "generatedAt": "2026-07-15T05:18:26.233Z",
   "model": "openai/gpt-4o-mini"
  },
  "items": [
@@ -166,6 +166,15 @@
    "publishedAt": "2026-07-15T04:09:01.000Z",
    "keepDays": 21,
    "country": null
+  },
+  {
+   "title": "Foreign Runners Flock to Seoul's Unique K-Running Courses",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTFBKbXYtb0ZaS05PMnBueV9RRVFuU29PTWVmVVNzTFozTzJ3M3FZbHBhVGM3a3o2LVBuQ0UteXRrVEFZaHU1cGJuMzFrMVVieENjX1BhWVJ0VDAxZWhPRThJcGtGYmFzeDdiNWVwcHpWRVFuZUFnaEx4UG9MbkZfdFJMUFVuaHlz?oc=5",
+   "source": "조선일보",
+   "category": "Competitors",
+   "publishedAt": "2026-07-15T03:45:00.000Z",
+   "keepDays": 21,
+   "country": "South Korea"
   },
   {
    "title": "New culinary tour celebrates Pampanga’s food heritage",
@@ -263,6 +272,24 @@
    "source": "Yahoo Finance",
    "category": "India travel",
    "publishedAt": "2026-07-14T22:00:05.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Weaponizing Billie Eilish? Venue Execs Testify Live Nation and Ticketmaster Leveraged Tours to Harm Competition in Antitrust Trial",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSnVuTnUxRzRqWmhiaGRyQVNKR19VSFF4VnFVQVpXYWlXR2JiMF9nNHZEdUxJcEZhVEZXZFN6X1ZDZXJSWEctczFDeEkzcjFsRjVKekNEUWh1Z3ZUM05JdjZZVUJfQ0hOS3EzOF9uSUFPX2RfaEd0QmNyZXA4RHpqbzJrQnhXWjVtWUUzcnE2Y3FYcmtUTXdRVUJvSHA2ZS1ZcWNUTFVWbXo1OWJLOVhfTHQ0b2hSOHMwNGdGTjJQOU1ka3hxdU1PNTZzb3R1OWxxVVBQY2dORThpZGxUOFpCMGdDMzdlMjVWM1RjWFAzRVJiaUNUWVg5Zw?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-14T21:28:02.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Launches Coast-to-Coast Campaign Celebrating Fan Access Ahead of the 2026 World Cup",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbDB4dElQTkY3SVJIUExMNUJaWktFbExBY1YtRHFNWjVKTUdxWEI5UGNvUU1DYjBla0VkNW9PYWloZzEyME15OU5pV0EwSW10YjE5cGVVbWNCMi1hWjB4N3Z5VktmQlkyN05oWlZHTzhpVXdKci1iRnRDOEZONjJlY3dscXF6Z002?oc=5",
+   "source": "AOL.com",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-14T21:06:07.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -465,6 +492,15 @@
    "country": null
   },
   {
+   "title": "Oak View Group Loses Saskatoon Arena Operations Bid as Controversy Around Company Grows",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcEIyNmhtUFdpVDFxODJfUlhqMUNNUmFuSVlBQmNRMVVQbVBWTlJmNlpDRTRtQjlXbUNDM0NUQVNjRDNBM1p6RW1sdWE1U3Z1TEdpbW5FNkVZTFRuc0xrWVJfMGFNclVMQW0tRVk5VmpJMUZMc1FMZEdSVkpOeHBhYzNhLXBBbUVqSWNyMFZCQi1yN1lzNkxSWnpsSndrcmpPOWx5UG5pRjJJelZlcTZJdUdyZWxhNzF0Zm80b2l3LWY?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-14T17:32:06.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Live Nation Leans on ‘Better Product’ Defense as States Press Vertical‑Integration Case",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObkRPRjBEcFRJcVZaY0ZzUXNTcTdCU2NoU3BfNDZZYUZBaXc2SEFxS196T2dXbEFGNGw0U1o2TzBpNHdoU0lRWllLSS1kTG9GMU1vR2JXUUNDeGZkRnBJMy1FSzdUakVpWGVRaENYRkpKRUtUMzJIUGE3aEZHMThTT3Y5T0hHMzYwMXRwNm42SG4yZkVtdUN3Z0lLVlAwZHljN2gtbjN4TjNLalRkdmVUQUFFc2FwcERaNzhZd05n?oc=5",
    "source": "TicketNews",
@@ -551,15 +587,6 @@
    "source": "TicketNews",
    "category": "Live entertainment",
    "publishedAt": "2026-07-14T17:06:12.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "National Consumers League Presses Senate for TICKET Act Vote as Ticketmaster Scrutiny Mounts",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeXB6eDNGQmlCLWNPNXRHN18xTXJxZ0dEcnBOcm1rV05hcEphY3hLUWRUS2Nranp1NVZWTS02UllvWGVCWUFNSTVCb0h2WEh1cl9hZmFraF9MM0xRNGR0aDFvR0VxdjhPSDJTa0M3ZFAwdDhXN0xCXzJyaXhQejlJM2lPeHMxd3VkbGF5OFJuajZQSXExT3ZGLVN5MlUzX0pHaFRmSldoM04tS1kwb3hKV0RRVGt4cnNCeVdJMllPNFlsUk13QWJr?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-14T17:05:06.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -652,15 +679,6 @@
    "publishedAt": "2026-07-14T16:44:24.000Z",
    "keepDays": 21,
    "country": "USA"
-  },
-  {
-   "title": "NC Attorney General Presses Ticketmaster After Stanley Cup Queue Failures",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdVE5TDlPZ1hEckROQy0yd1RZR2RNU2UzWkVhZGtBVjRPaFlOcjY1SXVHZklzcmxTQlRfSDNiWV9qRUVFT24wa2htZWwzMmFtSkViU1ZrSVk5dDJpWmQ1MWhaRjl1dmY0cmdNYjk4S3dUMEdwU1d3N0NCSmU4eXlHaVFKbHRheFZDUHVTQUt4dnNwb2E1QlJHWUx4N2xRNmRxNjluZlZHSWstYkZqbVE?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-14T16:44:13.000Z",
-   "keepDays": 21,
-   "country": null
   },
   {
    "title": "Ontario’s Resale Crackdown Wins Live Nation’s Support, Concern from Critics",
@@ -1253,6 +1271,7 @@
    "source": "MSN",
    "category": "Competitors",
    "publishedAt": "2026-07-14T05:04:03.000Z",
+   "keepDays": 21,
    "country": "USA"
   },
   {
@@ -1378,6 +1397,15 @@
    "source": "TicketNews",
    "category": "Live entertainment",
    "publishedAt": "2026-07-13T21:04:30.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Nearly 30 K-Pop Fans Sue Live Nation Over Alleged Heat Negligence at Stray Kids Concert",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcDI2ejJVenBQenk5ZXdXNmpIdDd2VWdSMkFzSUJIMDYzekUxMTAwTDJHbmR3bXItYkxEZVRNbHQxME9oWWw4ekJjUjloN3pQZkZqU3BnQl9HdlVrSjF1N01zTVNjUUpkaG5PWW1jNllNMXM2MnJtM3JGYnJzSXdmUXB4LU9HcHAyWXdQSkZIYlNxOTh3TFVTOE14bw?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-13T21:00:35.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -2048,6 +2076,15 @@
    "country": "USA"
   },
   {
+   "title": "How an Airbnb stay can go from relaxing to downright distressing",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZHF6cS1TUnpucWZDcThXa1hCLUthVXd0czhxdTBxaDBQaXBSTlI0QU45QTlrMmRhRnM2TmpjdGduaERrV1B0RHJEY3h4eE5VU1g2Zkx5UjFBNzlDSU5GZDFEZlFmUzM0bEpIaThwUFp1ZHpfUGhXbHMwc1dBMThGc2NwTnMwbnBsVmdJVkNrNGRWVjFTOHk2ZE9TZ3NkaGhHUjUzSW1qTFZvNFVySWJkb0EtRQ?oc=5",
+   "source": "MSN",
+   "category": "Competitors",
+   "publishedAt": "2026-07-12T17:16:41.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "CEREMONIAL TOAST TO THE OPENING OF SM SEASIDE CEBU ARENA",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObWN1OTVKZ0JVampKdnp4cGp1eWd2cnhEc2VyYUJRU0JKd3l1SldrbkctUVFZUnMybkpld2tPNk9JaWh1S0o2QUY2Q0N4aWlwR25yUTNxakdWV084aVhQeFVWcWhibGNsc1hFMU81YkRMYmcya0xHRTRNbWowd19ZYXpHd0M5Sl9IaEJxaUNueUtjMEE3bXNGem5QYkh1ZVE?oc=5",
    "source": "BusinessMirror",
@@ -2185,7 +2222,7 @@
   {
    "title": "Visayas’ largest indoor entertainment venue: Hans and Chico Sy, Jeffrey Lim lead launch of P7B SM Seaside Cebu Arena",
    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOanhGeFpFcDNZcU9OeUtvVE9ZandPVjFFUS1XU05MVVlEUzJyVVJoRndkR21rREhob1BDbmVTME13dTFWX25pdHlLdlJldW9fUFNIWVloV0FHbEpUeVNCRFRjeEtnUWJsQVZGYTJUdmZDU0RzaEN1TV80QzM1Y0VxaDFtVnVmV0ptTW9hWGV1R05tVlhXRnBFSnJ2dWx1cjRMRWk1bXZZVllQcFRhVlNDdWtaWGlELXBrVWR3VjI1a2RWUC1TMGZvbHBJeWZDWFQzdlFXbElKX0RPX3V1RFVVLWhBQ2xlTTViajdWWGd6RENVM0E?oc=5",
-   "source": "bilyonaryo.com",
+   "source": "Bilyonaryo Business News",
    "category": "Live entertainment",
    "publishedAt": "2026-07-11T11:56:02.000Z",
    "keepDays": 21,
@@ -2251,6 +2288,15 @@
    "source": "Travel And Tour World",
    "category": "India travel",
    "publishedAt": "2026-07-11T07:21:50.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "NC Attorney General Presses Ticketmaster After Stanley Cup Queue Failures",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdVE5TDlPZ1hEckROQy0yd1RZR2RNU2UzWkVhZGtBVjRPaFlOcjY1SXVHZklzcmxTQlRfSDNiWV9qRUVFT24wa2htZWwzMmFtSkViU1ZrSVk5dDJpWmQ1MWhaRjl1dmY0cmdNYjk4S3dUMEdwU1d3N0NCSmU4eXlHaVFKbHRheFZDUHVTQUt4dnNwb2E1QlJHWUx4N2xRNmRxNjluZlZHSWstYkZqbVE?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-11T07:07:06.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -2624,15 +2670,6 @@
    "country": null
   },
   {
-   "title": "Oak View Group Loses Saskatoon Arena Operations Bid as Controversy Around Company Grows",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcEIyNmhtUFdpVDFxODJfUlhqMUNNUmFuSVlBQmNRMVVQbVBWTlJmNlpDRTRtQjlXbUNDM0NUQVNjRDNBM1p6RW1sdWE1U3Z1TEdpbW5FNkVZTFRuc0xrWVJfMGFNclVMQW0tRVk5VmpJMUZMc1FMZEdSVkpOeHBhYzNhLXBBbUVqSWNyMFZCQi1yN1lzNkxSWnpsSndrcmpPOWx5UG5pRjJJelZlcTZJdUdyZWxhNzF0Zm80b2l3LWY?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-10T11:28:52.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "World's tallest, fastest and longest giga dive coaster opens at Six Flags Over Texas",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZeFZGOGg1R3N5UnA0dzM4Yk53MTdkRTI3SU93NlA5ejNHWWJhdzFWaDY3RmdnTTNQY0JkcENuYUg4WnFrRU1GMFNwLXA1MzgwSDlOQ1hIUmlIeFhRR2p1eDNSdDlPZC1S?oc=5",
    "source": "Blooloop",
@@ -2816,7 +2853,7 @@
    "title": "CEO Spotlight: Andrés Spitzer of Civitatis",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR2FsUEQ1YzdTT1NPNXJjVnhZTjMtWDZVMHFMTE1ZcUZWbk51RTlSeEwtVk5telNjcWlZR0xOVjNfNVBLQS1pVkdNVGdmNWZ0Q1Zacnc5TTFkaGpZMHZWQ0ZJRmZtdDFfSm5KSmV6QzJzOWlGcTVudF9qYTlKMzExNEVQcEJvM1pkUXF3?oc=5",
    "source": "PhocusWire",
-   "category": "Competitors",
+   "category": "Experiences economy",
    "publishedAt": "2026-07-10T05:05:09.000Z",
    "keepDays": 21,
    "country": null
@@ -2854,6 +2891,15 @@
    "source": "Outlook Traveller",
    "category": "India travel",
    "publishedAt": "2026-07-10T04:30:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub president Nayaab Islam sells $39,214 in stock By Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZFRlMWZmVFNlLXZHbnFpRHJMRjFneWJidnFGVzF1ZHF2RUZTWFdRR3UtSFJOMk96Rlh4cnhlRnZsSmN5eGpYYmtlZWFCbkI3M25mRy1jSkoyUnYwUERtdlN2T0FFaUNyVHhURzJadHhjcm5CNDg2TkJ3VXFDRGdxTGRTcmNXc3ZQcTV2S3paUzEwWHoxVmozUmpqdGpMa2d5LVFvOXZLbGFfMUY3SDR3Q0tn?oc=5",
+   "source": "Investing.com Nigeria",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-10T03:45:47.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -3029,11 +3075,29 @@
    "country": null
   },
   {
+   "title": "BKNG News | BOOKING HOLDINGS INC (NASDAQ:BKNG)",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tSDV1TTRxcXRQNVJuUVFfSm1MZXFLZlJ1bDlpcmgzV0xvVmNheVNkYV9faDVhTXpWdkI3U2lydldfWTFMQ25FTFJVQVplUW5rMDFEcThLazB6QU0?oc=5",
+   "source": "ChartMill",
+   "category": "Competitors",
+   "publishedAt": "2026-07-09T19:03:10.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "How Esports Events Became Live Entertainment Platforms",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1VnVXV6eHdEd1pzeFhnNkdrNE1GOFZaWVNaRmN0UGItSDBYZ2lfdkk4S0dlamFmYmZzV2tfaGU1WGQ0QVBYV0loVjFqZVdHckFla2YtXzlBU2lSeXNBS2VYNjk4QUlzWF9NZmJtUHZQYl9uN2hlVEdXTklMUGh0dkFJVVNWcV8wTHFYR1JXWHNFY2N0enc?oc=5",
    "source": "The Esports Advocate",
    "category": "Live entertainment",
    "publishedAt": "2026-07-09T18:55:46.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "National Consumers League Presses Senate for TICKET Act Vote as Ticketmaster Scrutiny Mounts",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeXB6eDNGQmlCLWNPNXRHN18xTXJxZ0dEcnBOcm1rV05hcEphY3hLUWRUS2Nranp1NVZWTS02UllvWGVCWUFNSTVCb0h2WEh1cl9hZmFraF9MM0xRNGR0aDFvR0VxdjhPSDJTa0M3ZFAwdDhXN0xCXzJyaXhQejlJM2lPeHMxd3VkbGF5OFJuajZQSXExT3ZGLVN5MlUzX0pHaFRmSldoM04tS1kwb3hKV0RRVGt4cnNCeVdJMllPNFlsUk13QWJr?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-09T18:36:26.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -3499,7 +3563,7 @@
   {
    "title": "Just opened: SM Prime’s P7 billion Seaside Arena aims to make Cebu the next global live music capital",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNEhKdkQ2RjhsZHFJMU5pZzhSWTg4bXRQNzZUU1ZUM0tiZGtwc3RaNlU3U0l1Ykl0cXpRaDBoU3BmU1hwVWxmM0xURzk0WWdJRnNUY2owZ05hUDJYZDQyZHpueUlIMFdpWVRhaDRNc1NfSmJGNW9wbHE5WjlFOFhVbEJfczdJejdPUlZ1YXIwX1pVeGlv?oc=5",
-   "source": "bilyonaryo.com",
+   "source": "Bilyonaryo Business News",
    "category": "Live entertainment",
    "publishedAt": "2026-07-09T07:47:54.000Z",
    "keepDays": 21,
@@ -3718,6 +3782,15 @@
    "source": "Caribbean Journal",
    "category": "Competitors",
    "publishedAt": "2026-07-08T21:09:17.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Logistical Chaos Behind Local Live Entertainment Finally Solved by New Digital Platform",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRGlreGR4bTVZYjk2TEZOSWFmNjJMYTBNTUlrMGozX1lIZFl3YkhGdlZGck81a1RSb0hWc2RnQ0ZianU3YXl3ZVFUMlpKRUg0d2MxNXJmcFlWZE9KWGRhVmFTdUR1bHh1bjVSeGRqZDJFZEx0X2lrM3VxX01lZU1sU2ROcHo1YTdYQTZBcE9JOUVSS29IYU1ydVJCb3VDdEhiTFRlOWY4dTNSV2VPSW5LZGtSQkNCbkpBcjBXVExHOU5kbjZsWUxfV3d6WFVDRGJWMHZDeTEyRTVqQ1RYWEJmWVowbVF5Zy14bUNXZmJZZF9UTk9Ib2I0?oc=5",
+   "source": "Scott Coop",
+   "category": "Live entertainment",
+   "publishedAt": "2026-07-08T20:52:44.000Z",
    "keepDays": 21,
    "country": null
   },
