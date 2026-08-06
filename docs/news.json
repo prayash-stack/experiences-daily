@@ -1,95 +1,95 @@
 {
- "updatedAt": "2026-08-05T05:23:44.755Z",
+ "updatedAt": "2026-08-06T05:26:04.831Z",
  "sources": [
   {
    "category": "Headout",
    "url": "https://news.google.com/rss/search?q=%22Headout%22%20when%3A90d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 5
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22live%20entertainment%22%20(venue%20OR%20ticketing%20OR%20%22immersive%20experience%22%20OR%20concert%20OR%20arena)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 53
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22Ticketmaster%22%20OR%20%22Live%20Nation%22%20OR%20%22AXS%22%20(earnings%20OR%20acquisition%20OR%20expansion%20OR%20lawsuit%20OR%20market%20OR%20ticketing)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 80
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22Dice.fm%22%20OR%20%22SeatGeek%22%20OR%20%22StubHub%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 67
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22live%20entertainment%20market%22%20OR%20%22concert%20industry%22%20OR%20%22live%20music%20industry%22%20OR%20%22theatre%20industry%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 18
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=site%3Ablooloop.com%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 69
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22TodayTix%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 4
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22GetYourGuide%22%20OR%20%22Viator%22%20OR%20%22Klook%22%20OR%20%22Tiqets%22%20OR%20%22KKday%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 40
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22Airbnb%20Experiences%22%20OR%20%22Musement%22%20OR%20%22Civitatis%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 7
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22Fever%22%20(%22Feverup%22%20OR%20%22live%20entertainment%22%20OR%20%22Candlelight%20concerts%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 10
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22Tripadvisor%22%20(Viator%20OR%20TheFork%20OR%20acquisition%20OR%20subscription%20OR%20earnings%20OR%20OTA)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Experiences economy",
    "url": "https://news.google.com/rss/search?q=%22tours%20and%20activities%22%20(booking%20OR%20platform%20OR%20operators%20OR%20market%20OR%20startup)%20OR%20%22attractions%20industry%22%20OR%20%22experience%20economy%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 3
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Travel tech & funding",
    "url": "https://news.google.com/rss/search?q=(%22travel%20tech%22%20OR%20%22travel%20technology%22%20OR%20traveltech)%20(funding%20OR%20funded%20OR%20raises%20OR%20raised%20OR%20acquisition%20OR%20acquires%20OR%20startup%20OR%20%22Series%20A%22%20OR%20%22Series%20B%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Industry reads",
    "url": "https://news.google.com/rss/search?q=site%3Aphocuswire.com%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 27
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Industry reads",
    "url": "https://news.google.com/rss/search?q=site%3Aarival.travel%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 17
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Industry reads",
@@ -100,12 +100,102 @@
   {
    "category": "India travel",
    "url": "https://news.google.com/rss/search?q=%22MakeMyTrip%22%20OR%20%22ixigo%22%20OR%20%22Cleartrip%22%20OR%20%22EaseMyTrip%22%20OR%20%22Thrillophilia%22%20OR%20%22Yatra%20Online%22%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en",
-   "ok": true,
-   "count": 65
+   "ok": false,
+   "count": 0
   }
  ],
  "ai": null,
  "items": [
+  {
+   "title": "Expedia B2B Is Mostly Hotels, But It Wants a One-Stop Shop",
+   "link": "https://skift.com/2026/08/05/expedia-is-investing-in-its-leading-b2b-product-as-competition-heats-up/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T22:06:53.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Thank You, Google. Trivago Expects EU Tailwind",
+   "link": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T19:47:53.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+   "link": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T19:20:59.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Two Disneys: Booming U.S. Parks, Sluggish Asia",
+   "link": "https://skift.com/2026/08/05/disney-parks-domestic-asia-q3/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T19:13:59.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
+   "title": "Skift Capital Allocation Brief: A New Quarterly Read on Where Travel’s Money Goes",
+   "link": "https://skift.com/2026/08/05/skift-capital-allocation-brief-a-new-quarterly-read-on-where-travels-money-goes/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T18:49:53.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Delta Is Poaching Allegiant Pilots — and Now Allegiant Is Cutting Flights",
+   "link": "https://skift.com/2026/08/05/delta-is-poaching-allegiant-pilots-and-now-allegiant-is-cutting-flights/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T17:21:27.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Gatwick Is Set To Expand — And So Will Its Carbon Footprint",
+   "link": "https://skift.com/2026/08/05/gatwick-is-set-to-expand-and-so-will-its-carbon-footprint/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T15:46:16.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Air India Names New CEO: Former Ethiopian Airlines Boss to Lead Turnaround",
+   "link": "https://skift.com/2026/08/05/air-india-names-ethiopian-airlines-former-ceo-to-lead-turnaround/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T13:39:36.000Z",
+   "keepDays": 21,
+   "country": "India"
+  },
+  {
+   "title": "What IndiGo and Ethiopian Say About the Rise of the Rest",
+   "link": "https://skift.com/2026/08/05/what-indigo-and-ethiopian-say-about-the-rise-of-the-rest/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T13:21:58.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
+   "link": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-05T13:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
   {
    "title": "What Every Music Company Made in Q2 2026 (Updating)",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYTN6TlV0YTNjNGJpeWk5bW16bnMwXzM3QmNyOUFTOHdpcTkwV0dNWFBtNzBiZDlhNVJNb0pGNms4dDM5dWlUaWthbUpfRlUwcndpaXNjeXhVZXdFSUt6b1c5ZFc5c0xNemVqbWpiY1lZVDktSmFoeEhNM1Q2cUh0Y01KWVNBaVZPR0FBVGhraVJOUHc?oc=5",
@@ -7141,96 +7231,6 @@
    "source": "Radio Ink",
    "category": "Live entertainment",
    "publishedAt": "2026-07-27T09:26:43.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "StubHub CEO Eric Baker is under scrutiny for enabling mass scalpers on his ticket reselling platform",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeS1XSnJ6U1RWcVR2MGc1YVZ0RGVBY3V1c0ZTM1RCRTNsUWpjVDBzMDJJQktkSldFcWJaUm5mdDhxbjJkcE9Uc3RSTFg3MlA5MTFhUGwxaDAzZGxjZ1VpM3Noa2tJT0c0RlZYYkl6M2l4TTl3X3YycV9CWENjbVNjT2xBTjlZRmt6Q3c?oc=5",
-   "source": "Fortune",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-27T09:26:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Universcience presents Border at Cité de Sciences et de l’Industrie",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3djVsOWdJTFJVSXhCVV82WVROYjlpN01qS2NWZjEtTzBfMHZuaUpJT3JwUHl4NEpfbjBBRXVlZllEMGlKQ2FuMEpOOEgxYWRQSFRVTg?oc=5",
-   "source": "blooloop",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-27T09:24:44.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Temporary attractions urged to tackle hidden waste of flooring",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FcVk2cXUyUVprRGxWZGhkX29aTzBZeWJKOVVoVWhuUTFIUjgxdF9jUTFjVE5idVU0WmRtYk4yRWxRdWhLUUUxMklRdkxJZEpzRHR0LWx1bEk2SUgxZC01VQ?oc=5",
-   "source": "blooloop",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-27T09:19:43.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "StubHub Holdings Inc (STUB) Balance Sheet",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94Y3lFaE1qZV9QVEhpaEFhQlpLU01pZVRCVVNBTlF5NHo3OFZJcmc0NlNSYy1udUw1QmxYeUxDREFvLVJWTkRrbUJpaHFCd0hORnB1TlF0eUIzdlFOWlhzdGMtYmhIeUhScUxxRw?oc=5",
-   "source": "TradingKey",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-27T08:46:53.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Yatra Online Inc (YTRA) Income Statement",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00Z0Rza2xHVDNwWG9ZbjJUS0pLc1BYX1JPOVBzbzVYaG1DQUNuejFmRjhCODRIUjlFTVdYdHR2RE4yUnJRcm4tVWxtdzVrX2hBM05zWnJ5cjh5cTVxbVdCVVVHUXlBX0NxTUhWTDlrajY?oc=5",
-   "source": "tradingkey.com",
-   "category": "India travel",
-   "publishedAt": "2026-07-27T08:46:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "AL Sydbank A/S share buyback programme: transactions in week 30",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMzhrb0NJelpiRk8wTmRfMzgwN1RFQ1p4NWN4bkxMcnZMTXZwTHZKMGtFaVlUdlBaM0R3cmFhNG9sSnJmeTkxV0ZHRy0wNUlmRWJOVVZQQ1hnMHQyTGIzOF83eEVJQWpKQ2xfenZhdDlqR29GTE5aZERCSm1zdHo4Q00yZXhWai1fU0g4OXVtTXlxTm5iNXFIM3c4ZkQ5eWJ5UnRXVjViZWUxaVBSQTJ6TFFLNjBRT0N4aGJpRlBmNmVGUTNrZV9ua1dUUVgwb2g3OXlzOVJB0gHWAUFVX3lxTFAzOGtvQ0l6WmJGTzBOZF8zODA3VEVDWng1Y3huTExydkxNdnBMdkowa0VpWVR2UFozRHdyYWE0b2xKcmZ5OTFXRkdHLTA1SWZFYk5VVlBDWGcwdDJMYjM4Xzd4RUlBakpDbF96dmF0OWpHb0ZMTlpkREJKbXN0ejhDTTJleFZqLV9TSDg5dW1NeXFObmI1cUgzdzhmRDl5YnlSdFdWNWJlZTFpUFJBMnpMUUs2MFFPQ3hoYmlGUGY2ZUZRM2tlX25rV1RRWDBvaDc5eXM5UkE?oc=5",
-   "source": "The Manila Times",
-   "category": "Competitors",
-   "publishedAt": "2026-07-27T07:55:15.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "44/2026・Trifork Group: Weekly report on share buyback",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRFpsWGVoaEliVDZwOVQ1czZreFF2eWJYWmxvSVptZnNNY3lvZHQtTnUzOENqZzhGemM1djdITGhqTXRwYWsyLXU4VW9sUXo3YlZaMWFUSmgwS0tLWXZFNHNLLV9LNUphMkFXMkpveVJTdE95dW9UalpuWXRubml1VnZMZzRGYUV5NWdpR09tYi1YM3I0YXpFSTJWQ3ZSQnZVVUlFM2xhMkVBMTAxeVgteDJqcVpuMktValdvSmptaHNBaXJjdlM40gHHAUFVX3lxTE9EWmxYZWhoSWJUNnA5VDVzNmt4UXZ5YlhabG9JWm1mc01jeW9kdC1OdTM4Q2pnOEZ6YzV2N0hMaGpNdHBhazItdThVb2xRejdiVloxYVRKaDBLS0tZdkU0c0stX0s1SmEyQVcySm95UlN0T3l1b1RqWm5ZdG5uaXVWdkxnNEZhRXk1Z2lHT21iLVgzcjRhekVJMlZDdlJCdlVVSUUzbGEyRUExMDF5WC14MmpxWm4yS1VqV29Kam1oc0FpcmN2Uzg?oc=5",
-   "source": "The Manila Times",
-   "category": "Competitors",
-   "publishedAt": "2026-07-27T07:55:13.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Preliminary data on early redemptions (prepayments)",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkY0LUN1UElkSUhNZTl1YXJTNXJ2RHYtcUNrR283VmdZZ1NUVGlpYTd6UDNnTXV6T20tZTdfeFl1eWtJNUZxTFh5czBYOFk3Q1lSTWVxVmRrc0V2anFLTjFDbUpQVkdxRVlFQzZHVmx5dnZBUTZFbVVxNER4WTh1ejQ3U3pnX2xiYzNqSTFmbmJkcV9ROW45cjY4aFFJb0syM3ZkYzJuQXJ5NkplRE5jbEdLd2dzOG1BTmRTQ2RSY0loQjQ1UWfSAcYBQVVfeXFMTU5GNC1DdVBJZElITWU5dWFyUzVydkR2LXFDa0dvN1ZnWWdTVFRpaWE3elAzZ011ek9tLWU3X3hZdXlrSTVGcUxYeXMwWDhZN0NZUk1lcVZka3NFdmpxS04xQ21KUFZHcUVZRUM2R1ZseXZ2QVE2RW1VcTREeFk4dXo0N1N6Z19sYmMzakkxZm5iZHFfUTluOXI2OGhRSW9LMjN2ZGMybkFyeTZKZUROY2xHS3dnczhtQU5kU0NkUmNJaEI0NVFn?oc=5",
-   "source": "The Manila Times",
-   "category": "Competitors",
-   "publishedAt": "2026-07-27T07:35:08.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Britain’s Holiday Planners Are Over-Worked: GetYourGuide Reveals Half of Brits Confess to Muting WhatsApp to Get Out of Trip Planning",
-   "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOSy1SbGJ5ZFoyZ1FDaVdlb0dRZmxURHh0RUwzME1hMDh2S1AzN08xUkRNZndENHc4ajVMcnJXeGJWRU5NUnM4NGoxYng0UFlwU2JfVFo0TnFGX0plWE90UUcwd3g0cmpLZExWbVlGaE5LOXhFeE9XamFhTTQ3alNBeXBkVVg5a0Fsa19neGRBd1BxNndYTjBDRFIzY0RmeGhyT19tV2RkcnlNWVF1bnpyb0c5U1BDVThKVFhzUWdDUUVKM0U0UWt5ZkJNNnhZemV1aXZjUzlPRm14OTNwSzhKTlZiSm8zWkNSRjhGMzJCeWtBb3JjSG1Lc0FNRldxSEF1aVlDU0lPdlROckR5b2dscTdJN2NkZS1rbjFiTEhSUmdmR2dEY2RsZzBxT3ZBUdIBswJBVV95cUxPakp3LUgyWGtvYVMwVVhsTVJvWnliSkFzMDRQOFktUU5SZlFNeTJHMWxKNkxNRWtiV3lDYVVtVE1BV1JaWUdxZ1VEYlFacVdTYkFtX1g0N3FQU19Uai1XMmVFelVRS2JvVFN0dWpkV2NldDRnc3JBZ2NOSGZBSkNkeVFfVklwdTFkYzE5TFZFOEpEWlZwcENMLUJVYTlIMERZSkZhR1h2Y3pRcW52WU4yYk8zQXZCa3NSeFpvc21MaTdLWngwdjk1cmlGUXlhTVo5Y1pqN0dqazdwT2JRZEl3elNFbW00Sl9wcjR1WXZEOHIxLVlnOHdfakQwM0RNczVTcmVLamswcThKeGt3R3JpVHp4ZEd1eVROb0VoU1NXTDBhRFNYaS11bDVUcWZNQThpWFBv?oc=5",
-   "source": "The Manila Times",
-   "category": "Competitors",
-   "publishedAt": "2026-07-27T07:35:06.000Z",
-   "keepDays": 21,
-   "country": "UK"
-  },
-  {
-   "title": "AXS|AXIS Capital Holdings Ltd|Price:116.500|Chg%:+1.920",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96Zkw0UGgyTmllLU5QX1FJMk0tUDNvYjgyTFZYZXh0OXFnSkxDN2FyRVB3ajY3SHpYNzlUVlNfMm1zcHM1WEd4SlZRb1BfMEVFNFlicHlISHNyeTBUREhsYXRScDF6ZWs?oc=5",
-   "source": "TradingKey",
-   "category": "Live entertainment",
-   "publishedAt": "2026-07-27T07:10:21.000Z",
    "keepDays": 21,
    "country": null
   },
