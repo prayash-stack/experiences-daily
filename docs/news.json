@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T03:02:16.923Z",
+ "updatedAt": "2026-08-16T03:11:04.717Z",
  "sources": [
   {
    "category": "Headout",
@@ -11,79 +11,79 @@
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22live%20entertainment%22%20(venue%20OR%20ticketing%20OR%20%22immersive%20experience%22%20OR%20concert%20OR%20arena)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 60
+   "count": 59
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22Ticketmaster%22%20OR%20%22Live%20Nation%22%20OR%20%22AXS%22%20(earnings%20OR%20acquisition%20OR%20expansion%20OR%20lawsuit%20OR%20market%20OR%20ticketing)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 92
+   "count": 94
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22Dice.fm%22%20OR%20%22SeatGeek%22%20OR%20%22StubHub%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 89
+   "count": 90
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=%22live%20entertainment%20market%22%20OR%20%22concert%20industry%22%20OR%20%22live%20music%20industry%22%20OR%20%22theatre%20industry%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 26
+   "count": 29
   },
   {
    "category": "Live entertainment",
    "url": "https://news.google.com/rss/search?q=site%3Ablooloop.com%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 80
+   "count": 81
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22TodayTix%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 20
+   "count": 19
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22GetYourGuide%22%20OR%20%22Viator%22%20OR%20%22Klook%22%20OR%20%22Tiqets%22%20OR%20%22KKday%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 42
+   "count": 43
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22Airbnb%20Experiences%22%20OR%20%22Musement%22%20OR%20%22Civitatis%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 10
+   "count": 9
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22Fever%22%20(%22Feverup%22%20OR%20%22live%20entertainment%22%20OR%20%22Candlelight%20concerts%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "category": "Competitors",
    "url": "https://news.google.com/rss/search?q=%22Tripadvisor%22%20(Viator%20OR%20TheFork%20OR%20acquisition%20OR%20subscription%20OR%20earnings%20OR%20OTA)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
-   "ok": true,
-   "count": 37
+   "ok": false,
+   "count": 0
   },
   {
    "category": "Experiences economy",
    "url": "https://news.google.com/rss/search?q=%22tours%20and%20activities%22%20(booking%20OR%20platform%20OR%20operators%20OR%20market%20OR%20startup)%20OR%20%22attractions%20industry%22%20OR%20%22experience%20economy%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 22
+   "count": 23
   },
   {
    "category": "Travel tech & funding",
    "url": "https://news.google.com/rss/search?q=(%22travel%20tech%22%20OR%20%22travel%20technology%22%20OR%20traveltech)%20(funding%20OR%20funded%20OR%20raises%20OR%20raised%20OR%20acquisition%20OR%20acquires%20OR%20startup%20OR%20%22Series%20A%22%20OR%20%22Series%20B%22)%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 31
+   "count": 24
   },
   {
    "category": "Industry reads",
    "url": "https://news.google.com/rss/search?q=site%3Aphocuswire.com%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "count": 21
+   "count": 19
   },
   {
    "category": "Industry reads",
@@ -101,11 +101,452 @@
    "category": "India travel",
    "url": "https://news.google.com/rss/search?q=%22MakeMyTrip%22%20OR%20%22ixigo%22%20OR%20%22Cleartrip%22%20OR%20%22EaseMyTrip%22%20OR%20%22Thrillophilia%22%20OR%20%22Yatra%20Online%22%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "count": 62
+   "count": 75
   }
  ],
  "ai": null,
  "items": [
+  {
+   "title": "The Lido Theater Expands Live Entertainment",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZTUwZjJWOGVqRDYtaThZUVRKck1BT0NLa2xYdjdoQllPN1dkUzZxWkpJOHo4Z0tlRDkyU0MxLWQ5UDdUeWliMGlDbG1ZTk5RdUhKWUJ3QV96bVhySkpXdnh1OUYyUmdkd0VKM051eWpVbE5ldVFIU2dCS2NXZHlxNWVkRQ?oc=5",
+   "source": "Newport Beach Indy",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T22:39:29.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Says Rick Springfield Concert Was Postponed, But It Wasn’t",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM0tibmVzYkxDOFhLSFozSExtak5JNFRMaDVhODYwc0U1bW9Sbm56TF9IbFU0c3V2dGd1V1dpbjlLY215NW1jbFFNV0hSMmY2QXRjcWh4M0tGQUZ6blJhNGxZNWVOQkdhZlBaZ1RsZEdfQUJzZ25Ocm1rVWwybzVGRUJfMzZ0ZjBYSnROZEJHdXhxMkhEeDhKUnlsQ0hHdjROZlowR2JGOA?oc=5",
+   "source": "InkFreeNews.com",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T22:00:41.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Is Live Entertainment Becoming a Luxury? Rising Ticket Prices Leave UK Fans Feeling Priced Out",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CaXlkaER3ek5QWkh5T2kzbnl6MFhuMXBWZTNmcW10SlR3MTJmRHFRTndpVnJ5Wm0zQUUxQThhc19xV1dxTjZQWUJvcnNwS0dOejhxNHpxQUxLTGRCek5DRnl5Z3lNS2FYdDJTM3BUcXlLaEMxT0V5U3RDTQ?oc=5",
+   "source": "International Business Times UK",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T20:19:08.000Z",
+   "keepDays": 21,
+   "country": "UK"
+  },
+  {
+   "title": "Live Nation Settles Lawsuit Over Brain Injury at Luke Bryan Concert",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaDRJaDJFdTZjN2FidG5VdjFobm9hTU1rQ0MwNWpac1hCMHdMcVV0cDhVeTNfaW1fX3VMNUtvT1pGVnZOOXB2ejNjeHdadVBmVnNybWFCbHZDUF9FdVlQd0kzaEFIclRuQ2dMVlRLcXN2Ukt1R2dzd0VFMWhSczBlYURJaXVsY0E5azNTSUJPWWt2cEVDOHQ4aVk3b1BLT2NNdklTSktMUGJyZw?oc=5",
+   "source": "Law Commentary",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:59:59.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Commits $100K to Send New York Youth Teams to Pro Sports Events, 2026 World Cup",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOVc2ek9jbm9VNlBoODNlcXZjbG14eDN0VzYzSUNCWkdjanpKNHEtRzdEeHh1QmhLRzZXdmlvQkQxc1ZobkIyWWlCX0hELXhZczk5US03YmVOTUhOZnhEaVNINlZWcU1vcUs0Y2RFVFgza3ZUOVNjR3pWZWRUTHdmd1FnbGp6VldMV19ZYzkxOA?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:32:48.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
+   "title": "SeatGeek Lands Ticketing Deal for Chicago Fire’s New Downtown Stadium",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWDlTaUlMUkRoSklGcW5fMUp3aVZfdnNrNk92aHkxbTVRVURFa2xuUmJILVE1MjI5YWVYQWRxZTlCNFhzTnBrS2RqRGp1UzBpcEptWlc3aUJKWk1VTU1mTVNTRGVLZWFRczFGV1FWVUNaNDBsUG5HdXkzYjZQUlliSnFQY21ibWVtVkxFcFZsS3BrSmsx?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:31:19.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
+   "title": "AXS Taps Adam Budelli to Help Drive Sports Ticketing Expansion",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSFR1SVktbEU5LWFpWnRBV0h0eVdsV29WTFBEajVOR1ZfN2JXOXJoN1FmUm52T1JqRW5hdFNDNWZINE1wWE5EN1lNdDBPcVBjZTVITUpPVUF2VEhEUzRMMWpCMy04Q3BlM0JvY0ZHeFozWnQ1SHhZbDB5TnhLby1wc2t0VEt5Y2N1RGttYUFGQ1Q1YldBbVZOOGN3SQ?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:30:24.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Katseye tickets on sale in Manchester at Co-op Live",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTUZVQlhGeE1IQ2JHeGNIUFA0aTVEZW1XbkZNVDYycnV6eTI5MWNWZTdCeS15bXZiRjhwdmhiZFZOODdSYnpGOEVvd2piNWk0NVJkMVhLSlZKX2M3aS1pZWJpN2kwcnhWM0E0TmtZSEVrMmVPb0JEMkc3cU1uaHdWVl9JQU9jbHFlUURpMk9ZMGs?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:26:50.000Z",
+   "keepDays": 21,
+   "country": "UK"
+  },
+  {
+   "title": "Ticketek Parent TEG Names Cameron Hoy CEO as Brad Banducci Exits After Short Tenure",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQV9kaHFoU0NGQTFqNWc0UWZkWGMwUm40SzcyblJPMkhBR3JFc0FpSTFrWjI2NWM5LVZsQktxaWwyMnVFZ2xJWTdvOUtqb19pRVFuUzNXTDNoOWJhdXUzYmlaZDU5TC1yNFMwRldkckJ3Z2sxRzlZeEpSczBIRHJ2VXlBZ2NYSkg4aVVKSC0xNVdKb0Q0bU4xcGhQaDV6dXJ0aG8tVFMyaHNUZTFQMVNPcUxsTW91a1MzMzRR?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:21:24.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Expands Open Distribution Push With vivenu Partnership",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVpXYjNwTy01NDBqWjR0R3R4allKQ2NzVVRLdURsZjlNVHVhVW5faEEzT2ZLT3I1dzlLN05fU2ZlVnI3Yjcwdzh5SFZnR095Yk9QOU5yeTZ5WmxGX3NodHlGY0Z1WGMxTTdRMllwVDhoS2JnOHFiWnVVSjJ3dkhJOUlNQWR5LXVHU3NndF9ib0M0SWI2V0U1cnlmTDJId0U?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:19:36.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Ticketmaster Delists Ontario Resale Tickets as New Price Cap Hands Live Nation a Competitive Win",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLWtodmdCLXpEOThHTThYeTV3OHRoWEZ5eGRXemZtQlo3bmxmY2FlbUV4Mjl0X3VuUWp6cHNwSVRiUDNKT1FLN3R1OEhGMGI2R1ptbkpYaEdBejRSeEx1NXBabHZUNXUyb2JBLWFKWk9sT3hmSDVqdXFGblVBd0pWeDRYRUdiRDZ2SWtDMWNiQzVQZV9uNThIdUVTUWc3aDQxV0pBVGlHRGo0YWdzRTIyRFBUZG11ZkNTQjNIR01xRDdJWG1uNU1Fb3M0TFY?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:18:42.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Expands AI Ticket Discovery Push With New Claude Integration",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjJzQjNEWUZTX2QwSW9zWi1jdEdWa2w3U3lBTDlYS05lbUxtN00tSW5vREtwektLTjVHSVdLMEtKOTJGRzgyM29Dc3h1bjlkNURqNmN2cXEwZTRxZ0xMUDVBemdwRHJBbm1NZnNORXYyUGFiUGJ1bmhaOHUxTnJpTmNhbzhtQzZwNDRaUS11d1Iwc3p4aFY3N294dDctV0xoSXBzejdHUQ?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:17:28.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "NC Attorney General Presses Ticketmaster After Stanley Cup Queue Failures",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdVE5TDlPZ1hEckROQy0yd1RZR2RNU2UzWkVhZGtBVjRPaFlOcjY1SXVHZklzcmxTQlRfSDNiWV9qRUVFT24wa2htZWwzMmFtSkViU1ZrSVk5dDJpWmQ1MWhaRjl1dmY0cmdNYjk4S3dUMEdwU1d3N0NCSmU4eXlHaVFKbHRheFZDUHVTQUt4dnNwb2E1QlJHWUx4N2xRNmRxNjluZlZHSWstYkZqbVE?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:17:26.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Targets Weather, Lineup Changes, Long Lines with FestProtect",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNmcyUUtSckdUejF3Rll2XzU5aFFfd2JuYllLS042dkg0SHZjbVg1SEdvYUxQb0FMcndrRm1UczJ0aWxnc2ZYRXdOSlFTWlRjMkZnR2Y2RDZ4NEhqb2kzQ2x2aHRPUTlHWXY4Y21WbURzWFdFcjZEa2NkS0JiRnZ0UkRMc1hzMkktVERhSW56bw?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:16:27.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Launches ‘World Cup Cuts’ Barbershop Pop-Up Campaign",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa1dxMlZTcjEzeGprQnphaWIyd3RXVV9HTjY4a1dYYVFsbHViOFh0UkFRRUlPd2lRQmgtM0tzSnpVdElhVHNkZVlFUVI1YThzWEE5YXVzQlhqNjBTQklob0xvLTRwbG9FUVN4dHNCa0duWGhqcnZVT0ZQOFlMb29iemFGTWlRVDZvb2p3Nmsxcno?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T17:16:24.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Lands Major Festival Deal With Danny Wimmer Presents",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnBZbXB1MkI1dGJGQjEzT1czVTRxOWlNVTZGenJMNVlMekJCcmtkSDlrWE5RdW1OcXdIYW95em9vS2hGQzY4bXNyOGZia2kwZFpvU1RLbGlFbjR3akRKNk9FZmUxMklGbEZtNXFWWTJIQzRuWHlDWWhDbG83UHRiQTk1Qk80Q0Z4c2ZQM0NB?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T16:58:10.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Travel Watch: MakeMyTrip collaborates with the Ministry of Tourism to launch 350 guided tours across India | Travel",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMk1HMHdRUjRNdU9zRTRkcGhoMTUtS1NLeEpuN1drdHpvRkszd2UyOGVObEI3b1ZPSTA0YmJWMnlLN3lYNzFNaXpYeUVLTG54TW9kMFBoNTlfOXFvbUZNbHlNVGlNNzFPbmEtWmZTLTNGRUVPRTlQMVA2cnlsaHZhUHBzbzdfZXozOFpkOFBSbjlKMURVS2x2MnM4UEN4US1VZWNIRVFuQmFUOVdTN3hYMVFrWWNXdkFhbDl4SnFxYUkxb2x5R2l6Q1BXUlVYN0JOdU1qR2xGdlMyUU9ack45U0pOVm9rX3JTd2JsdE1uZlEzblI5ZzNSQXFmZVc4VEFDdGdRS0Y1RFhaQdIBigJBVV95cUxQMk1HMHdRUjRNdU9zRTRkcGhoMTUtS1NLeEpuN1drdHpvRkszd2UyOGVObEI3b1ZPSTA0YmJWMnlLN3lYNzFNaXpYeUVLTG54TW9kMFBoNTlfOXFvbUZNbHlNVGlNNzFPbmEtWmZTLTNGRUVPRTlQMVA2cnlsaHZhUHBzbzdfZXozOFpkOFBSbjlKMURVS2x2MnM4UEN4US1VZWNIRVFuQmFUOVdTN3hYMVFrWWNXdkFhbDl4SnFxYUkxb2x5R2l6Q1BXUlVYN0JOdU1qR2xGdlMyUU9ack45U0pOVm9rX3JTd2JsdE1uZlEzblI5ZzNSQXFmZVc4VEFDdGdRS0Y1RFhaQQ?oc=5",
+   "source": "Hindustan Times",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T16:57:57.000Z",
+   "keepDays": 21,
+   "country": "India"
+  },
+  {
+   "title": "Alex Mukulu Dies at 72, Leaving Uganda’s Theatre Industry in Mourning",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNclNVLV9ZRXo2TjZRRU1Pc2dDOU1Sa3RsWlBOc1Nkd19oWmIxbkw0c0d2YmJFR3RhYWI3aVJudVFZTnNfQVFDMGR5RTVHdU1fMWpRVi1xaFJDWWFSR1pTZTJZY3lFWWY4NmdUYjU5cVUxVDJQSWEycjRRSnAzRlAwZGpXUWNlM1FVcnpMaE1tYUttMXJVNTZDbDFkZ2E1TGxtaUd6NzdndXExUQ?oc=5",
+   "source": "pan african visions",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T16:52:36.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "SeatGeek to Power Ticketing for Cincinnati Open, Credit One Charleston Open",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjBUOV9uSll2OVc3aW1KdzR4cTQ4S1AxR0tXX3dRalJzU0RYSTBhbkRsVzJLUXpjU2FmdDZiQzRIYk1vNFIyTGxpNXZyTWpZYXJ6NTFoOFFpelZjamtudk84cjZsR3ZPOEk2c0tkZndFWmFHOHFTRlhVWm1JSGtKbU1KZjIzMHFrQVR5R3JkVG5vbEkzak5odXRBOA?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T16:52:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Ticketmaster Integrates with Apple Music to Transform Concert Discovery",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd1B1Z3NkOVdwcEw3cWFlVkYydjQxQUE0c2pfeTlNM05RMlViQWtMcGlZdGgzdlF3NTZrUzhoLUpQYTNLbjViTHZqS2d4dVltY3N1Y0VPLXgzLUlLNGlzU2JpZHprb2VxYjBoeV9TQ2owNjhJUngwRnM4NzNIamVPU0JfdGYzaDZLRUZyaHhDcUpFcnZxNC1hQ016NVA1MGEzY2ctSHZYeWlxSk0?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T16:46:21.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Report: Taylor Swift Could Be Considering Billion-Dollar Concert Residency",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOUpFeWMzNk5EYjNrQ0pBZkFrcHdkVFlOaFVWcU1kTmNiSEt3VGRtRXZWUHVWTHhQd21zb2tURzNXbnB3R0U3ZnZPYmcweTRFTUpwVzVONkxzZ05nQzZpM3FMNFVYQ29xQ2d2SThuUTRXcmx2ZmdWRVRvRlN6T0Q2Umk4TVhBZFVfMU4tbFNuWE14STdOM0E3WWpkQ0dyNFNDWG45QURRVU1tU1phcVE?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T16:45:37.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Live Nation Backs UK Promoter Louder in New Investment Deal",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDl0dENzbzlMTHEtemt6TXo5ZzY1RGNlTTFKYjlHdE1QVWJPOC1NZFV3N3dfNmRLWjVDT042RXhVeHhGQkFBWjBBNTlGS2sxWmctVWJRckpwY0pNQ3RnV3FUMGx6UWc3cXhMLVJ2TTJsSlQ0V05FUHdRY0NzU1JIMUhTLXZGb0ppV1hDWVBGczJKOG82YzZTTEpIbw?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T16:45:19.000Z",
+   "keepDays": 21,
+   "country": "UK"
+  },
+  {
+   "title": "Fringe Review: BUNNY!, Anatomy Lecture Theatre at Summerhall",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb2J3Z0JfSGRtV0VKdlpvYXZpM0lqdVFUM1dEamhtaUwycGVPX3lGazczdzFkeGZJcnRhMDNDcDhEd2Yxa3FuNGx3akdkeUFBVVNPcEdqSTEzUW00UDVHNHFTeEVnZlN4c0dHVEV5SmdtQzFjQUZqWkhNMFBIR1pDS0RvSWVNTlVoR01UcHVuYjc1VFVXN2pEcGg1ZUlWYm8?oc=5",
+   "source": "West End Best Friend",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T16:09:27.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "SeatGeek Testimony Describes “Retaliation Insurance” as Live Nation Antitrust Trial Highlights Alleged Industry Pressure",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOekhWR1FvS0Y4VnpNUDNueXN3WFRxMnR3YzFFNTM0TjhEdFRZSjRCaEc4YjBoMXptejFKSUNlV0ZyaVU3RTY3WEk3NDRiU0JsdE9fVDlJamR2S1FrYzg3N011NTI3UmVGdWdfbVo4eFVTUno3XzhNQ2JCd1NyOFhvTkFMSXc2dFFkS21EeUx3d091RGVaTlVQeUpYcDJyTzhoMHpEQkQxVTBvcmZsRFpaY0ctWDRXelhzQmNLSDBpOEhaT3lkeEgzaGZFeVM2bVhiV2J3Um9IczE0VWV1aDczdDRTa2RxOHR1U2c?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T14:16:36.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "USA vs. Live Nation Entertainment - Government Frames Ticketing as \"Broken\" While Ticketmaster Claims Fair Play",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZWhFMkNWQUtHRUdvMFRRSU5aRUt2bnJZTkpkN1ktdFZEZXgzWnUyTFQxbEtJMTBad2t3V3U5MU9WRVNBNzZfQUJtRDZxa25HTDJjaWVrd3lTYlFHLW8tMkZlSnRjVEJtN3ZlUGo3STlFUVlzeHBpS3N2TDRRVm81Q3NSNk9URnB4S2FiQi1sSzNPTkZUMkZyZDBSYnQ5S0VHSFZtMFE4X2NvU0dhSndlVVVHR0NvNzEzUFlDWVBmcnZuS1VaVEZLQ0xsV1NlSy1XdG82TUVOamxvdw?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T14:14:00.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
+   "title": "StubHub Launches Dedicated Women’s Sports Hub as Olympic Momentum Drives Sales",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVdfSlpkNkk1ZW9jRTJYS2dqSnVsM0Q3NmZQb2N6T1lIUHVINVZsTngxc01DTWhpaV9DbEFXdWNRa2xXaXNGaTFKeEMyYVZucXdSNy1xWFRCTjR1c0YxNUNUNjYyUm1nTE9sd0R3cHdjYVMxYjRHczZ6T0VDUHd5YWVMZVF2Ylk?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T14:05:52.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Ticketmaster Launches Ignite in UK, Linking Tickets to the In-Venue Experience",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZjdvNDB5Vm9SRUUyMkJWQ2hpenFKSWtOQzJKczdkRVI0TEk4UEQzaEs4b0l3UnRxQ1BMZnhtT3lHaHdybjZpcjBINDZvOWRqbnBUZHJGZVlhdmNtX1kyR1hmNTAxS2Z2YWRnZHE5UzRiMGZFMGNPbm1nQjVOazZCMGxHaw?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T14:05:15.000Z",
+   "keepDays": 21,
+   "country": "UK"
+  },
+  {
+   "title": "Proposed Portland Music Hall Moves Forward Without Live Nation Partnership",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1JQM045cHhwYnVGQy1KQjNTdFJVN2Z4ekJfRk5Pbzh4WG9GckRTSzlZOGpYTjNGLWtFQmhiT0JhMXRpLTFiYk45MmVXZWNJVVJwenZhTkFwWUdjd09JTGhXNW5aTFBiajVxMDRodjhhU0RJWTNvdUxrYjlHd3YyQ19BTEdyOF9pNjdsQXNzdW1feXlyb0xyaFZIS3l1aUthaUtfLWFaNWIzaTdsMXdR?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T14:05:07.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Minnesota Wild Tap SeatGeek for Primary Ticketing at Grand Casino Arena",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ3c5VURMSFJXU3N3ZkdPM0g4WTM2TGZCRElOeG9EWHJneTNYeHMyOXVBR3JzdEhUU05TTlZjTEZja1h3RVQ0ZlBzcFc5Y3BmZDVPSzFkLTBUNGZXdDh2SkF4NVJXUHlvUktMOUZFSXBGSW4tTVFhSU0zZnRDWk9XYnBwTXByZXdDclFOMzBrSHVmWGpobTBB?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T13:50:48.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub and Chicago Sky Announce New Multi-Year Ticketing Partnership",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSzUxSkY3cVhqWkw3ZTR0a1FhRUFmNmFqTl9jOXgxTEl5WWIzRzF5ZG5jLWlVOXNVeEg1S0dienY3U01BRmpWQVBPNHNRM1JwNHU0cDFJSzJvU0pLSEh1QlJfeVJMc2dFR2MydTYtTFlkRVV0RDRVbHNsT3I4cDR4blFnc2U0cUx4OVRrNi15eHBVT2xHeEM0S1YyYW5PcXdMQ2psT192X2c?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T13:50:05.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
+   "title": "Airbnb-CarTrawler Partnership Details 1 Month In: Scoop",
+   "link": "https://skift.com/2026/08/15/airbnb-cartrawler-partnership-details-1-month-in-scoop/",
+   "source": "Skift",
+   "category": "Industry reads",
+   "publishedAt": "2026-08-15T13:39:21.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Report: Live Nation, DOJ Strike Deal Settling Antitrust Case and Avoiding Ticketmaster Break-up",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2NjOHpqeGMtMWhaZmJ2M2FNS2FycE1uSk1fQzZtSmNmV2RMU0FiQ3Q5M05keEltcV8zcFd2VTNSYjhGVG1oMmJKWHhWZDhrQ2VIMEJna3RRc1gtYTZkNHY1RjlWOVpKTlhiS1JZSFdYa2NJTlltMEVNd0d3WXRpMFctalhMWUhfVnlEclZudmR3d1NmbG51bTUzMEhVRHg1OGFBX3k5V2kzU3B1NlZZRlJTcE5mbnluZld4VTNyLWJCZDl4LU5uUg?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T13:35:59.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Alex Mukulu, Uganda’s Veteran Playwright, Dies at 72",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMmN4UmNnYTJ3YVVrVU9seVc4WmMtWGZYQmR4RURPMGZkT0RTdVdhVGZjOUl5a0dmYXFvNTJHWWk0Ulh5Z25kRXNrMFlvQ1ZTa0h2V0xhQlpTWHBKQUZLckI4MjlNYkJLVXY5T2wxM1BWT05wT056bkNQXzAzVV94MQ?oc=5",
+   "source": "ChimpReports",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T13:34:59.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Live Nation Settles Lawsuit Brought by Fan Injured at Luke Bryan Concert in 2022",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVXVPVzlFM1loQlYwTXBSejBZOTE3cUF2RXl1dkJxNC1iZ0R0eU4tTm5nR0E4TzJWdUNGMG5mdHhHTm9ac0s0SF9Edzg1eHpjR2VORjdOQzdXR0M4cjhFd19laDNoNDNJcXFRd21lSXNNX19vVHNNdlU4S1hqbjFmOFhyRzE2aDJaWGtEdVdyWmJvWTdqemt1dXRad0o5c0RDWDVIWk1UdWZXT000anFhZ0RRR2NhUU0?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T12:54:25.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "TicketSocket Partners With StubHub, viagogo on Distribution",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONU5KSVZiLWFocWNMQVBvei1yMG5mSFkxb2NfUmUzcVN0UUZKSE5JWW54Y3RxN0FjUUlTYVpfSEp2ZUVodFdBMnJ2Wk0xS3BHX3pjd1ZaVXFXX1RWQUQ4SXU3TmlhN285UlNRbjUyYi1iV0xFTXIwQWlES1FoRmNjRUhlQnhuN2tCM01OSWNkNUlXQzB0X1dRNTl3?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T12:53:38.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Consumer Agency Says FIFA Subsidiary, Ticketmaster and Vivid Seats Violated B.C's Ticketing Laws",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3VuQ2xUZXZRYVRkS2kyOWJfVGNydmJUd09uNVJMSGozMmZNaWN4bzlXQUQyTW85LWtUcG51RE5DSFpIY0pFZk9yMndsUTR1X1ctdXZiMUgzaGt1MTQtV0xhVzBCOG5DRkZrWHBvcEh4ckdQWHhscFhfcTJUZXc0WGliMXBXN29GaVF0V05jNjdBOWNFcXFuTXFqNVBPMmlhRW45WXBsSVBHWEhKcUE?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T12:53:27.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Lanzarote Ranked 4th Best European Island for Water Sports in 2026 TUI Musement Study",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTDk0bV9rOTc5aDFZZG44emsyTnZ6YUthSThwcklmaVZ4QUJRR0M5ckFqZS1UMWdsWTFhOGtPLWdIUEZiOXlJbXhreHd1QVBRX1k3Wk45U3VHOWxtaXFzd0paZkpxcFVLRXpyd1dmOGM4V1VRelprZVNhMEZ5WDREUjNZUVZ6alRDVGJub3E0UEI?oc=5",
+   "source": "Nomad Lawyer",
+   "category": "Competitors",
+   "publishedAt": "2026-08-15T11:48:41.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "EaseMyTrip Share Price: कंपनी को ₹11.69 करोड़ का तिमाही घाटा, लागतों में भारी बढ़ोतरी",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeXZncDRtZDRVc2hrenkxU0h3aTdpclQtNnlTWFVfX1NWQlhoQmYwQ25IRGdsbmFlaXpSdms3bXJGVkpxRndpVXRJbEZWbTFXQnRmbEtKTFE0WHZ2SEZDZ1ZiV19Bd2xOMVN4YzZTQnhkQnV6SVRuYk1taDRZVU5yYS1pckFJekticUN2alV5blVmRHFSRV94Ny14NFF1N2p3TkFadmRmYkc3UnBkUmtOSmZqSHIyRUlONksxX0M5MWpQamd5YW5jcXRiNlRDeUlvYTdRQWFHVWdFUQ?oc=5",
+   "source": "Whalesbook",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T09:54:53.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "EaseMyTrip Reports ₹11.69 Cr Q1 Loss As Costs Surge",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZXNOWE83Y0ZVNlhtV2x1X2NIX2FfeHFzOW00N1FzNU5DMnBERTV4bi04YnRNUjJ2d0kySW5WeTRXdjVoai03b1VfbmZiZ1IxdzRidGY2UjZQNWpLOC1VR2w2Tjk1YjQtYTJONlVKLXFfc05ZRTlIRmw4X1Ryc0stZEhZQkNsTGs2U2Q3WWtZcUpLVFhKQk5Bb3RubEtHb2ZXeWxDNGVhaURHd0E4bktJdlpOQVR3a3kza1Nvd2dGcFBCNTBkYnF2RTdIU2N5UE9VZThNUDk2bVpKa3pz?oc=5",
+   "source": "Whalesbook",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T09:54:53.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "EaseMyTrip शेअर कोसळला! कंपनीला ₹11.69 कोटींचा तोटा, खर्च वाढल्याने गुंतवणूकदार चिंतेत",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQUxUSG5VNllRRGV6cUw4Y0hYSGZGbVFVSi1hRFQxS3ZIN0c5M3pVbEJMQTRHalFCSF9fWUFBLTBvQWJhTllsb3lnZ1UwQTNLV2doUkFOSkx4RXhyaV9iTGpydEJqWWtMZFFKQ0Mxd2hMd3hrTW1QYUx4Z2V2d3hfSUd0SG1Zc2R3TnRDMExIMW9Hc19vQVZPd2RYeG94dzZLX04tNG1YcEMzLVBSUmV6d055NEE1Y19UcUdEanBBa3plOUxDVWE4ajBycF9sRGU0MXhHdDQ1Mld1LTAw?oc=5",
+   "source": "Whalesbook",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T09:54:53.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "EaseMyTrip plunges into red, logs June quarter net loss at 11.69 cr",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRmFoQW1MVm9LOFhiWFFxM1FzMV9ZVTRtQUxmcUItTlpqeGxIelBnU0pCSUtPYkp6MnJLZzdzUGVLMGF6NkV1dG4wY0I4WTMzSnh3REpkZ1p4RVNiX1g4dGt6bjh0ZURMMEEwWW1PSXJnWXYtLVVZRktMeDJyYXE4UlZCQzViZGdSVUREdFdmeGdiWHVKOVE4OXQ2WE5hTzRhZWNkY01WX0JrdjJKZDBuLUZJcmtoX2RvODI3al9XNkx1eFNfYXJ4cjN0cULSAdMBQVVfeXFMTVZySG1YY3cwOGxUc1BjdXdXOXJMNURoaVNXMDBWdnR4U1M0azhMSFFOUEc2TEZnVUpQQnhybG1LcjFXWV8zdlF0SkNTajZibjJEejI2ZFFjT2VoZm9uM0c2bnQzUTlIRzhoRi1XTkY3VDRmeGtZSWVuMzBlX1VYQk1YRElTMlZnQV9QSkxETjl3SnlkMXhScVJhVlI5RWhmMFJnbG5raXR2YjFpYnJnZW4wa28wNmNHWHY4TkVyNnptQkhGMDhHWER3ZHhkQUF3dmpKdw?oc=5",
+   "source": "BusinessLine",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T09:40:41.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "EaseMyTrip Slips Into Red With ₹11.7 Cr Loss In Q1; Revenue Rises 18% YoY",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTh6bUNKb1p5Y29wVUd1MXlYdXp2Z3dCOGFoc2M1NDZqaWJGVW1RUnpEQmh5NWlfXzQwZXRmbTNFOUlfOHpWVmFZSUFZMnI1T3J4blFZc3l6ZENvbWV2ZUhpX0t0dWpGQ19QRXJGNUhMRDhDOHNnZGppMG9FSXFKcjF2ZjZDcVhJb0N6SjBVT2VDaFhhdDNKT045MnotSmZZNWZXeWZR?oc=5",
+   "source": "inc42.com",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T08:36:18.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "MakeMyTrip Partners With Tourism Ministry To Offer 350+ Guided Tours Across India",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUXJyc3FPLUdwakl5LUFCNjFQcTlFS09yRkRqS2VSRWtlUmJzSnpZQXNmM2JNb21saTAyV0hRSUV0YzFleUtONWExc1hKOC0wQTdMd09rQ0xXYVdpRnRFVUQ5Ym9NUVBVWURCM3E0Nzh4UlAyalNsWDRWZW9FaU9mM09uNEtpN05OaV90VGNkRF9Sc2JEUHdvTDM0WnV0emxEM251UHk0ay1UT21ISXotMXE3aFdoek50Wlp2bDlrb0hkb05mb2F5R193?oc=5",
+   "source": "Everything Experiential",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T07:43:50.000Z",
+   "keepDays": 21,
+   "country": "India"
+  },
+  {
+   "title": "MakeMyTrip adds 350-plus guided tours across 60 Indian cities",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFJCaGZBM05icE5VSmhEbFZuTjVicUtvclM0LXlxdXlFNlM3TjB5OWVvYnRMT1ZlXzBiS1JMNmk5UEl6aVZTWmJHSXZMQUw3UGd5QWY1QmlVZjB4UTctRU5yM2VFY3RMaTcwaHdpQnFyT1NvbmVwZ01mbmdlZTlLb0VVTmNnUmhFdnlBWWNtZk14NFBHaFZJcUxVbw?oc=5",
+   "source": "Indian Television Dot Com",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T07:06:04.000Z",
+   "keepDays": 21,
+   "country": "India"
+  },
+  {
+   "title": "EaseMyTrip Q1 Results Explained: Revenue Climbs 19% YoY but ₹11 Crore Loss",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQWhJbHF5bEh2Ulh5OWlWNnZrczAtc25pVkY3b0VUTWU1YkpXMFRycElSbG1kTkNkcHZFVVhxU1owc0JvRXNabXlrcmtOYlZLMVNOenc4Uk9nOE53MEppTHZIMlgzc2s5NWpUU0xOcDNVa2d5TUJwT3NFNFlvQk9NamR3X2I5M29YNkRKdUN0UllQWGszX3NrWE1KQkU1TXVHSktDcmd0S1M3dHc4b0ctTXJsMnJwdFlZeTdV?oc=5",
+   "source": "Telangana NavaNirmana Sena",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T05:58:18.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "MakeMyTrip Partners With Ministry Of Tourism For Guided Tours",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNFhTczdmMHdhUVhHR2poSXNpSlAtcG0xdGpIazVfQVFSM2ViUEdycTBJMmt2ZFQ1cnBCNU5DeXZqOUN1ckdfaUIxOWdkTzhRTjNvQkN5aF9oei1oR1dCdTZublA5WlUyelV4ZkxYSV9YVFE4czBKX2F4TU9vZ0pycjJiSlN4WEViVGZuM3FEcC1SSFlvUktXQlJwOEhZMWFDR0pSYg?oc=5",
+   "source": "bwdisrupt.com",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T05:03:58.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "MakeMyTrip partners with Tourism Ministry to offer 350-plus guided tours across India",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbVlmQ0V1WnhnMHVJRnJXWGRhbVhpOVNtNmo3N3RQRXBxSXdnSFBseUx0aTdlS0lDYW1LLXM4WXNraURjWGdaRGFsbk1HY1dXNFVBWjZoVU5tZlFtTFYxNjJqQ0Nld1h6QW4za1BPSkhPeFFkRzJtVmREQWJWMjUzMUxFZTRTUHF0eXdYc1pGVlVXYjVQeHdjUEhlcm9yMWFPT2tuN20tbi1FZ1k4WnhyY1U3SkowLVBYY2FuQ0M2VnV1aC1rRXJad3VXSlJPb25sYk9jelMzR1fSAd4BQVVfeXFMT2dkWGZjSkpyRlVJNE9SS29TN3lPYTdZaE1pQjk1Ui1KcHltbnkzZjhrVXZ5ZmdoRzlJemhyRUhSY0pTSUZBbUZnZmpsdzRRNjNjM0dfVFhVdXlaQ2ZwUDBqWVZ2UkkwM3JkTzNJLUQ4VDB3elRlZURLaTZhUWUzYVFWSURmcjZqeF85SWVRQWJYYkMyN1pnaFdJcGNoU1dKMWNHX2xtcU04WWFPS2hvWmFyMXptN2lVejhYejVUQ2dPZ3pOWUI1X1RtZmphNkE4dmlSNnQ0NGxiNUdUTEJR?oc=5",
+   "source": "Storyboard18",
+   "category": "India travel",
+   "publishedAt": "2026-08-15T03:53:02.000Z",
+   "keepDays": 21,
+   "country": "India"
+  },
+  {
+   "title": "KFC, StubHub Partner For NFL-Themed Wing Promotion 10/18/2019",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTjFCWTFPVnNQNjVBc1BxNThrc3h0aDdReDd6ZW4wZXItNlF6SjBVZ2dDcmU5UkYzd1hEczVuU3kwM1ZPZzdkMDN1S2xxdzRjS1l4d2xtWm1jLUY1SzgtdDZhSnhOTXNENmlLU3dpMTFZb1J5c2Y5Yi1lWjNudVRMZmJVNUtOc3ZXcVlKRlAzTk0yZThlQUlmZXpxeHk3N1IzUjA4XzI5LWZtTVVGa3N4M08wM3EzQmZaSHZJcjZwbUswdDlfY2FZdkVQaXRGZWV6cWlIeFNibGwwdWtaR3dYWU5uQQ?oc=5",
+   "source": "MediaPost",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T02:28:51.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub, New Era Tap Into F1 Boom With New Fan-First Partnership",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYllYTXhvdkluRm83UE5BWmVzb2pQU3lOMEdwQkRnczJDWV9oZ29vR3ZacmlKZWtJVUFBX2F1VkwxWXlrS1ZmV3hOM3VwVGFvZmJlTVpaNlh2aG9FRGIzVjkxN01TQ3h6STA1a3djT20tb0FNSnUxRHdRbmRFcFQ0c04yS0k2UQ?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-15T01:58:37.000Z",
+   "keepDays": 21,
+   "country": null
+  },
   {
    "title": "From bats to books: 9 events to explore in Austin in September and early October",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOUVfZ2Nnb2pWa1I0cl9ZWVVTVDFsS1FvbW9Oekc4MENuWXd2WDI5TmhsTzgyMDFBdTA4ZFJZSmhKQkxmelJYUHVvc0VSUzR5MWY0OHV0aklGS1BhMU1aTlN3ZnpBNXgyMjBnZXVLcUFBZUZhOTZJZ3dpdGlwaXVCc3dHRHJoQk9wSFNrcko3ZmlIYzhQQW5EZnJ6M2oxTzB4Mnh0R3RwNGNqOUlsSllhVFVWVjBfekh3WE5tM1I4eHIycXZWWDJ4X3ZHbG4?oc=5",
@@ -120,9 +561,36 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNnFlZVREU2dtVm5yZnd4WHRqZzVfWTlaanJWVUJFdzRUTV9EMmNLN1JxN2EwSTluVnRBNnc5RHBJdkRRbkRNN1VQU0hBT29uV3VqMmdkWjJBc2VuS0ppRk9zbWZHY1ZqX2ZQRG5GamtfVUZXZENiWmxtTGVPcE9jWGh0aDJ4RzRnd29kZHVlTWtQVExQN3VtUWdodHFtQTFFV0pnemxURWkzWXN0N2J3UEFmTlFBMjgtYXNz?oc=5",
    "source": "The Motley Fool",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-14T22:43:33.000Z",
+   "publishedAt": "2026-08-14T23:08:00.000Z",
    "keepDays": 21,
    "country": null
+  },
+  {
+   "title": "StubHub Trolls Jayden Daniels With Ruthless No. 5 Joke",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb2g0Ukk0UHZaQ2NKRWh5dWRvZ0VyQXduMnFmM0NyR3pfMkVSQkxCa2t1TWV1Y1dTXy1BZlh3VjNIWmxtdFVBdHJ0VU10eWhNUlp1eVo3Yk80WWJUM1NvY0tEbkNXVzljdU5nNVVsVGlYRHRNeHhKem9Md24wd2hMb0kzeVR1elY1TmZQTkNTdWI?oc=5",
+   "source": "Yahoo Sports",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T23:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Ticket Options & Hospitality Packages Announced for 2026 Breeders' Cup",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0pZOVpMbFlOdDJPS1VJQ1ZBMm83Vl9VU3FLejhiV1RzeFg4dVBTOFhHdDA4S3lmdFVIX19MQmRVWVVjNEpXd004R2V5Sm1fYzE1UzBVRF9sUU9JOXZ4SDJzSEJ1aER0d0FBODMzc0hCenU3UVgyOEhmVEtabXFaZUlXczYxVDhlNUtOeGZpcUQ0NGVyTDZNeVktMXQ2bHR0M2k4?oc=5",
+   "source": "Breeders' Cup World Championships",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T22:34:08.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Chicago Fire FC to Host CF Monterrey in Leagues Cup 2026 Quarterfinals",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWFpHbDc4RmpQRmo0cnlfclVZVzU4TE5TUTRHYUkyaFBCcExZTFBwNFgzbUZBek9HcS0xVjBlTHNHZFZjSnhQNXFGTFpkcXFSZXF4VkVHcXFuM1ZwX3pZT1JwOUxLVHBoSXpYOUtmT1c5MjFWclh5YWJ3Z0kxNTV6T2g5N0ZWZ2dlNTBHNTczWUMtZlVoQnZEVGJJUnEySmhlTFBoRmM0U1o?oc=5",
+   "source": "chicagofirefc.com",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T22:24:41.000Z",
+   "keepDays": 21,
+   "country": "USA"
   },
   {
    "title": "Review: ‘Klook and Vinette’ find love in a hopeful place at Jubilee",
@@ -130,6 +598,15 @@
    "source": "Dallas Voice",
    "category": "Competitors",
    "publishedAt": "2026-08-14T21:50:53.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "StubHub Data Shows WNBA Fans Are Hitting the Road as Demand Surges",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzJvSUNySThRc1FUdENBRGFaaWRzQTJidnp5TGpiNVR0N0JGbE9sYy1LcEJ5WkN1blA2X0RwNlRJWlNoeVhUZWxrXzkzRWVmV2NDR3RVWjRVOER3UnI1azV1bnNVb0hMcl9EbnBVckc1cU5KcDhFY29iRFh1ZDN0Vl9R?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T21:47:21.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -143,6 +620,15 @@
    "country": null
   },
   {
+   "title": "Nearly 30 K-Pop Fans Sue Live Nation Over Alleged Heat Negligence at Stray Kids Concert",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcDI2ejJVenBQenk5ZXdXNmpIdDd2VWdSMkFzSUJIMDYzekUxMTAwTDJHbmR3bXItYkxEZVRNbHQxME9oWWw4ekJjUjloN3pQZkZqU3BnQl9HdlVrSjF1N01zTVNjUUpkaG5PWW1jNllNMXM2MnJtM3JGYnJzSXdmUXB4LU9HcHAyWXdQSkZIYlNxOTh3TFVTOE14bw?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T20:17:52.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Seattle Sports Powerhouse One Roof Adds Melinda French Gates as Investor",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNFBOVU9RMXVWNDZNVlJla2hfLTNPRjRhbXA2ZzdvbWxBRmVGMkRzNXNQZl84ZEo4NVJrTW5hU2tOWV9vaVNuTVY5dC1ZdU5NT0hHZWxFckdvbmdFVk9xUjVObGMzVUJxRFNKYnN3ZW5XcVdrcVktaGRNY1d6T1E2RS1wVThlalRYTmZpQ25EbXg?oc=5",
    "source": "TicketNews",
@@ -152,11 +638,20 @@
    "country": "USA"
   },
   {
-   "title": "Consumer Agency Says FIFA Subsidiary, Ticketmaster and Vivid Seats Violated B.C's Ticketing Laws",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3VuQ2xUZXZRYVRkS2kyOWJfVGNydmJUd09uNVJMSGozMmZNaWN4bzlXQUQyTW85LWtUcG51RE5DSFpIY0pFZk9yMndsUTR1X1ctdXZiMUgzaGt1MTQtV0xhVzBCOG5DRkZrWHBvcEh4ckdQWHhscFhfcTJUZXc0WGliMXBXN29GaVF0V05jNjdBOWNFcXFuTXFqNVBPMmlhRW45WXBsSVBHWEhKcUE?oc=5",
+   "title": "Victory Live Lands MiLB Partnership to Expand Secondary Ticketing Reach",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0RuTGpjVmNvV0RmMG9WTWRoa0ZMOVFQZVZZczdlSWVxWXhMUXdkU3ZUak8wR1d6MVgtZ2hfVVF0SXNwcTVWVkN3U3B6bjZTdFZTQ2hFWGFMT09HcEsxcjUxbVlUdmxmX2l6R1p3eU9Bc1JpckVHdTFVT2puWkg0cGQzSHZGSzFkUWxldXRJUUlMcGhoTHAwTU53?oc=5",
    "source": "TicketNews",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-14T20:17:13.000Z",
+   "publishedAt": "2026-08-14T20:15:31.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "The Real Question Behind ‘Blue Dot Fever’: Weak Demand, High Prices, or Consumers Giving Up in a Rigged System?",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOXzJfV2x4a3E5bDlyNElYWTA3MlExTGRuMmI4THREdjNMc2ZUVEY4NXNZbEM2Nno4SlFRbVZHLTcyRXg1T21ZdzhuZXRGaTRzaDJVNW5NZnMwZkpVcFpJaE1GNEljTWYxRVRIUnN1Y1VDRE4tZGkxSGtER0JYNS1ZNzI5aW9FRHB5akVwMkJJeVQ0SF9SelFheHpoZGMzajRXekRLOTZHWXZuT0R6SGVhYXd6U2lKeUIxRmE3OEZLQnRmeDdFS0pZRTBYWFNfWHJmNmFN?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T20:13:06.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -179,20 +674,20 @@
    "country": null
   },
   {
-   "title": "StubHub, New Era Tap Into F1 Boom With New Fan-First Partnership",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYllYTXhvdkluRm83UE5BWmVzb2pQU3lOMEdwQkRnczJDWV9oZ29vR3ZacmlKZWtJVUFBX2F1VkwxWXlrS1ZmV3hOM3VwVGFvZmJlTVpaNlh2aG9FRGIzVjkxN01TQ3h6STA1a3djT20tb0FNSnUxRHdRbmRFcFQ0c04yS0k2UQ?oc=5",
+   "title": "Stateside Live! Unveils VIP World Cup Match Day Experiences in Philadelphia",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONFJsRl9Rc3hmMkEtclBsamZwNW9QTldENHR1ZlpRblE3RTJEdjlGa0h6UWduWXF4eGwxMlpDcG0yM2RNdTBodEtBSjQ3TnJONHFaUEwzenh6bjRXMlNhbGxSLS1McHdhYk1aYXlmX3I2UThNVDZkV1lyWWtlWXF2alhBeWU4TGJnVWREdWNJaDh6VFh5?oc=5",
    "source": "TicketNews",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-14T20:02:41.000Z",
+   "publishedAt": "2026-08-14T20:07:36.000Z",
    "keepDays": 21,
    "country": null
   },
   {
-   "title": "SeatGeek to Power Ticketing for Cincinnati Open, Credit One Charleston Open",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjBUOV9uSll2OVc3aW1KdzR4cTQ4S1AxR0tXX3dRalJzU0RYSTBhbkRsVzJLUXpjU2FmdDZiQzRIYk1vNFIyTGxpNXZyTWpZYXJ6NTFoOFFpelZjamtudk84cjZsR3ZPOEk2c0tkZndFWmFHOHFTRlhVWm1JSGtKbU1KZjIzMHFrQVR5R3JkVG5vbEkzak5odXRBOA?oc=5",
-   "source": "TicketNews",
+   "title": "StubHub Holdings (STUB): PointState and Zachary Schreiber report up to 3.2% stake",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMUFkQ1RMVVV4Y3pjbjBFV2dlMldPUG5IQkJ6QVZkbDlBeGJ3aTR5WDhmb3FtRW1BS29DTFFBeDNZQ2lhcWJXR2JGOW1Ka1h6OU1zWE5vUGV3X3pybUtlYU5RR0tzR3FRTnh2YjhsREhOd3U0ckZ4UUo0bUkzWEpYRFhNbEpnZTNuVXJVZmNsR2xFdGtvQjVHcWNaQm5LclpwSmVkd1NtU21za1BCQ1NDR0lXblJYVDFLNVBKWk92UlJKdHQzTGFMT2owcw?oc=5",
+   "source": "Stock Titan",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-14T20:01:55.000Z",
+   "publishedAt": "2026-08-14T20:04:28.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -206,6 +701,15 @@
    "country": null
   },
   {
+   "title": "World Cup Ticket Cancellations Put StubHub Under Fire, With FIFA's Restrictive System Playing a Key Role",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY0dmUUZUMVAzYzJzTVJOUldET2RpZUVlOWk1N3N2aEVLN19Ua3p5Q2RRQS0tUzB0RmxMaXdKLXNIaE8xdUZqVTdUSDdIXzR0R1BXQkZ6NEpjOHR0dXkxOEF4emQzczhNTTNzN3NKUEYtR3BmQjNzRDNhZ2NfeWNmNEVzc0RvcThwa0hLU0lXUDVEZFBCTHpXMmp4aDJKNVY1RndnUG1oYV9nWE5Wb0pMSFZYYS00M3ItVmZUaGtldzF5eTEzbV9XYXdjRTRNdmJ1M1BIQQ?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T19:57:16.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Shakira to Perform Live in Jordan for the First Time With Aqaba Concert",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oRUYyVklVeEdJVXoyOVlZWUVuYkM4WVlPblp1aWhjOEpPY0ZHOGt2cFhjYWVpQUkzMHFvaXlhV3hGTDQ2LVNlNnJtdlRiM2xidjRxLU5ySmdHa1ItVmRGaWpTSU93R1VVbEJyaHh2Vzh1ZzNTUkhJLXdvUU5nMU0?oc=5",
    "source": "TicketNews",
@@ -213,6 +717,15 @@
    "publishedAt": "2026-08-14T19:55:33.000Z",
    "keepDays": 21,
    "country": null
+  },
+  {
+   "title": "AXS Backs Independent Venues With New, Renewed U.S. Partnerships",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVUVQZXRXTmo1NnFkVnlWMUpzbFhZSjl2ZUFMRmVEUjJONjBJVUpHRjNRMnBCN3YxRElRc0hVUEpCSTBkSDVrRExZVFRNQVhhMWFnSHUtOVAwQUFnanNXN0Fhd1FwR0Z1dGljbFhnYTF2RlRzNWtXY3kyU0R5Umo5QmRTWUthcFRqdmlIYUhiVUhJbHc?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T19:19:24.000Z",
+   "keepDays": 21,
+   "country": "USA"
   },
   {
    "title": "Fan Settles Lawsuit Against Live Nation After Suffering Brain Injury At Luke Bryan Concert",
@@ -271,38 +784,29 @@
   {
    "title": "Fan Who Suffered Traumatic Brain Injury After Brawl At Luke Bryan Concert Settles Lawsuit Against Live Nation For Not Protecting Fans",
    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOVc3XzQtdW8tMjk3R29YYy1zcFVuNVdpUVYxRkNqZFh1QzRpTkZUR3p0cTVJU3JDTzdTSGdhMG94bzNoX2h2WXlNNE4yQkZVNDlkQUFSUHZIbUthQ1hRcGZsaVBFY0lwUHlTajdaZHFNRllhNjJOM0xWaUc0WjNGWTJ5aEJ4eFlNNTd0TkVZOUF5UFhkUjZScXFCdk9qWTRFZGNxRXZwbTVVM2F5eEFqdFliYzBnbC1aRGFaTTJ6VXJPMlRZZFNlRW9xMGVTWDlaS2c3dG1URmlMT284SGZycDFMdVRzcUh0bjF0TmFLN2I?oc=5",
-   "source": "countrychord.com",
+   "source": "Country Chord",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T17:36:30.000Z",
    "keepDays": 21,
    "country": null
   },
   {
-   "title": "StubHub Targets Weather, Lineup Changes, Long Lines with FestProtect",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNmcyUUtSckdUejF3Rll2XzU5aFFfd2JuYllLS042dkg0SHZjbVg1SEdvYUxQb0FMcndrRm1UczJ0aWxnc2ZYRXdOSlFTWlRjMkZnR2Y2RDZ4NEhqb2kzQ2x2aHRPUTlHWXY4Y21WbURzWFdFcjZEa2NkS0JiRnZ0UkRMc1hzMkktVERhSW56bw?oc=5",
+   "title": "Ticketmaster Makes Philippines Debut With New SM Ticketmaster Service",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTVZODhIeWJrRVNKV1JmRVBaQXV3cm1iVzgzVGFKUkFSVjlCZ0N1OTZCUHRvQWpHcEJwTktGLVp3cHpaSGU4X0E3V0tjbjFLVS13YkV0MHJPc0paX251VVhXMHFvRHRsVmprWUN3b0RIbFdUZnY0bGdPa1lOQXRjYjJSOGxDMTNtNTYycE83U1g3d0k?oc=5",
    "source": "TicketNews",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-14T17:28:52.000Z",
+   "publishedAt": "2026-08-14T17:22:29.000Z",
    "keepDays": 21,
-   "country": null
+   "country": "Philippines"
   },
   {
    "title": "Cleartrip targets ‘bad bosses’ in campaign for Book Hotels at ₹0 feature",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeldqUjNfY2xkd2JSMWtHVGs2U0dVaDVFZGhLbXJlTWhHUjJPX3ExODNkX25GWHlvaGtlNmVpSWRBODBvYWY4QnNBN2tQVmtJbTI0YnA5ZW42V3hiRTh2eFhMVG96a1drYTg2Ylo1Qk9zZEc5TTl4dnZUTmVNSVhCb1Z4VGp5OGlsV090REU2MVVyUDVMQkd6S1dhNWxjWXB0VkVOeQ?oc=5",
-   "source": "mediabrief.com",
+   "source": "MediaBrief",
    "category": "India travel",
    "publishedAt": "2026-08-14T17:15:09.000Z",
    "keepDays": 21,
    "country": null
-  },
-  {
-   "title": "MakeMyTrip partners with Tourism Ministry to offer 350+ guided tours across India",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MV09NX1VCQmVGU3lNZ0YtVWdmNVlXZW8xZEltN1hWWkZob1NIQVNkb0I1SF84QVlPTjRHZzR0OHBSNlRlRnEwaEVpM05LbEtfUi1tTjJveUMyX21hN2o3ZGpxamlyUUtiUGNoS1JGdDZvRFk?oc=5",
-   "source": "mediabrief.com",
-   "category": "India travel",
-   "publishedAt": "2026-08-14T17:11:33.000Z",
-   "keepDays": 21,
-   "country": "India"
   },
   {
    "title": "EaseMyTrip Q1 GBR rises 14.8% to Rs 2,371 cr, revenue up 18.4%",
@@ -323,15 +827,6 @@
    "country": null
   },
   {
-   "title": "StubHub Data Shows WNBA Fans Are Hitting the Road as Demand Surges",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzJvSUNySThRc1FUdENBRGFaaWRzQTJidnp5TGpiNVR0N0JGbE9sYy1LcEJ5WkN1blA2X0RwNlRJWlNoeVhUZWxrXzkzRWVmV2NDR3RVWjRVOER3UnI1azV1bnNVb0hMcl9EbnBVckc1cU5KcDhFY29iRFh1ZDN0Vl9R?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T16:49:10.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Business News | EaseMyTrip Q1 Gross Booking Revenue Rises 14.8% to Rs 2,371 Cr, Revenue Up 18.4%",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZFJlUzN0Njhnb1VkR0lncGxSNDRqMkFRUFRiQTN3TTRUSE16WEU2OGMyRDlrcFMxR2hFTDRiZlJvNDAzUnlEa2VJYU1xaTRLcmNDMWNqcXVrd2tacWgtZTQ4eDJJWjJuMko0NnZuVWVndmNlTFRHVE5JZk9qamo4NjNHLVd2bi1oOHRMZ3JiTEFPX0NQQVVxdEwwY1EtaUlIa0lWdVJyRFZDcGM1cTk1T3M4Q2dPSWFxeVNzTU51OUlPZW96eTRDRFQzbVZqZ3AzRVllc2liQdIB3AFBVV95cUxOdW5rSUFmQzlQTFVtd0c4ZVBpRnkxVzhoMFl5VW9vYURWWUJVaWxiQ1h0SHltNW9BMGMxYU9iYVM1amhnVE92OFJLdEpoS2QwdmZjMWh3UW85Z0NqMmw2NFlRZnhiYW5lQnVDVTdqN0NkaHpMQzJfM3MxTlFKbmZMaUJ1bmozemtSTEZQYVQ2Zm0wWjBnb1dBdWgtNDZFWk5wRUQwc2JwREZPMzdzV1JycVVTTjhCWjNweUVrRGdMYlBYUEc1aFc2VlhTV2tVdlBUNldlYy0yZTdzWGhX?oc=5",
    "source": "LatestLY",
@@ -339,15 +834,6 @@
    "publishedAt": "2026-08-14T16:48:24.000Z",
    "keepDays": 21,
    "country": null
-  },
-  {
-   "title": "Ticketmaster Makes Philippines Debut With New SM Ticketmaster Service",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTVZODhIeWJrRVNKV1JmRVBaQXV3cm1iVzgzVGFKUkFSVjlCZ0N1OTZCUHRvQWpHcEJwTktGLVp3cHpaSGU4X0E3V0tjbjFLVS13YkV0MHJPc0paX251VVhXMHFvRHRsVmprWUN3b0RIbFdUZnY0bGdPa1lOQXRjYjJSOGxDMTNtNTYycE83U1g3d0k?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T16:42:11.000Z",
-   "keepDays": 21,
-   "country": "Philippines"
   },
   {
    "title": "MakeMyTrip partners with Ministry of Tourism to launch 350+ guided tours across India",
@@ -359,6 +845,15 @@
    "country": "India"
   },
   {
+   "title": "Beau Rivage’s EIGHT75 entertainment venue returns with new look",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLWpHQlk2eVlYdUtzM00weDBadHBnMm4tRGNSZ2E3MXYyWWY1VThOQTBxVzA5bDIxbm16NFNCY1Z0WGthdVdRTzVtN0NSZVhfbDFVUXdJN0J3OEJWZEQzU3hsOXhHbE5BSzZOQkI3dU5wekRyb2JseUhXTGM5Rm1CWGh4TzRtclNaVU9LQ0Itaw?oc=5",
+   "source": "WXXV News 25",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T16:26:38.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "EaseMyTrip's Vision 2030: Driving Global Growth and Innovation",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelpFX2tXWktHbm45SkZhQ0lTdUdjVXVyMXVJSzVYYjVVd0tnNG95MkdqOVBxeFc1RW5nWG1ZTlZPYnA2QVpVM0VFUFNiZWd3RjAtSGlfT09raWVXM3hLRWo5V0RNQTdsVjZ2U0NrN2lVRmNEQUJmNmZxMC1PMkJjb19heTJrLWt1dUR3RDRLa09xUWgtQVpjTlVybm9fRGtPcjJmelRocW9JdkVVdVF0VUdCbU_SAboBQVVfeXFMTkUtQ2lPQ2R1a0hFcnZvLUZoVW9OUGViOUoxeWlSVzBKazR3alc2amZfa25Jbk5VVHVrbU91MnpJM05sRnJmc1h1UVVXa2IwZHJyNFV2dFFPTHdZUGlSbWczbmJEa3dPTFhXc053WlRoMmZwZHlKbHdkZU9QaGI1TTdCMnRENkIxVW9WVXNvb1ZDcU1zOHZNZmsyblVhTzhMa3Z2b0lHRUU0djFwTUNnOHo0dDQ5SlpjUmNB?oc=5",
    "source": "Devdiscourse",
@@ -368,20 +863,20 @@
    "country": null
   },
   {
+   "title": "Live Nation-Backed California Price Cap Legislation Clears First Committee",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUE15TVBpWXgxa2hoWlB0am9UZEdXNFNyWDUtQXJKb3o0eFNjcXJFSkY4MGloNkhMZ2hNSjFVS3k3UVBGSE5KRWVwR3RlRUR1VEI5UHdPa3JyTjk2MkwyaVJIZXVhaHd3UmpLZ05Qc3ktMHZha0hUaUpBRXhWLUEyM3hFeU5nc09SUmFTZTdtNUR1LWhlajFfalIyaEhkd1JIM2Q3allYN1hrVDFid29r?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T16:24:11.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
    "title": "EaseMyTrip Q1 gross booking revenue rises 14.8% to Rs 2,371 cr, revenue up 18.4%",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcG5EYmhjcXktQ3d4NUJVdVpKQXgwbllfSDdIdGZSbU14TTNRSHZQTUJZb1lOTTlxd1VXV0YzQnZGNzAwWmRGMUZiVjczZWR5U2tVM1cyaFlmal9odUZ6QWs2a2dnVnBEUXNpWlRKMnphUVV3ZWQ1MHJMNkQtSkk0bGc2SmIwSEZJWWZ3MFVmcWJRY21Bcll0RVpQXzFOdF9WUW5FLUk5WUV4cnFweS04Tkcybm9CRjZWbXV5dzZnbnJ6a1U?oc=5",
    "source": "ANI News",
    "category": "India travel",
    "publishedAt": "2026-08-14T16:21:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Ticket Options & Hospitality Packages Announced for 2026 Breeders' Cup",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0pZOVpMbFlOdDJPS1VJQ1ZBMm83Vl9VU3FLejhiV1RzeFg4dVBTOFhHdDA4S3lmdFVIX19MQmRVWVVjNEpXd004R2V5Sm1fYzE1UzBVRF9sUU9JOXZ4SDJzSEJ1aER0d0FBODMzc0hCenU3UVgyOEhmVEtabXFaZUlXczYxVDhlNUtOeGZpcUQ0NGVyTDZNeVktMXQ2bHR0M2k4?oc=5",
-   "source": "Breeders' Cup World Championships",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T16:20:33.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -413,15 +908,6 @@
    "country": "UK"
   },
   {
-   "title": "Beau Rivage’s EIGHT75 entertainment venue returns with new look",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLWpHQlk2eVlYdUtzM00weDBadHBnMm4tRGNSZ2E3MXYyWWY1VThOQTBxVzA5bDIxbm16NFNCY1Z0WGthdVdRTzVtN0NSZVhfbDFVUXdJN0J3OEJWZEQzU3hsOXhHbE5BSzZOQkI3dU5wekRyb2JseUhXTGM5Rm1CWGh4TzRtclNaVU9LQ0Itaw?oc=5",
-   "source": "WXXV News 25",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T16:10:12.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "StubHub Expands Youth Ticket Access Program With New California, D.C. Initiatives",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMXhzN3ZvSk9WWkZtNV9BcUFhbW52b2RwWTRwYnpLNHhmNUFCenBrYVQ2ZHVSdlhPVHhoWjFadlBoMFAweXVDNEQzaFpULXhYUUpzMm1EU2FnWmRVcHhvb3d5X1ZvSGdYc2pkZ1ltbmZwX2JnOThNbFVxVnVmSVJ3NFhBQTNsYjBiNU8wejV3eUdiRUc3eS1iZkczdHM3OG54WnduSDIxMGR2cjhnbjItaHNRNkJhQQ?oc=5",
    "source": "TicketNews",
@@ -431,38 +917,11 @@
    "country": "USA"
   },
   {
-   "title": "SeatGeek Testimony Describes “Retaliation Insurance” as Live Nation Antitrust Trial Highlights Alleged Industry Pressure",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOekhWR1FvS0Y4VnpNUDNueXN3WFRxMnR3YzFFNTM0TjhEdFRZSjRCaEc4YjBoMXptejFKSUNlV0ZyaVU3RTY3WEk3NDRiU0JsdE9fVDlJamR2S1FrYzg3N011NTI3UmVGdWdfbVo4eFVTUno3XzhNQ2JCd1NyOFhvTkFMSXc2dFFkS21EeUx3d091RGVaTlVQeUpYcDJyTzhoMHpEQkQxVTBvcmZsRFpaY0ctWDRXelhzQmNLSDBpOEhaT3lkeEgzaGZFeVM2bVhiV2J3Um9IczE0VWV1aDczdDRTa2RxOHR1U2c?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T16:08:34.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Live Nation-Backed California Price Cap Legislation Clears First Committee",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUE15TVBpWXgxa2hoWlB0am9UZEdXNFNyWDUtQXJKb3o0eFNjcXJFSkY4MGloNkhMZ2hNSjFVS3k3UVBGSE5KRWVwR3RlRUR1VEI5UHdPa3JyTjk2MkwyaVJIZXVhaHd3UmpLZ05Qc3ktMHZha0hUaUpBRXhWLUEyM3hFeU5nc09SUmFTZTdtNUR1LWhlajFfalIyaEhkd1JIM2Q3allYN1hrVDFid29r?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T16:00:22.000Z",
-   "keepDays": 21,
-   "country": "USA"
-  },
-  {
    "title": "Live Nation Posts Record 2025 Results With Ticketmaster Still Driving Profitability",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVk1eTViUERTcjlVQ1djdW1US21TXzlWd2wtQ2xNTWFpclhLNU9IS2dOOExoZlVHZEVrdnNLZ2VXWjFrQTd0MVg2VFI3V0VoX3Jfc1RSMnVIUHdjS1ZvVEd4VTFIQXM0anVkUGpJdERYTVBJWEZ3Q05UUC1sbW8wTVdYOGFza1JRcXVrc2d3Z2lLQVZLMVBRS3dzb19Pb1lBVEVKdUtlOHI?oc=5",
    "source": "TicketNews",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T15:57:18.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "REPORT: Ticketmaster Cuts 8% of Global Staff Following Strong Live Nation Earnings Report",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObU5jODVhTG14TzJWTGVVVlpzRFQ2V2s1TngwMGFVMndsNW00ZVBaQzN0U0w1NjFhNFpfWGxhOTV3YVM4S29RLWlzZEgxZ2Z6dUhjak9KeTM1bkxuMXI1Y1dydlNmMW12YlRoN2V1dmVEODhTNWppRlVYYkRiYnlIcC1Zb2tMUTBFMVNTbUhTY29iQXdWTmdETkF4Z0ZCa2dFYlhZ?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T15:55:56.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -492,6 +951,15 @@
    "publishedAt": "2026-08-14T15:42:07.000Z",
    "keepDays": 21,
    "country": "India"
+  },
+  {
+   "title": "REPORT: Ticketmaster Cuts 8% of Global Staff Following Strong Live Nation Earnings Report",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObU5jODVhTG14TzJWTGVVVlpzRFQ2V2s1TngwMGFVMndsNW00ZVBaQzN0U0w1NjFhNFpfWGxhOTV3YVM4S29RLWlzZEgxZ2Z6dUhjak9KeTM1bkxuMXI1Y1dydlNmMW12YlRoN2V1dmVEODhTNWppRlVYYkRiYnlIcC1Zb2tMUTBFMVNTbUhTY29iQXdWTmdETkF4Z0ZCa2dFYlhZ?oc=5",
+   "source": "TicketNews",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-14T15:40:00.000Z",
+   "keepDays": 21,
+   "country": null
   },
   {
    "title": "StubHub Sued in Proposed Class Action Over World Cup Ticket Delivery Failures",
@@ -539,15 +1007,6 @@
    "country": null
   },
   {
-   "title": "StubHub Lands Major Festival Deal With Danny Wimmer Presents",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnBZbXB1MkI1dGJGQjEzT1czVTRxOWlNVTZGenJMNVlMekJCcmtkSDlrWE5RdW1OcXdIYW95em9vS2hGQzY4bXNyOGZia2kwZFpvU1RLbGlFbjR3akRKNk9FZmUxMklGbEZtNXFWWTJIQzRuWHlDWWhDbG83UHRiQTk1Qk80Q0Z4c2ZQM0NB?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T15:13:53.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Live Nation Files Appeal Motion in DOJ Case Days After Pulling Settlement Blog Post",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRHRPUGVlTmt4MExaU1UteG9ITEdjUFR5SXhmaUJHRGVWMnY5TW04bmtTU2VPOEx6aUE5eG51UVRLWm5TY19RRHNyYWZMbWtWdDZyY1FvdFp0ZjJkLXFRNkJ2STk4bHFtR2NrV2hYeUE1Um1KTEFOY09wOXE0WDhvTTNvN1FaaGJUUGp3WVZQMUFxRWVtTUVZ?oc=5",
    "source": "TicketNews",
@@ -557,29 +1016,11 @@
    "country": null
   },
   {
-   "title": "Live Nation Backs UK Promoter Louder in New Investment Deal",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDl0dENzbzlMTHEtemt6TXo5ZzY1RGNlTTFKYjlHdE1QVWJPOC1NZFV3N3dfNmRLWjVDT042RXhVeHhGQkFBWjBBNTlGS2sxWmctVWJRckpwY0pNQ3RnV3FUMGx6UWc3cXhMLVJ2TTJsSlQ0V05FUHdRY0NzU1JIMUhTLXZGb0ppV1hDWVBGczJKOG82YzZTTEpIbw?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T15:04:26.000Z",
-   "keepDays": 21,
-   "country": "UK"
-  },
-  {
    "title": "Industry group presses Congress for TICKET Act rewrite - a resale crackdown consumer advocates warn would only empower Ticketmaster",
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOai1rT28yVVFwa3FkMTFnUDNScEdZZEZjQWlrQTBYSzhKZ1RUVTlQRHBEMlBwLU5rWFdRRjI0OUlxSkU4cUwwM0dMemdFS1ZEMXN1OWhOcXpybmRRWXoxOFdod2FvUzNVdlNtUldIWlVBZ0Ewd2FtZmNuc0Vra3N5RUNYZFc4RkdSX1dGZ1g4V0pPaEhaR3dIUThzS2Z0Nnd0eGlLNlZENlFVVDFMYTd5VHZjRC1MVlZuVzQ0RjFUMU9xb3FZWG9neF9vaUNjSTNBa183UGlXakRHMU92cExvYzZ2cEdtZjV3YU82Q3lUSWNHWWJDckdOdw?oc=5",
    "source": "TicketNews",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T15:03:55.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "StubHub Expands AI Ticket Discovery Push With New Claude Integration",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjJzQjNEWUZTX2QwSW9zWi1jdEdWa2w3U3lBTDlYS05lbUxtN00tSW5vREtwektLTjVHSVdLMEtKOTJGRzgyM29Dc3h1bjlkNURqNmN2cXEwZTRxZ0xMUDVBemdwRHJBbm1NZnNORXYyUGFiUGJ1bmhaOHUxTnJpTmNhbzhtQzZwNDRaUS11d1Iwc3p4aFY3N294dDctV0xoSXBzejdHUQ?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-14T15:01:59.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -593,13 +1034,13 @@
    "country": null
   },
   {
-   "title": "StubHub Launches ‘World Cup Cuts’ Barbershop Pop-Up Campaign",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa1dxMlZTcjEzeGprQnphaWIyd3RXVV9HTjY4a1dYYVFsbHViOFh0UkFRRUlPd2lRQmgtM0tzSnpVdElhVHNkZVlFUVI1YThzWEE5YXVzQlhqNjBTQklob0xvLTRwbG9FUVN4dHNCa0duWGhqcnZVT0ZQOFlMb29iemFGTWlRVDZvb2p3Nmsxcno?oc=5",
+   "title": "Live Nation Invests in Greek Promoter as Concert Demand Continues to Grow",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTFNBelZWTkN1OHZrd0RLYjN3N0lIRkdjcnF1aFJyMlNYa1pxMnc1aDZsVjBfMmFTUEdJbE1mck5TOFBNbEprdS1WZkxEMmpvNjhCTGowM2lhWXgyR2xhTVVTNGRVUFhaUTlSeTF5RTlEZllBcG1yeHBDWmk2OHNTanZXY0JEVlg3U3EtOGU3cTdIWHNNWGEwTVdaYnZpR3o0QlV1VUNjQWNoSjZManc?oc=5",
    "source": "TicketNews",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-14T14:51:44.000Z",
+   "publishedAt": "2026-08-14T14:39:37.000Z",
    "keepDays": 21,
-   "country": null
+   "country": "Greece"
   },
   {
    "title": "Live Nation to Operate New 4,300-Capacity Venue in Tampa’s Gasworx District",
@@ -616,6 +1057,15 @@
    "source": "Stock Titan",
    "category": "Competitors",
    "publishedAt": "2026-08-14T14:22:04.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "MakeMyTrip Limited: Target Price Consensus and Analysts Recommendations | MMYT | MU0295S00016",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX3l5SE1VamNrTjVySWI3WlB5ZDdWLVpPSjFFTGNaUVhzZXZzOTdFQ2FVcFJIYUEyVm1FV3podjRNaUxQaHNKbmF5WFpuWE5BQ0N3Q29LWG5YZUF1eTZ6cDhvZElQbFoyWC1LTkVZemtZcjEzaTN5YVltUGRPaEZWNWVxd1FNQmct?oc=5",
+   "source": "marketscreener.com",
+   "category": "India travel",
+   "publishedAt": "2026-08-14T14:21:00.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -703,7 +1153,7 @@
   {
    "title": "Disney reveals scale model of Magic Kingdom's new 'Cars' land at D23",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KTzUxOENqaEdSam1jRXZoX21INmRSZW9GYUhRSkY0dlU3MEczYUNIakZWZEJBakRuclYyakpveWpVa2htcjlUV3htUnhEU1RyZFhGTGc5Wm8zOXF1Yk5FcWVB?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T12:18:12.000Z",
    "keepDays": 21,
@@ -712,7 +1162,7 @@
   {
    "title": "American Dream just opened a new concert venue — and you can still get French Montana tickets",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaFJEYlBiRk5TenNXanZ5ckZYd25fal9aYVd4eGtjdUlyOG5wV3d4UE9xdXY2UXlacWg2WWRNNnVSdF9SUU03blFXU0hlb2Q0Ulh2ZzkxRkVrWHdBdWw0UmpsYzRKN1hMQ2hnMXF0WHl1aEZnMmxVaUd5ZzdmbmpyZXhHNHZtZUo1M2NuYVhyV09WdGtwaTZkTzR3OWdCZWVaclUtTTVjTmcwbE01V20taGtobU5MT3BoSVlNWVdldkQ3X0ZMak5aS1EyaXdWcUhKV0ZSaFNDbXdZZ9IB7gFBVV95cUxQS1VkMWlBYnZIWTYxbW5fVXhWOXdOWTREMXU4c09iS2xHaUFyWTVEdlE5eW5JWlFlOFNoaGR6SG13cnhBLVhDT2p4cmlVZDhYbzJ5Szk5SHlXcWFYLU9aWHM0bXhzUU5lMVA1Ul9YUG9qdk9oVXdCUG1HeTVZdzdvSC14ZmZyS2F3bXF6a3M1b3BPS1o4M1JHUnk5SXpxcTVialdqX1luMnN2NnZ3SDdoQWhoX0dYUnEyYk1ieFF0bFR5VXRuSnJTeFlQU0RoaFJESVpFWXFVYTVVNGpZbTE4YTJscnR5SE5rX0hrWTVR?oc=5",
-   "source": "nj.com",
+   "source": "NJ.com",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T12:02:00.000Z",
    "keepDays": 21,
@@ -721,7 +1171,7 @@
   {
    "title": "ixigo பங்குகள் விற்பனை: FreshBus-ல் 17% பங்குகளை ₹36.6 கோடிக்கு விற்கும் Le Travenues!",
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZ3hDd2hFaEhVM0N3NFE4ay1uU21CaUtpSk9ZU0hNVldabExyeklUTEN1WW9XRXFDSGRsenctM3kwcmRJV0tQR0RCNXFPdldvOVctcVhnMG0zQmVpVXJCcUJQVFlDWk5ZX1RiZjZvaUxLSDhiQmpJTExiYkUxZGlld2JhbXFOQm56eVF3MVVQLUwtSHFnZ29jRVFkZ0tIb3JUMzUtWjdSc042Vjl3M0xub1RWNTR1bHlvU2N4NmtZRjByeU1QRVc2bmlleUI1OEVnNVFGS3dMN0U2c2xiUW8tSHZhRQ?oc=5",
-   "source": "whalesbook.com",
+   "source": "Whalesbook",
    "category": "India travel",
    "publishedAt": "2026-08-14T11:58:52.000Z",
    "keepDays": 21,
@@ -739,7 +1189,7 @@
   {
    "title": "Yatra Online Gets 'Buy' Rating From Motilal Oswal With Rs 135 Target",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNW5sQnUtbV9wSzZSMmNFNnNGTWtDYjRmOHVFWEJzVy1fMl9NUE1naTFOSXAxenB3VDJlRE1FWWlQM2hCV0djQ0R1OEVOd0REdXhmWEk4U09CT2cydk9NaWVWUWdtWVhrRHVROGo0aGFVdlBkakp5bUtRcU1JSUM4eUVvUG5aWDZ2NlBhQlF0NlhaeE5HblNnTzY5cTRXY01DLXpWWGNkR3hHNFJtRjlKYThMNk1LWEI3VzJ0TUdsdmpTanRrVkFsbnR5N090X2JiWUUwVzJUcERPZlhvWFRz?oc=5",
-   "source": "whalesbook.com",
+   "source": "Whalesbook",
    "category": "India travel",
    "publishedAt": "2026-08-14T11:26:52.000Z",
    "keepDays": 21,
@@ -748,7 +1198,7 @@
   {
    "title": "Tivoli unveils new Hikari area ahead of opening this weekend",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HWUxkUDFTckRDZ0xOem5URl9uTmlIWlBuZkN2MEowN1ZFSHp5Yk9TVmhMZzh0YnlBTVgxbVlkOUhtRG5naVJaTnRCRzdjRFIzWWk3R052bTdkWmtqbVNKeVJNRUtfWXB5eFBqeVBMODY?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T11:23:03.000Z",
    "keepDays": 21,
@@ -784,7 +1234,7 @@
   {
    "title": "Little Canada in Toronto relaunches as Pocket Planet Canada",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50QkpaUDFwMWlQZHZnOGhkaTZYRUFxZ3AwbnFnQWZKbHMybHFKVEJSb3lKSnotODFVWFZtR25HT2JYQXVvaTRuTnR4LUJMT3lzamNDeWtVODE3SEg1R3ln?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T10:47:56.000Z",
    "keepDays": 21,
@@ -807,6 +1257,15 @@
    "publishedAt": "2026-08-14T10:07:27.000Z",
    "keepDays": 21,
    "country": "India"
+  },
+  {
+   "title": "ixigo to Sell 17.39 Persent FreshBus Stake for Rs 36.6 Crore",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZG96ZnhTVXBjdnpRaHBXbkFYZlFSSWUtc2k0enB3UjdMQ1dTSUI1Y01EUmF4M3BlQmVuVVAzOWhjLUZQbHltLVdjcDM4WldQVTltZC1ONEpWdWItcllOdHRBUDFxSW50M0V2eVJLQlF1ZE1ZOWNGSmFiZFM3OHdfaTBfQ25Sd1hHNllzaUhvc0s1dHRoTVdrTFowWWIwQ1gtTHVfVWZJU2ZrVmlkS0M1aTl3VmEwTUJPcUlzbHZmVXJoZw?oc=5",
+   "source": "Siliconindia",
+   "category": "India travel",
+   "publishedAt": "2026-08-14T10:05:11.000Z",
+   "keepDays": 21,
+   "country": null
   },
   {
    "title": "MakeMyTrip partners with Ministry of Tourism to list 350+ guided tours across 60+ Indian cities",
@@ -838,7 +1297,7 @@
   {
    "title": "MakeMyTrip Launches 350+ Guided Tours, Eyes $1B India IPO",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSW0yNEM2MWtabG1QcWhabC1rbXJ4NTBGMVE4RXUzcjVxb05Ga3o5bk56NFA5eEtqVDdjVVc2Y0dqcVhkd0t6bkFmbGlnNW80VExpNkVzbjFqNEg1VEM0WTBKQ1ZVMnNYMU9OSldOUW1GTjJwbTZ1OEhxLWVySkU4MzNIckNYS3NKdko0aDA4eHNROXRETTdSOFlDektPekxyVFltbFZVYU5fMUlIeXBMOWwteGJDb1psbDRpS2packZlRUZ5T01GaVJvZ21mZw?oc=5",
-   "source": "whalesbook.com",
+   "source": "Whalesbook",
    "category": "India travel",
    "publishedAt": "2026-08-14T09:38:58.000Z",
    "keepDays": 21,
@@ -883,7 +1342,7 @@
   {
    "title": "MakeMyTrip, Ministry of Tourism Partner to Put Guided Tours on the Map",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVHRIRmRWcU1hdEtxMG16dUstbkVhdWFESzhJU1pmZXcwVWtVVVZEakF3cURmWHpRMTVTT1lJbE1ZdWpvQWRORElQMWZaX0c2WFRkMUpGRlRvQUZya2lvM01UaW5BeVdqV19PSTdzZW9ZalJ3QjNTdm5MZkdjY1hVUmNuYWNGbUFlZlR2UWozMVdRQl9zdm5Ra1N5bjVQSEdyaW4zYzA5dGI2eFdtWkNJdUNQbXRXeGtmYVNXS2RfZ0xoYTg?oc=5",
-   "source": "impactonnet.com",
+   "source": "IMPACT Magazine",
    "category": "India travel",
    "publishedAt": "2026-08-14T08:40:12.000Z",
    "keepDays": 21,
@@ -937,7 +1396,7 @@
   {
    "title": "ixigo has agreed to sell a 17.39% stake in electric intercity bus startup Fresh Bus to Twelve Stone LLP for ₹36.6 Cr",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTU1rMU5LTENIVWpZbTdJbC1pLXgtNXhtbXZITWxQNmUyR1hwODB0NERCT2lZMmdORnRISF8ySmpJbDFBNjBMS1hXQUxKTEdLcnJjRmE3QmVLYklTSXZvWHRQUnlVU2xkeFg0aHRBRDlaVW9xNTFxVEtuNDVZR3BXRlpWd2hPYmM?oc=5",
-   "source": "Inc42",
+   "source": "inc42.com",
    "category": "India travel",
    "publishedAt": "2026-08-14T07:08:13.000Z",
    "keepDays": 21,
@@ -947,7 +1406,7 @@
    "title": "Agoda’s Tim Hughes on online travel’s broken promise and AI’s 'Reddit' dilemma",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdnM1ajVlYXNaWEM0NkI4OXBrWXYteG92TFI1OHpNb3FSZmREQUxFUkIyR1dtWG54QVVBTThzLW9mekZxYnF5MkZYR2VlaXUwemx4SHlVTDF1eF9JYzNQODJZeE80eVlrUTIyclhGdGo2VkpHOEFYcWhwcGdCWnR2c3hkc293WWtpTG5pRzJCTWcwaHdRTktkazlCWng5QkRxWmFydg?oc=5",
    "source": "PhocusWire",
-   "category": "Industry reads",
+   "category": "Experiences economy",
    "publishedAt": "2026-08-14T07:05:14.000Z",
    "keepDays": 21,
    "country": null
@@ -1034,6 +1493,15 @@
    "country": "USA"
   },
   {
+   "title": "ixigo sells Freshbus stake for ₹36.59 crore, ends associate ties",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdHZmTkhqODZMVGN1eHJ5amdFdVphVHZvaS1reDZwcko3NnF0YTFuSkdydEtFSE9zVjU3V1d6SGtqamJjZFYyNWk4dGpwMzhMNjdWakRiUE5pMVZTcGRrZ2ZQYnBmWk5McU5QdjNWNUZFbXBTYmNsNXZ5a0llMElCNWl1TkNmVjBSeUtWY1J2bEZ6Z2Z0TUZpejBIVk4?oc=5",
+   "source": "Dealroom",
+   "category": "India travel",
+   "publishedAt": "2026-08-14T03:27:12.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "The Deals: Influence Media Invests in MENA-Focused Catalog Buyer; Live Nation Makes Moves in Prague",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVFdfcng3RUk5VU84OFIzcnFhVHN6eklwcncwUGppRnBWYkdaYVk1SzlfSjlBR2lsLXJjX0RFSVVtLTJZbXJudDZTMHV3MjN1cDJTUTRncEN2OE9XUjRicFZzOERqaHZQN2Vuem95eGxKYl93ZGJBYUJMc09pUXdGS1VKcGtIR1dVcHdobHM2RUQ?oc=5",
    "source": "Billboard",
@@ -1045,7 +1513,7 @@
   {
    "title": "Gig support",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Sa0duemtyREpLaVo1RnJCdkY4RVlMeFMwMl90dUgwRXpxbUNOTE9pYl91SnVPd2VVLTdRWnA5TFVvaDdEZVBXNVAtRzE4bkFPSWw2UzFWamNuMDJHajlxbHJ6MVlDcnMtU3c0?oc=5",
-   "source": "meltonmoorabool.starweekly.com.au",
+   "source": "Melton & Moorabool | Star Weekly",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T02:58:35.000Z",
    "keepDays": 21,
@@ -1063,7 +1531,7 @@
   {
    "title": "StubHub Holdings (STUB) Posts Record Q2 Revenue, Loss Deepens Growth Concerns",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbW50WGJaYVM0Sk96dmdHQTV4YThYRmlfOEpQalJwM3cwaG43OTZzZjRmaFRQZFAzT1lwR2lBRnlydWJkb2NQRGVIY1g2OGRrT3JLelhpQXZhYm9NSUptcnk1WGd5MHZYeElxWGZkckVuamZfQjA3VVJwYUxKZFdFNXdzem1iN2RkSUh6YUZESjJpVmtNRVYtZDdUUksxYWx6?oc=5",
-   "source": "finance.yahoo.com",
+   "source": "Yahoo Finance",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T02:11:00.000Z",
    "keepDays": 21,
@@ -1081,7 +1549,7 @@
   {
    "title": "StubHub stocks tumble as lawsuits pile up over unissued FIFA World Cup tickets",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVNpeEIyZzdMU2J5VV9YNzEzWEt5OWtWckJ0Um1kMm5ORHlrLThVY2lqTEJodWdBU1FRamtwME5wTFhWYUJCMzkyNVQybVFoUkxrVWNXUzlFWkw2VldERUEyMF9IWnBmSzQ4RDYzcGpSVjB3bUJTR1VySXBBYTRCZWptWS04ZEVPUnNCSU9GdUNZVzh2QllXZXpJeU5Ocjdl?oc=5",
-   "source": "globalnews.ca",
+   "source": "Global News",
    "category": "Live entertainment",
    "publishedAt": "2026-08-14T01:32:06.000Z",
    "keepDays": 21,
@@ -1124,24 +1592,6 @@
    "country": "USA"
   },
   {
-   "title": "Minnesota Wild Tap SeatGeek for Primary Ticketing at Grand Casino Arena",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ3c5VURMSFJXU3N3ZkdPM0g4WTM2TGZCRElOeG9EWHJneTNYeHMyOXVBR3JzdEhUU05TTlZjTEZja1h3RVQ0ZlBzcFc5Y3BmZDVPSzFkLTBUNGZXdDh2SkF4NVJXUHlvUktMOUZFSXBGSW4tTVFhSU0zZnRDWk9XYnBwTXByZXdDclFOMzBrSHVmWGpobTBB?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T23:15:51.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Ticketmaster Delists Ontario Resale Tickets as New Price Cap Hands Live Nation a Competitive Win",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLWtodmdCLXpEOThHTThYeTV3OHRoWEZ5eGRXemZtQlo3bmxmY2FlbUV4Mjl0X3VuUWp6cHNwSVRiUDNKT1FLN3R1OEhGMGI2R1ptbkpYaEdBejRSeEx1NXBabHZUNXUyb2JBLWFKWk9sT3hmSDVqdXFGblVBd0pWeDRYRUdiRDZ2SWtDMWNiQzVQZV9uNThIdUVTUWc3aDQxV0pBVGlHRGo0YWdzRTIyRFBUZG11ZkNTQjNIR01xRDdJWG1uNU1Fb3M0TFY?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T23:13:46.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "REPORT: Megan Thee Stallion’s Broadway Debut Drives Record-Breaking Ticket Sales",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdElhUzZIXzNFMEFKOUpRbmlXTmtvdUktS1pFZ0ZlREFYRGVDWUdMMERNakpyT05TRjR2NjNCa2NKdW5abzRQRGZhaUloQmE4RG1LQ1hoLURMZ0Z1SVZLRzVlZFFLVmtGblJVc0lZeWU5ZldwbWxkSUE5V2Z6WWdLeVk5blc0dzJMVzdoVlZNVF9fMVdN?oc=5",
    "source": "ticketnews.com",
@@ -1160,38 +1610,11 @@
    "country": null
   },
   {
-   "title": "StubHub Launches Dedicated Women’s Sports Hub as Olympic Momentum Drives Sales",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONVdfSlpkNkk1ZW9jRTJYS2dqSnVsM0Q3NmZQb2N6T1lIUHVINVZsTngxc01DTWhpaV9DbEFXdWNRa2xXaXNGaTFKeEMyYVZucXdSNy1xWFRCTjR1c0YxNUNUNjYyUm1nTE9sd0R3cHdjYVMxYjRHczZ6T0VDUHd5YWVMZVF2Ylk?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T23:08:51.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Yatra Online Inc (YTRA) (Q1 2027) Earnings Call Highlights: Navigating Geopolitical Headwinds ...",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcFNQUUhlYUUxOFBmal9SMkh3MHFqUFBJcVZhWEdpb003YVAtcVpfWWhCSWd2Z2JHWWdjTGM3Q2gxOEgzT3pfZDV2VTIyQ1RGeGlobzEzNmlHMWs1b2ZDU3pybDZCZUdDb01PSVFCODhKTVJBMXJtTTdEeFRnYUUtZ1NGcFFneF9KRnZYY2dmNkFYczA?oc=5",
    "source": "Yahoo Finance",
    "category": "India travel",
    "publishedAt": "2026-08-13T23:07:25.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Proposed Portland Music Hall Moves Forward Without Live Nation Partnership",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1JQM045cHhwYnVGQy1KQjNTdFJVN2Z4ekJfRk5Pbzh4WG9GckRTSzlZOGpYTjNGLWtFQmhiT0JhMXRpLTFiYk45MmVXZWNJVVJwenZhTkFwWUdjd09JTGhXNW5aTFBiajVxMDRodjhhU0RJWTNvdUxrYjlHd3YyQ19BTEdyOF9pNjdsQXNzdW1feXlyb0xyaFZIS3l1aUthaUtfLWFaNWIzaTdsMXdR?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T23:05:40.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "The Real Question Behind ‘Blue Dot Fever’: Weak Demand, High Prices, or Consumers Giving Up in a Rigged System?",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOXzJfV2x4a3E5bDlyNElYWTA3MlExTGRuMmI4THREdjNMc2ZUVEY4NXNZbEM2Nno4SlFRbVZHLTcyRXg1T21ZdzhuZXRGaTRzaDJVNW5NZnMwZkpVcFpJaE1GNEljTWYxRVRIUnN1Y1VDRE4tZGkxSGtER0JYNS1ZNzI5aW9FRHB5akVwMkJJeVQ0SF9SelFheHpoZGMzajRXekRLOTZHWXZuT0R6SGVhYXd6U2lKeUIxRmE3OEZLQnRmeDdFS0pZRTBYWFNfWHJmNmFN?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T23:01:18.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -1203,15 +1626,6 @@
    "publishedAt": "2026-08-13T23:00:46.000Z",
    "keepDays": 21,
    "country": null
-  },
-  {
-   "title": "Katseye tickets on sale in Manchester at Co-op Live",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTUZVQlhGeE1IQ2JHeGNIUFA0aTVEZW1XbkZNVDYycnV6eTI5MWNWZTdCeS15bXZiRjhwdmhiZFZOODdSYnpGOEVvd2piNWk0NVJkMVhLSlZKX2M3aS1pZWJpN2kwcnhWM0E0TmtZSEVrMmVPb0JEMkc3cU1uaHdWVl9JQU9jbHFlUURpMk9ZMGs?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T22:58:46.000Z",
-   "keepDays": 21,
-   "country": "UK"
   },
   {
    "title": "‘Why Not Just Let It See Its Course?’: Kid Rock Shocked at DOJ, Live Nation Settlement",
@@ -1277,15 +1691,6 @@
    "country": null
   },
   {
-   "title": "Nearly 30 K-Pop Fans Sue Live Nation Over Alleged Heat Negligence at Stray Kids Concert",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcDI2ejJVenBQenk5ZXdXNmpIdDd2VWdSMkFzSUJIMDYzekUxMTAwTDJHbmR3bXItYkxEZVRNbHQxME9oWWw4ekJjUjloN3pQZkZqU3BnQl9HdlVrSjF1N01zTVNjUUpkaG5PWW1jNllNMXM2MnJtM3JGYnJzSXdmUXB4LU9HcHAyWXdQSkZIYlNxOTh3TFVTOE14bw?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T22:40:56.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Platinum, Dynamic, and Pricemaster: Senate Report Sheds Light on Ticketmaster’s Price-Surging Playbook",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc3NXU3JsMEt0VzlsbVpWWEEzR3p5R2M0YWZ1S2R1b2dFbVRXYVFFMjVXdUFyWkxqem9MTkFVU1lvNUdqWWVzTFEwaGhnU0ZNODJkbmtWcGtlcWdpSTl1R0Jmc3pYRHF0dHQ4UHh2X0pOMnBMUmlzRmFRUi1hT2JsY1NMRF9WXzBwMWw5ckRfN3EwejhHTEpxbE9rMlVkVjdZWGtkQVBZck1VaHFiS3JqUUJ4bFJ4dmZkeTVpdTJJWW85cHZRR24xSXE2RzlGZUI1aDVZ?oc=5",
    "source": "TicketNews",
@@ -1340,20 +1745,11 @@
    "country": null
   },
   {
-   "title": "Ticketek Parent TEG Names Cameron Hoy CEO as Brad Banducci Exits After Short Tenure",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQV9kaHFoU0NGQTFqNWc0UWZkWGMwUm40SzcyblJPMkhBR3JFc0FpSTFrWjI2NWM5LVZsQktxaWwyMnVFZ2xJWTdvOUtqb19pRVFuUzNXTDNoOWJhdXUzYmlaZDU5TC1yNFMwRldkckJ3Z2sxRzlZeEpSczBIRHJ2VXlBZ2NYSkg4aVVKSC0xNVdKb0Q0bU4xcGhQaDV6dXJ0aG8tVFMyaHNUZTFQMVNPcUxsTW91a1MzMzRR?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T22:20:33.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "AXS Taps Adam Budelli to Help Drive Sports Ticketing Expansion",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSFR1SVktbEU5LWFpWnRBV0h0eVdsV29WTFBEajVOR1ZfN2JXOXJoN1FmUm52T1JqRW5hdFNDNWZINE1wWE5EN1lNdDBPcVBjZTVITUpPVUF2VEhEUzRMMWpCMy04Q3BlM0JvY0ZHeFozWnQ1SHhZbDB5TnhLby1wc2t0VEt5Y2N1RGttYUFGQ1Q1YldBbVZOOGN3SQ?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T22:19:29.000Z",
+   "title": "Yatra Online Ltd (NSE:YATRA) (Q1 2026) Earnings Call Highlights: Navigating Geopolitical ... By GuruFocus",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdzVhVnJYbGh4Z2ZSbnQ2ZDV0d24zSEVUcDFPREJCME9VeDNsaWxtMWxMOWxrREdQcXJGa3c4YUdrLS1XZ3d4VzU1YURuVEN4bjhsTldITFJmVHp3bmZPN3lIUldhSDBGbU5mX3dIVjBxSy1CelpDVXhlRjM3OG1xQkpUVXlLT2RrRnNuYVpXR1JWRmFwbHFmdl94MlBHMlV2bVFPOFdnakdFVkgydDR6Wl96Ui1uM0NBUnA4NVVQeDUyYkVTS3g5Njdfc3NMU3M?oc=5",
+   "source": "Investing.com Canada",
+   "category": "India travel",
+   "publishedAt": "2026-08-13T22:17:43.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -1369,7 +1765,7 @@
   {
    "title": "Hunger for Culture: New Airbnb Data Reveals Rise of Culinary Travel in Indonesia",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaUt3NnJYODFOM21sWkpIaWV4WmpxYzV3VmVOOVdFSk5hd0d5UnNRdnVnQ3pWUVhNWUpiekNsYWR4MFM1YlZma2p0Y2N1bG9lNlZBUkg2dXA5dlZ2QUtPYzFZRzd0ZXNCVkd6UU92MFNsQjlHalZzbXBhSjhWRW5uQWpwa3BmOUZqdHVxLURrakVUQWNPTHZWQnZNaG9Rb3JSVHZONGlBSmY?oc=5",
-   "source": "asianews.network",
+   "source": "Asia News Network",
    "category": "Competitors",
    "publishedAt": "2026-08-13T21:53:59.000Z",
    "keepDays": 21,
@@ -1381,6 +1777,15 @@
    "source": "StockStory",
    "category": "Travel tech & funding",
    "publishedAt": "2026-08-13T21:49:33.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "64-year-old woman identified in fatal Port Arthur hit-and-run",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTW5HX0pJZjVVdUE3MFVlN202Wkx2ajYzbjViN2VVZWFVQ2lQTlg2UG13TmItNW9vdlBQVzJ3M015bU1tTVQtRHVCY0pCSmlpS0dRUTR3X1pDOF9Gc2VXQVR6eFNJZ2xfajNhdm1ob3BUSFBaUTF6MmxrYXVpSWJMY3FCRWFZWlFESW54OGRDekRnS2NzX3Fnc3FPSG1PMDF3RVNTaU11RjRpTmtLWGx2cVZyUlg3dTY2T25Mc0IzTkRaUkxIZ0c4M1BPUGRaaVJDbVlHMVNiTjc2YXc1?oc=5",
+   "source": "12newsnow.com",
+   "category": "Competitors",
+   "publishedAt": "2026-08-13T20:14:00.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -1410,6 +1815,15 @@
    "publishedAt": "2026-08-13T19:50:00.000Z",
    "keepDays": 21,
    "country": null
+  },
+  {
+   "title": "From ‘Moulin Rouge!’ to ‘Chicago,’ Here’s Where You Can Score Discounted Broadway Tickets Online",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObUNxQXZSMnFZQnlGb1AwanR2MWFnbVpWRk1YdWNGWktwQWdlbEdJSU9iQTZFU2VDUkhBeVYzZjdBNXpwVXlUV054cm15MHV3aVR2UFBySVp4bXB6TnVkWDRVbjJ1YUtFUmZUcjhOTDNWUE1DYjNPT1doZnJYdlV2a08zRXhzSkNFWjU2Z1JfQTBIU205MEhVMU82ODFUTkVWRmpGUVpNMnVIUkRsOEFxODNR?oc=5",
+   "source": "Rolling Stone",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-13T19:48:32.000Z",
+   "keepDays": 21,
+   "country": "USA"
   },
   {
    "title": "Fever joins Gemini: live experiences, now just a conversation away",
@@ -1446,6 +1860,15 @@
    "publishedAt": "2026-08-13T19:29:37.000Z",
    "keepDays": 21,
    "country": "Canada"
+  },
+  {
+   "title": "Kantoko raises $3.5M seed to fix Australia's ADHD treatment bottleneck",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVmtvbnd3UUFwU25SVHdRcTJsOFA5Q29SbGFiT19WVE1hdy1jYjFLeklfWGZqN3lHWFRuSWtEVllNVkd6Q3lkTTRvTkh3THMxbVNkMUVldUMxWWhCMi16dTZvN0xMcFg0QldjaEQzb1hhUFM3U0JEYlRKUlBQTk9maUswcldJZTRwRDNrc09EMjdVc1Z3UWxLYjV2SE1GSjBzV01uQUtn?oc=5",
+   "source": "Dealroom",
+   "category": "Travel tech & funding",
+   "publishedAt": "2026-08-13T19:27:11.000Z",
+   "keepDays": 21,
+   "country": "Australia"
   },
   {
    "title": "Cincinnati’s Next Major Music Venue Moves Toward 2027 Opening",
@@ -1486,7 +1909,7 @@
   {
    "title": "StubHub Growth Ahead Seen Slower as World Cup Tailwind Fades, BofA Says in Downgrade",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNczFQRWRLcVJnbmwwRE50MWs0Xy14VTBpeGJtYUVQUU4tdUp1Z0cyR0Q1UjVDOHY3LXdrTEFmd2dNTnQyelJ5Zk5fUXVBeWxfMl9CUUdQb3VfeExtTEFIS0ZKWVJiU0JINnJSSVlBNEJ3blMwVjFBaktPMDFHV1k4RDczZG95YmdiaWJuRnBuZWF6eGtEb3FneE44RlFJTkFlSmc?oc=5",
-   "source": "finance.yahoo.com",
+   "source": "Yahoo Finance",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T18:30:23.000Z",
    "keepDays": 21,
@@ -1592,15 +2015,6 @@
    "country": null
   },
   {
-   "title": "World Cup Ticket Cancellations Put StubHub Under Fire, With FIFA's Restrictive System Playing a Key Role",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY0dmUUZUMVAzYzJzTVJOUldET2RpZUVlOWk1N3N2aEVLN19Ua3p5Q2RRQS0tUzB0RmxMaXdKLXNIaE8xdUZqVTdUSDdIXzR0R1BXQkZ6NEpjOHR0dXkxOEF4emQzczhNTTNzN3NKUEYtR3BmQjNzRDNhZ2NfeWNmNEVzc0RvcThwa0hLU0lXUDVEZFBCTHpXMmp4aDJKNVY1RndnUG1oYV9nWE5Wb0pMSFZYYS00M3ItVmZUaGtldzF5eTEzbV9XYXdjRTRNdmJ1M1BIQQ?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T15:59:09.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "BofA Says StubHub’s World Cup Pop Could Fade",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iNHhBamVhZ2pGZ3FGb0N4VmlMNkpfWHF1V1g4ZkxpbTNld2Y0YlN3S0dnWkpvcGhuMDZxXzZBS0RFY1F3MXJXRmNKNWs2YUJFeHZkSzlWODlrTnVJX3hXXzl3T3daclFjRkVOT05LTm1jLXcyRHNzUlBFTUI?oc=5",
    "source": "Finimize",
@@ -1628,15 +2042,6 @@
    "country": null
   },
   {
-   "title": "Victory Live Lands MiLB Partnership to Expand Secondary Ticketing Reach",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0RuTGpjVmNvV0RmMG9WTWRoa0ZMOVFQZVZZczdlSWVxWXhMUXdkU3ZUak8wR1d6MVgtZ2hfVVF0SXNwcTVWVkN3U3B6bjZTdFZTQ2hFWGFMT09HcEsxcjUxbVlUdmxmX2l6R1p3eU9Bc1JpckVHdTFVT2puWkg0cGQzSHZGSzFkUWxldXRJUUlMcGhoTHAwTU53?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T15:51:27.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "ECOWAS $65,000 Startup prize pool: Who Can Apply, How to Qualify and What Winners Get",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSVhGWHl3Rl9wM2M3ZXJ5WDZ2ck5FVXBnUk5UbEYzWWRIbkhyQjh5cWwyUGNKNk54eDhUV2J0Ui1fSmhBa0xldUpYZ0Y1Yy10U0ZGM3JNeHNnSm5MWWZEYkJyeEFhTl9GV2pHc3dobURtc1FkcGpacE5zODJmQ0ZfdGM4WEpLRkt4WXNrQlFfWUtoTzNURmFsUHZEXy1PdXZtcXBxNHRFZ3lJZDB2Q0xVY05YQnpXTTc5Z2xrSHdBTlPSAcgBQVVfeXFMTUlZMHVZcm9iM1VsZlUxczZOb01CTEVJQmRUVVRfSWlmeTdQMGRQUzRKd1h6NkJNRTgyMVZqNVZneGdDM2ZZNkxZODJKbEJtR0VLdmFmRTZpWWFWdElJTzFidVJhS0I1eDlWb3p1dGVyLWxGSlNfVW9aZHFwUnFYZnhHSUE5M3B6di03eGNmbGFGYldGNHhHSzk2dU1KM2NCRkNrM2gwbldmUkVSWmk4VFI1MksyRkI1a1BURGs3NXZJU2RTUTdmOFQ?oc=5",
    "source": "within nigeria",
@@ -1651,15 +2056,6 @@
    "source": "TicketNews",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T15:08:49.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "StubHub Expands Open Distribution Push With vivenu Partnership",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVpXYjNwTy01NDBqWjR0R3R4allKQ2NzVVRLdURsZjlNVHVhVW5faEEzT2ZLT3I1dzlLN05fU2ZlVnI3Yjcwdzh5SFZnR095Yk9QOU5yeTZ5WmxGX3NodHlGY0Z1WGMxTTdRMllwVDhoS2JnOHFiWnVVSjJ3dkhJOUlNQWR5LXVHU3NndF9ib0M0SWI2V0U1cnlmTDJId0U?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T15:08:48.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -1709,15 +2105,6 @@
    "country": null
   },
   {
-   "title": "SeatGeek Lands Ticketing Deal for Chicago Fire’s New Downtown Stadium",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWDlTaUlMUkRoSklGcW5fMUp3aVZfdnNrNk92aHkxbTVRVURFa2xuUmJILVE1MjI5YWVYQWRxZTlCNFhzTnBrS2RqRGp1UzBpcEptWlc3aUJKWk1VTU1mTVNTRGVLZWFRczFGV1FWVUNaNDBsUG5HdXkzYjZQUlliSnFQY21ibWVtVkxFcFZsS3BrSmsx?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T14:33:46.000Z",
-   "keepDays": 21,
-   "country": "USA"
-  },
-  {
    "title": "ixigo Q1 FY27 Revenue Up 13% to ₹356.75 Crore",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52VXRlX19hWjRxV0d5b3RVYWFaUncyY2F3a1hVbHBUTDN2T251dTE2blVRMXJHZTVvY3E3UDFBeHRsc1BDMzgxeDlRZmlERHRYTnZVVzVsSmFyMEI2Umg2VWdHMWhsdHYwMGp5bDIzZ1FfdzAtU181ZFhkNA?oc=5",
    "source": "InvestyWise",
@@ -1734,15 +2121,6 @@
    "publishedAt": "2026-08-13T14:21:20.000Z",
    "keepDays": 21,
    "country": null
-  },
-  {
-   "title": "StubHub and Chicago Sky Announce New Multi-Year Ticketing Partnership",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSzUxSkY3cVhqWkw3ZTR0a1FhRUFmNmFqTl9jOXgxTEl5WWIzRzF5ZG5jLWlVOXNVeEg1S0dienY3U01BRmpWQVBPNHNRM1JwNHU0cDFJSzJvU0pLSEh1QlJfeVJMc2dFR2MydTYtTFlkRVV0RDRVbHNsT3I4cDR4blFnc2U0cUx4OVRrNi15eHBVT2xHeEM0S1YyYW5PcXdMQ2psT192X2c?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T14:19:17.000Z",
-   "keepDays": 21,
-   "country": "USA"
   },
   {
    "title": "2026 State of Travel: Lack of AI Adoption Becoming Revenue Risk",
@@ -1765,7 +2143,7 @@
   {
    "title": "World Cup Ticket Fiasco Erases StubHub Profits, Sending Stock Down",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY09BdzA1Znc3cy1DM1ZnYlhQMW4tTFpIRnlBM1IxeFBOc21sQ21IV3ZMWVgyRE45Y0NmMWZCT05EdGF6bWRZc2YzZS1KSkRXWVRIZzMxd2tNNkx4aTF0VzlxbjNJaGZoeTVBMmxqVEtrZXFLSk9ycUx1ckcwTmlDNGtB?oc=5",
-   "source": "wsj.com",
+   "source": "WSJ",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T13:45:00.000Z",
    "keepDays": 21,
@@ -1827,9 +2205,9 @@
   },
   {
    "title": "Yatra Online Uses Travel Disruption to Go Deeper Into Corporate Travel",
-   "link": "https://skift.com/2026/08/13/yatra-online-uses-travel-disruption-to-go-deeper-into-corporate-travel/",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdDVaVTdYNXNHSEo0cTBWVzZ2ZjROQ1hCWEJzaDcxYVFlTEFkcV9CV08xN01YZ2FzS3p0QW9PQ1gwdm9CTDNCN3ZFY1pEU05ucnRJU0hyY3hncnczeVdWWUt2MGo4SEhxN3ZzUTNpT2lhVW9fTGJlUW11Z3djamt1YnhfMExXbnRMZTRoU25wX0dLMFowVG95aW9fUGF4SXN5TFE?oc=5",
    "source": "Skift",
-   "category": "Industry reads",
+   "category": "India travel",
    "publishedAt": "2026-08-13T13:12:28.000Z",
    "keepDays": 21,
    "country": null
@@ -1882,7 +2260,7 @@
   {
    "title": "StubHub Holdings, Inc. Q2 2026 Earnings Call Summary",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcXNRbUlkNVp3c3NhLV9oaFQxZVBZRmxpRG9pT2M4OGdLU3k1VjV6WjNFU1pLTEtLVHlvdC1PT2Z1RWRjdGstTUp6aEFlNFFHbVUxcmtZQlRDVEJCby1IU0lUQ040aC1OWnVLRGp4UEl1d19mQ2VzTmtMTWZPaEsyMEtybkxDLTM3cGFQWGZwWmFsYTFEWmlVYg?oc=5",
-   "source": "finance.yahoo.com",
+   "source": "Yahoo Finance",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T12:30:00.000Z",
    "keepDays": 21,
@@ -1891,7 +2269,7 @@
   {
    "title": "Blenheim Palace starts revealing \"glow up\" as £12m restoration nears completion",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMWjllUlZ1YTE1UjAzX3VXSFJyM2Fhc0hUakJ4Z2gyZ05ycnhWRElkSFp3NldLTk4xX3hDMkZfZlhURVFVaGdMaUZfYi1kZmdfamI4dEJ0bUdnWGpTT2NWUkVnMFNaUEpjX3BqM0dR?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T12:23:56.000Z",
    "keepDays": 21,
@@ -1909,7 +2287,7 @@
   {
    "title": "Olivia Dean tickets are under $350 for her MSG shows this week – but they’re selling out fast",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRC15N3piY25vWXFSN0tYelZkNFBLNTBaZEpIazhhT2xMekdGT0dFWWRjX2pFNUxLeU9ZTUktVlFfZTZhMFE1Qm9ISVYxTkxKT2dhVWJ4LWd1c0QzSXYzdVYzdUdKSDlfaE5VMTE0ZWdUZTV4M0k0ZFpJVERwUHRFU08wTjgtVHlxcnFDR3RJRlhWc0pjZnhMTHBwVDlZZFlLZ1loTVdlRUNuU0lPZG1IbXdJQW1aS3BYVF8yZVZDaXEzX0hBWHN3am44UWlDMlU3akdvY2FySdIB6wFBVV95cUxOYUpHSUE2QzU5NjdHNXFNbVIxNEtrSE9xMlJ5eUNRZktSNGJhZVZlRjN4WHRjQUN6cUpZRnhqdHE2bjhGTTVyRUgwRzhLdDllRG5FVDBoaEVPVVNXZEZCbXBIVUVRcE5VeGc1Zk5DaXBjOHlSZVhFZEplY3RtcnYtclJLV2JEV1U1S0JNbU1tSjVxbHBRaEc1ZFJvRnZicnBabHJZMHBhWUdvRnBlcXpjV3BycVNNc0xyQzdhWUl3bHNycnFQaWFzU0RaVzhfMkNTZGt1bzFhWU0tRklLU2U5R1c4cDR5ZktwdF8w?oc=5",
-   "source": "nj.com",
+   "source": "NJ.com",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T12:05:00.000Z",
    "keepDays": 21,
@@ -1961,15 +2339,6 @@
    "country": null
   },
   {
-   "title": "StubHub: Q2 Earnings Snapshot",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmxBeWM4RV81QXR2d1gxNE9ucW1qa1R0MkhVcDM5ajNoSS1Kd1d3UVZ4dTZra1VxRFJ2bTI0VkVZZzFYaUFnSnFFMDhTakViWE96MzF2SEZvVjgzWFFkZVo4MVlvM3dXajMxOUY2ZEd6NDdjYkhBTVBScTdsRXprN2gxd0ZrSk9DamlrZ1U5TlZXMUVs?oc=5",
-   "source": "theheraldreview.com",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T10:58:13.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Tripadvisor hands part of its experiences catalog to Airbnb",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZlp4bkExVUpkaXlrb2lYOFlIbTk0clhtR1ZxVHdrWGhFdUNrQmc2S1ZMQV9uZXAyNzVNbncxaDdyTW5rSnN0d2xNYkxYLWxQWEFTMWdfUDV6UWhRZ19UdXBhY3NzVXZ2blk4Qzk4TUhHZkVMRlNCeFV0OEZhcGhnOWw1Tlo5clA2a2EtZE1ZV2wwVDEx?oc=5",
    "source": "Hospitality ON",
@@ -1981,7 +2350,7 @@
   {
    "title": "Natural History Museum's 'living laboratory' garden unlocks new biodiversity insights",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45MDlueUxzR3VPelpOX0Jqbmh1M0k5NmFqNUxqSHZCX1l5LVV5NEV3YUVXYWczakVuUm84NjVOV0YyZTRVN3FhYzN4X3JyUjVHLXN3RUR2ejdSV0Q1LWc4MVpqM3V5UWY3dUtJRWRmMkVoZ3lRQ3BOOVh3?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T10:43:36.000Z",
    "keepDays": 21,
@@ -2017,7 +2386,7 @@
   {
    "title": "How to create a commercially successful immersive experience",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wOEJ2SjBfUHlxTjNBS04wZlNpcEw0akgzeENvUksyS2FWM2dGdE9OaE1TSXZCczBsOTBlelRtWlRoSjhvSGU2UUwyQ0F6STdfWW5uMmFJbW0zYkVxREl4bEJidEY2d25DUmRUcW5ReXZTb2RXTWdV?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T09:58:30.000Z",
    "keepDays": 21,
@@ -2053,20 +2422,11 @@
   {
    "title": "ixigo’s rap-led campaign urges Gen Z to explore India with fresh eyes",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSDBwaUtodjhoQ0tyVDhENmdNeXhxRkFTVUpUUTNIVjBiVWRTaERlTDY0dlhWQkM4eHdLQ0NENWFPMS1KRmxCYTBzaEpGSE9Nb2tWTTJXa2hySnJiRlRCZGdCYzJxcHVId2ZmaUJHMGVyaDNkVlNWdGxvbzQ3VXAwOG5nX3VoQjF6YmFvWHphWHp1aXZVdW1MV1Rzb3dwLXhQSDBKMm5MNVNyYzNObm5DLVdoUmRQOG9VUXVVaDJ5Y25IUQ?oc=5",
-   "source": "impactonnet.com",
+   "source": "IMPACT Magazine",
    "category": "India travel",
    "publishedAt": "2026-08-13T09:29:52.000Z",
    "keepDays": 21,
    "country": "India"
-  },
-  {
-   "title": "24 of the world's best flying theatre attractions",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aZjN2VUs5QV9HQlJDWHZOcHF1NExON3ZrTm5GaXlWNC00RVczNnJSQTJIM2kzd0N0dkloSHdYS0N5dkVsdHh4WF94azJobUNVLWxhSV9peG1DMWd0ZlN1UWNab21QU2hQRmI0?oc=5",
-   "source": "blooloop",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-13T09:28:24.000Z",
-   "keepDays": 21,
-   "country": null
   },
   {
    "title": "Convert 5 CRC (Costa Rican Colón) to AXS (Axie Infinity)",
@@ -2107,7 +2467,7 @@
   {
    "title": "TUI stock holds steady after Q3 2026 earnings and guidance reaffirmation",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWktFc1BGNVcwbnpMek1BcTZRNS1FdjQ5X1JmZGl1UFpHSVhOb0pzZk02TFRVd1QwUWRvZDRwTFlVRUFvM2ZpWTN6OU1lSFZPdDZiN0FCa1VJUVZTaFFNLWNjVzFRZlZGZ05ORW0ydDVSNnVSRDdWOTA5NVIwQ19YMVlhRFBWd20zNkdhSlRtYWVnMzA5ZkNXVzQzNzFFeFptRm5OR0lyZkc4VVQ1dUlfTkE5TkJNNWE2NmhuaDRCM1hxVlJNaFlsWmZXRWMyS2px?oc=5",
-   "source": "AD HOC NEWS",
+   "source": "ad-hoc-news.de",
    "category": "Experiences economy",
    "publishedAt": "2026-08-13T08:07:31.000Z",
    "keepDays": 21,
@@ -2132,6 +2492,24 @@
    "country": "India"
   },
   {
+   "title": "24 of the world's best flying theatre attractions",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aZjN2VUs5QV9HQlJDWHZOcHF1NExON3ZrTm5GaXlWNC00RVczNnJSQTJIM2kzd0N0dkloSHdYS0N5dkVsdHh4WF94azJobUNVLWxhSV9peG1DMWd0ZlN1UWNab21QU2hQRmI0?oc=5",
+   "source": "Blooloop",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-13T07:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Iceland in Summer: The Ultimate Travel Guide",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3lxd1NTX0F2b1BVWDdpVjVkcWxwcjRRYnJLR3p2ZUxvbkJnMk5Jd3pQMjBhSjY0UjAyV3EycU15RTUtQXhSX1NVdHMxU3h0cWtTZVNSemRVdmdvUHJENjBVTUw1ckVDQmYxZWo4TUR6WGlWQnRaSGw5cnprbW1UME4wN3Z6S1RKZFNuYnF3?oc=5",
+   "source": "Guide to Iceland",
+   "category": "Experiences economy",
+   "publishedAt": "2026-08-13T07:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Ixigo urges Gen Z to explore India’s hidden gems with Independence Day rap",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR2czVEtYSHNNQk5fSEFBQjkwVk1qSTJYcnFSbjY3Q2kxa3pPdlIzUTJUTzlJb0VrcjZYNjRiUjdrd0Zqa2FRRFE0SFMwbnFINlBuZG1xUEFKN2JWTmFSYk55Z2ZYbVdDRDkwYTFJcUtLR2ZOTDRXbERocTE2VEhLeGZ3NUNLaWY5c2tYOUJVWW1DemJlRWtmTm5aMFlqTjMtVWdJeDZ0eFBubms?oc=5",
    "source": "Indian Television Dot Com",
@@ -2139,15 +2517,6 @@
    "publishedAt": "2026-08-13T06:49:33.000Z",
    "keepDays": 21,
    "country": "India"
-  },
-  {
-   "title": "Kantoko raises $3.5M seed to fix Australia's ADHD treatment bottleneck",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVmtvbnd3UUFwU25SVHdRcTJsOFA5Q29SbGFiT19WVE1hdy1jYjFLeklfWGZqN3lHWFRuSWtEVllNVkd6Q3lkTTRvTkh3THMxbVNkMUVldUMxWWhCMi16dTZvN0xMcFg0QldjaEQzb1hhUFM3U0JEYlRKUlBQTk9maUswcldJZTRwRDNrc09EMjdVc1Z3UWxLYjV2SE1GSjBzV01uQUtn?oc=5",
-   "source": "Dealroom",
-   "category": "Travel tech & funding",
-   "publishedAt": "2026-08-13T06:34:20.000Z",
-   "keepDays": 21,
-   "country": "Australia"
   },
   {
    "title": "Australia’s ADHD system made him ‘snap’. Now he’s raised millions to build a new one",
@@ -2162,7 +2531,7 @@
    "title": "The challenge of keeping AI-generated travel review summaries accurate, objective and useful",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLVN4LUpRaUlYOHZfdU02YkRELWVSeEUyX3cxdmlRcmFpSExxOE04TUdaLW9ySkthNVhKWGFzN0ZSd0pULUFKdnp2cHlCbklGRjU1dnFEeTZfcGlhZHRoX0VXS05jbkx4Nmstbnd3RC1fRThQd2c0QXd2QjFrdDFrakUyVWF2ai1aV0ExbWdvNG8zc2hzdFlJNm9WSkdoMHpQcVBtZ3JWdjU4OGZFbVM3bEE5VUtYckxmczZTZTh1bmcwQQ?oc=5",
    "source": "PhocusWire",
-   "category": "Experiences economy",
+   "category": "Industry reads",
    "publishedAt": "2026-08-13T05:04:56.000Z",
    "keepDays": 21,
    "country": null
@@ -2179,16 +2548,25 @@
   {
    "title": "Yatra Online consolidated net profit declines 97.88% in the June 2026 quarter",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUDlhV1dIdFhMc3NhWkRtR1FyTHRxSFRKNGlsUnlVMDdPUWZJZ09DYlduNDFJeklFdUhXYl9hN0lXS25VWnF5YzduaDMya01OdnJMS05JenlYc0kyUVM2eTV1UXY4U24ycm9sbHJTZUhlT2M3YWZQZjFwVGYydVliNW5iempiOVlmT0E0Q2xpU3JKVlBqU01kRXhWY3J4YTE5ZG5OcHRMaDdtLXVSM3hDbDRmSUpTVEFUNkhQVmtHdTkzS0JFaVpnTks2eGxZeFZoRFJHTWVsNWNKb0x5NDFiNXhBWDZLR2FCZnBGbnVkONIB9AFBVV95cUxQT08tS2hpYjZaWjdGeUdNOWtJczRfR2l1cTZDTVNMSTZmSjN0VGZuWUpoSW9OZDZfSVlsMFF6VDZIU2tqamNXajRINTMwYjdJNkhhcmlRenRYZjRpaUgwSExaVXNkb25KZFFQdy12WlRSRXFEMzJkM25VOFRKY0tvNC1PelZPWjB3MThpTlhfNlB2UGxZejMtaTZodnZmWkpzdFpnV0hJWnllRGs0cExwQXhZeUpqanJWUU5YbHdLOHZPWW5nN2RlMHE4VVRLYkhjVWFnX1lzSmwyeEpCNjQxQWgyMjJWbTIwUGpiTmd3OUJXemN6?oc=5",
-   "source": "Business Standard",
+   "source": "business-standard.com",
    "category": "India travel",
    "publishedAt": "2026-08-13T04:18:39.000Z",
    "keepDays": 21,
    "country": null
   },
   {
+   "title": "Yatra Online profit nosedives 98% at 34L amid weak MICE",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGRyQU51SlZTRGM1RnZQcGxzU3NNTzYwdHRqUW5RaHFDNzFjYXdpRW15Y2xjZm43R1RJUWlkTWU3ZG9wc1k4WWQ3NUN0ZHdMVk1ZdXhueG5vQlBlMVVTYlhVQmtzaW1SdWJmVHlfb1h2MmFsQjhCSEFkTlY3aVNrZlpUYzBHdDFURnFJNjBqUmFHMzFseDg1bXBsMmhCeEE4V085ZQ?oc=5",
+   "source": "NewsBytes",
+   "category": "India travel",
+   "publishedAt": "2026-08-13T04:04:19.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Kathryn Gallagher Gives a Look Into Jagged Little Pill At TodayTix Concert",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3FLbTV2UUc2OEkyMXFIVHdGZnVTMF9JUnFvY3JyendCUjlkWkNnazlWVlVnTW9KNlg2RWhxUHNJVkFqdTM2aGVOY3VTOFBDUnR6WDMzOHpqcnFKYWJIOWplRW11YkZVSzg5YjRhV2ZyTmVWSUo2b0ZJOUxfNm9COHlEYTdKLVRKbS01Y3lweC11M05DOFBIdmN0UUNmUQ?oc=5",
-   "source": "Times Square Chronicles",
+   "source": "t2conline.com",
    "category": "Competitors",
    "publishedAt": "2026-08-13T03:54:35.000Z",
    "keepDays": 30,
@@ -2233,16 +2611,25 @@
   {
    "title": "Entravel Group Raises €6.5M for Travel Infrastructure Stack",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2hmTDlmVnJMZVBBVVA0RlVWaUxNMlFvbWZQaGVQRzZac1hSNE92SXYtNVJONnZoUTVCQ0c3TExFWGZrQk5IS0pONjd1bzU5emdZcjg3R25xaWlCRndtMHpaTWRJcUhPLUJLTkVXcFJaVC10UmZlbmVOc1I4SUE3em5NaGpjT0p5WnhZQ3U4bDQzbU83a014UDBR?oc=5",
-   "source": "N24 Haber",
+   "source": "n24.com.tr",
    "category": "Travel tech & funding",
    "publishedAt": "2026-08-13T00:16:52.000Z",
    "keepDays": 21,
    "country": null
   },
   {
+   "title": "Convert 100 DOP (Dominican Peso) to AXS (Axie Infinity)",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CeUFHRENaMTEyTFJSYVZ3QTk2TWR5QXl5QWhRdjZYb1F0bm00QTMzZW1hbjFVcFpMVHNIa0syeHJIQzZISEZESXl4SEVUNUdUY2NxeXd5YUcyaTlX?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-13T00:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Watch Birkenstock Rallies on Forecast; StubHub Falls on Earnings | Stock Movers",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNalpaVlhoU3ZzdTF3cE9ZVEtQN2ZpLV9YMnZRaGZHZkdpR2hGOEFhQWl5cFF1RWR2MHMwdWktb1RRUWJPV0NOSjVPSGFMd25QVFJtWWFnaEJlSWotRjN6djdKZFRQUEtQTGZvd2k1S3pDeTIwUUZWVEFpYjFiQjU2QWR2WHFHUzFubGZvTHkxRmZKYXJfQk9UTHJhbkFWaVBzcFE?oc=5",
-   "source": "Bloomberg",
+   "source": "Bloomberg.com",
    "category": "Live entertainment",
    "publishedAt": "2026-08-13T00:00:00.000Z",
    "keepDays": 21,
@@ -2314,7 +2701,7 @@
   {
    "title": "StubHub Fails to Turn Profit as Costs Outpace Revenue Growth",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeHlhODllbnpjaFNvSm9rZ0VoaDZmVGxybXotckNhTHg3UVNwZThFWHRLdVF3OEZweEE3eDBOY29hMlZLcmt4UFB2OU4zOXdxdDhrclRzQjljUVdmQ0poMGRHRTF4czF2alZQRUQwNjgxZlFLYXN4eGhCc3pzSFNPajY1aWVDTmhvU0ZwSF9fS0kxY0NDMENMMGhwTk4xQ0xIV3djbWFqcFdSY2c?oc=5",
-   "source": "wsj.com",
+   "source": "WSJ",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T22:29:00.000Z",
    "keepDays": 21,
@@ -2375,6 +2762,15 @@
    "country": null
   },
   {
+   "title": "Live Nation Subsidiary Files Lawsuit Against Overseas Sellers Over Counterfeit Band Merchandise",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdFdTdXJFaEEtSnlGdXE2RUdDQTJjUXJxbXZtYlgzelRvWEx0QllsSHZFT184NVBsaElFWXgzbENGSm1lSkVIa0xpRGZ5UmdPQ2E4UHEydDVWU1l3V2lXNnlSZHZvbnhaeUtmZDVUbG5TOWo2UWtfMVBHUFNVV1M0RzVhV092NWNnUUsxMjM3X21qc2dMWFpoRzlrUWsyRjVjTjlrVDFpX3BaemtUaS14dmZ2NGVYNkJoT2dicnVmWDhscUpxVzIteHV1VzRvUQ?oc=5",
+   "source": "X1075 Las Vegas",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-12T21:06:15.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Sphere Revenue Jumps as ‘Wizard of Oz’ Ticket Sales Near 3 Million",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb1NEdjBRUDdUNnVLUVpPczNFems1YVpOQjF2RWNsQlpUVjJGWlhEOGRkNTF5WFRzLWY0eEJ2cWpwRW5sWGNubzJ0czBFOFNrQzVFTFFuV05MTEhFZmFuNUcyRDdwYWZac2MtdWtjYWxQRzd5Q1p3SWNaZUpmbnhrZVc5N0trTHZOclF0RXpvdFMxZVY5dmg3SG81akFJd29lcGc?oc=5",
    "source": "TicketNews",
@@ -2404,7 +2800,7 @@
   {
    "title": "StubHub Sinks 15%+ After Hours After Failing to Turn 2Q Profit",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOV9mMUhidkxadkFuVWZ5Yjg1WHpsWDNKaVZRZlpDVFd5NU5iTjZLV3dlNF9ldmdZWnFTZmNNejBpSUFyZVJKV3g4b1RJMlZqSDc1bF9TOVJtSkM0ZDh4Tk95Ml9XWEFHVm5idE1fSXJTVEd5cVNRZVVQNTFYZTNVU3NkcXgwSEM5d0syaW80dGozRVJJS3BGN2otdw?oc=5",
-   "source": "Moomoo",
+   "source": "moomoo.com",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T20:57:00.000Z",
    "keepDays": 21,
@@ -2413,18 +2809,9 @@
   {
    "title": "STUBHUB ($STUB) Releases Q2 2026 Earnings",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdnVkYlR3NTM4U0xOUnBKUGNLZTRlelJ4dXNtNVo4dUllb0ZZSW54WnVmSS1lY3RzSVZtckkzRkY0dk9vSzhkWnVGbVlCVkNVQXFoeFRNU2k2bWFwQ2Y3RDFPWWtpdm5BNGk2MUhFSmsydnRXRFQ5V2I2TlBydkpuVklybkx0TFE?oc=5",
-   "source": "Quiver Quantitative",
+   "source": "quiverquant.com",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T20:55:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "NC Attorney General Presses Ticketmaster After Stanley Cup Queue Failures",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdVE5TDlPZ1hEckROQy0yd1RZR2RNU2UzWkVhZGtBVjRPaFlOcjY1SXVHZklzcmxTQlRfSDNiWV9qRUVFT24wa2htZWwzMmFtSkViU1ZrSVk5dDJpWmQ1MWhaRjl1dmY0cmdNYjk4S3dUMEdwU1d3N0NCSmU4eXlHaVFKbHRheFZDUHVTQUt4dnNwb2E1QlJHWUx4N2xRNmRxNjluZlZHSWstYkZqbVE?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-12T20:53:49.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -2483,6 +2870,15 @@
    "country": null
   },
   {
+   "title": "StubHub: Q2 Earnings Snapshot",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQmEwOVB2bkw2OU5lM2JlUURldEcxNFdlTHZpdV8tczZ2dWdLVVJsMGxFYlNYbDFBV2dsd3ZjdDAyZHZJZHlhZTlsLWdvdGIzT2UxTGpuNkNmZVBDYVl0WVNlX3JrQmJOQ0FXc0NCQnM0dm5uT0Z2NS1fMzRQWmlrX0laMHdHcktFa0Z2ZnhXbENXVUZfNVFCMDRSUmhzVjVIN2Q0cVRMOVFtUGRqNEhqcng2NnQxMEMwX2Q5YTVUZEM1a3Nr?oc=5",
+   "source": "KTVB",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-12T20:34:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Earnings Flash (STUB) StubHub Holdings, Inc. Reports Q2 Revenue $573.1M, vs. FactSet Est of $513.3M",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdVZsR3RhZ09QWGlXWC1Ga09Fb3JCVXdfMmVvNlo4dy1VbzZzeDM5SzBPalBmbEk5SGFHblpLTjVNeWRsWXVYbFJyaG9xXzMwZjR4S09CcjgyaGMzWnFPajcxOGpIdTdvQkF6bG51a2hxX0pPOFNsWjdqWUt6b0xaTWtGWGc1NWI0aHNEbElXVHUxTEV2UmNpVWVjYWo2VzZtWmgwdy1DV09JWHNFLUYyYV9ETHJBdmdWVmp6b3FRSGR6aVVLWG5GTVpFYjNldzA5RkZuNkhCcWVLd25t?oc=5",
    "source": "marketscreener.com",
@@ -2492,34 +2888,7 @@
    "country": null
   },
   {
-   "title": "TicketSocket Partners With StubHub, viagogo on Distribution",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONU5KSVZiLWFocWNMQVBvei1yMG5mSFkxb2NfUmUzcVN0UUZKSE5JWW54Y3RxN0FjUUlTYVpfSEp2ZUVodFdBMnJ2Wk0xS3BHX3pjd1ZaVXFXX1RWQUQ4SXU3TmlhN285UlNRbjUyYi1iV0xFTXIwQWlES1FoRmNjRUhlQnhuN2tCM01OSWNkNUlXQzB0X1dRNTl3?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-12T20:27:21.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "USA vs. Live Nation Entertainment - Government Frames Ticketing as \"Broken\" While Ticketmaster Claims Fair Play",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZWhFMkNWQUtHRUdvMFRRSU5aRUt2bnJZTkpkN1ktdFZEZXgzWnUyTFQxbEtJMTBad2t3V3U5MU9WRVNBNzZfQUJtRDZxa25HTDJjaWVrd3lTYlFHLW8tMkZlSnRjVEJtN3ZlUGo3STlFUVlzeHBpS3N2TDRRVm81Q3NSNk9URnB4S2FiQi1sSzNPTkZUMkZyZDBSYnQ5S0VHSFZtMFE4X2NvU0dhSndlVVVHR0NvNzEzUFlDWVBmcnZuS1VaVEZLQ0xsV1NlSy1XdG82TUVOamxvdw?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-12T20:25:24.000Z",
-   "keepDays": 21,
-   "country": "USA"
-  },
-  {
-   "title": "StubHub Commits $100K to Send New York Youth Teams to Pro Sports Events, 2026 World Cup",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOVc2ek9jbm9VNlBoODNlcXZjbG14eDN0VzYzSUNCWkdjanpKNHEtRzdEeHh1QmhLRzZXdmlvQkQxc1ZobkIyWWlCX0hELXhZczk5US03YmVOTUhOZnhEaVNINlZWcU1vcUs0Y2RFVFgza3ZUOVNjR3pWZWRUTHdmd1FnbGp6VldMV19ZYzkxOA?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-12T20:23:44.000Z",
-   "keepDays": 21,
-   "country": "USA"
-  },
-  {
-   "title": "Yatra Online Q1 Results: Net profit falls 98% YoY to ₹3 Mn",
+   "title": "Yatra Online net profit falls 98% in Q1FY27 to ₹3.5 Mn on margin pressure",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZDRKUGc0ekNiV0dmTllfbS1GeFlCZEp5NnhjY3lJUVB6NS1WQXF1elhacVhBQzFqZVFJLUhpMTNLckZ5WlZCM2tWNFFVZXZSTUN0bDNTTG14b1FpRXBxejFaNHl5cWVJYTBOODNtaWFGT005dTc4VWExa3JpVTZzYWNEQnY2Q3JmZ1ZzdEgwVEZEYzZIX3I1R2VfdHhZanRqVUpnWkl2dERTc3NXNkE?oc=5",
    "source": "scanx.trade",
    "category": "India travel",
@@ -2627,11 +2996,20 @@
    "country": null
   },
   {
+   "title": "Bangladeshi GoZayaan Startup Shuts Down Pakistan Operations",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wdUhVWTRYWEt2bVBQNkZkX0VKSkk2bjVoNGczcE5IU1ZBSnlHaUlRLXA4Y012YVFoUnE3RlpsbkRBek9ORENqRVVrb0NMenFtTllILXJZSG9Kc3B2YnNJRGlDb1pzQVVjYk9ldGE1bEp5Vnc?oc=5",
+   "source": "TechJuice",
+   "category": "Travel tech & funding",
+   "publishedAt": "2026-08-12T19:00:19.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Karol G Inglewood tickets: Last-minute deals for SoFi Stadium Aug. 14, 15, 16",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSU1UTmxzZHg5alZMMlRLV0V5d2ZseVBsNWxFQUpUQ25OVUdESGJyeTFqNVpNTG0yRFdPYlQzbWVXSVZMcGFYbTVoYjdKbk9HOTNfeWZGMkN0dldRN1FoR1ZIWFJHbk92c3A2bk5jU0xlN2JXZjV1QmRTbGtEeHViR2dtMHBybWNSSXJsVFlRR1ZWbkgyb3JNWXVRYzJKaXJYQ0NWVHlrdU9rUklBUk9LRmlxUkZEV2VRUGRZR3ZYMklQR1pxRXlLbk1CONIB3wFBVV95cUxOTG44dl9LdTdMUmxhZ0NVNnhYby11Y3JueUFadjFXZjZ1MVhIY1BOREtiOTZKU3NrM0JMNkNNVXhERGNQOUY4QTdtNlRpS05aaXk2RUVvVWRIck05cXpDRktxN244S0JTOHgzUHUzWGlXb1ZzNWYtTlV5T3JUNHh2cFA5T0d6UXlyVkZaY2ZWdmZTaTBRU2Fhb01keGVrOHdPSmptZTBHMllyTVVoMkxQMWpMSG8tUlNXeFF0a01vS3licUVKalM0bF9HazZKQ2Vod01DZ29CQTl2Zl9jTHV3?oc=5",
    "source": "Cleveland.com",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-12T18:23:00.000Z",
+   "publishedAt": "2026-08-12T18:25:00.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -2679,15 +3057,6 @@
    "publishedAt": "2026-08-12T17:04:21.000Z",
    "keepDays": 21,
    "country": null
-  },
-  {
-   "title": "AXS Backs Independent Venues With New, Renewed U.S. Partnerships",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVUVQZXRXTmo1NnFkVnlWMUpzbFhZSjl2ZUFMRmVEUjJONjBJVUpHRjNRMnBCN3YxRElRc0hVUEpCSTBkSDVrRExZVFRNQVhhMWFnSHUtOVAwQUFnanNXN0Fhd1FwR0Z1dGljbFhnYTF2RlRzNWtXY3kyU0R5Umo5QmRTWUthcFRqdmlIYUhiVUhJbHc?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-12T16:56:55.000Z",
-   "keepDays": 21,
-   "country": "USA"
   },
   {
    "title": "Yatra Online Limited Reports Earnings Results for the First Quarter Ended June 30, 2026",
@@ -2738,7 +3107,7 @@
    "title": "Airbnb will integrate tours and activities from Tripadvisor into its global offering.",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeDc5cDR3eFI0dmdPN2h4Zkt5WjA4ZFQzdTVFNXdKN2QySXpNOUZGbVg3YkhIM0dJVUV5VkFRcVR2VVlpcVNpZDV3TWtYRktrZ2VuSVhlM2d4WUxpZUphZnU5VGNCdFdxVmM5N0JUZm1CaWZrTk56aDVueDV0S3BqSVY4bTB5ZW5jTXYtSW5rTTF6RWY2anVsaUNQejBvdGxTUXBWd0IybFdMNEpvdG5iY2ZDeU1jTGNaZEJ1cG9qdGhJMWvSAcMBQVVfeXFMUHg3OXA0d3hSNHZnTzdoeGZLeVowOGRUM3U1RTV3SjdkMkl6TTlGRm1YN2JISDNHSVVFeVZBUXFUdlVZaXFTaWQ1d01rWEZLa2dlbklYZTNneFlMaWVKYWZ1OVRjQnRXcVZjOTdCVGZtQmlma05Oemg1bng1dEtwaklWOG0weWVuY012LUlua00xekVmNmp1bGlDUHowb3RsU1FwVndCMmxXTDRKb3RuYmNmQ3lNY0xjWmRCdXBvanRoSTFr?oc=5",
    "source": "Demócrata",
-   "category": "Competitors",
+   "category": "Experiences economy",
    "publishedAt": "2026-08-12T16:02:31.000Z",
    "keepDays": 21,
    "country": null
@@ -2791,7 +3160,7 @@
   {
    "title": "Klook spotlights group trip planners with new brand platform",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BcjU4Sk5KNkxEOVpGa1NPeHVDbWZTQm1jYjI3N1RmNmVvMllMa0hEM1RHSkJiY2JXNnVkMDF5SG1nYkFDQXlvLVotZ1RhMkZ4SVpyY0FGWVIyc0psSHJJ?oc=5",
-   "source": "contentgrip.com",
+   "source": "ContentGrip",
    "category": "Competitors",
    "publishedAt": "2026-08-12T14:49:30.000Z",
    "keepDays": 21,
@@ -2809,7 +3178,7 @@
   {
    "title": "Sea Expo Connex 2026",
    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PbXZhalB4c3VUME02SlpqdDFZSG5RVE52SGI3NWdON2czSXFCak9nWmpTYzNHV2lUZGNJT3Q4c3RyX2RxVkY1MTB6dEh1QzVtcmRseQ?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T14:30:53.000Z",
    "keepDays": 21,
@@ -2844,10 +3213,10 @@
   },
   {
    "title": "StubHub earnings loom as profitability, legal risks collide",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPelg3Vl9hYlJnZ3l2dnY5NG84ZEphWEZ0Q3pWVG1FUWkwR3J3YktnZjU2SUtGRHNFWUljNGE3eEpQN3pVY21DQ0g0aGRra1Q3TWM4Y2pYcXdCYXpydExRWlkzWGJlMXJUT2xmaWpGTDNqNGU4eDFWaUIwdU9KNUJUUG55YlZWMzBPXzA2QWhDdWFnZWpIU2ZvMkhBRnlJZVNIWjg5Wmo0Vkt5UHlzc1p1SG93bU1kaVlGdFBF?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObWpUeUhaSFRKMGlWVmM2alZnbWRDbml6UExqekM4X3ZHaGthWW1hLURTY2NlTXZFUnEzZUVVa1VsMTJGUUVqSG1xY2tLOHV4SWpKekhqNzBMdVloUzAzV0dnc1dYcDBLM1ZXamlCT1lyWUVOeVZvVFZLc1N5OEtURmFkaG5ZdTliOTJxSzA4dmhmVUFXc251NWFDQ1k3OVNUSDJxdGEyT2QtbmxUMHJUeQ?oc=5",
    "source": "Investing.com",
    "category": "Live entertainment",
-   "publishedAt": "2026-08-12T13:54:00.000Z",
+   "publishedAt": "2026-08-12T14:09:48.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -2879,15 +3248,6 @@
    "country": "USA"
   },
   {
-   "title": "Opinion News, Articles, Links & Posts",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yc0VNYVZyUDVrUE9PdFp1SW1uR3ZRb3lfaHV5Zk5XNGd1MzJCVTFJTjZxRE5jT0pMdzVyYTRYTUwtejNfUndFT3N5LURydVk?oc=5",
-   "source": "blooloop",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-12T12:58:35.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "High-Paying Foreign Guests Are Still Missing in India, Oberoi Hotels Says",
    "link": "https://skift.com/2026/08/12/high-paying-foreign-guests-are-still-missing-in-india-oberoi-hotels-says/",
    "source": "Skift",
@@ -2900,7 +3260,7 @@
    "title": "TUI Group credits AI-driven cost savings for Q3 results",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lR2Fody15MEdONU9DdVZQcnFSWTctQUJTS3dlQjZ1UTJRZ0pVU0NOOHdad3NPSi12STNFRXRKZzZmc3RXQTJBTExINi13QU10cFgyR0VRZFBVSmpiQ0RGVnI1MTRFSzRyczROS3BQY2NRYlp5aFZhdUNQZ0xuUQ?oc=5",
    "source": "PhocusWire",
-   "category": "Competitors",
+   "category": "Industry reads",
    "publishedAt": "2026-08-12T12:29:01.000Z",
    "keepDays": 21,
    "country": null
@@ -2938,6 +3298,15 @@
    "source": "Investing.com",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T11:59:50.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Rob Light on 5 Reasons Touring and Festivals Are Here to Stay",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQVFTc3hjOVNsY2ZLLWNJNnRmTlBXbTlhX3ltc294MkI3bUdKdUh3VlkxZFdNSVN1T0Z1UmZzV01fSzJlMlZmVC1NelBpcjV6S3pTTGNGbk9DSmQ4Q3JnV0hFNFN0RF80aFctQnJ2SVBfMTQyQ3BidHdXZGpjWHFWTDEyWXZZZ0Z0d0NQRTM4SjVpMGJHMDIzcmZWSGIxcjRPb2N2Z3ZmbDljZw?oc=5",
+   "source": "The Hollywood Reporter",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-12T11:58:03.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -3016,7 +3385,7 @@
   {
    "title": "UK's largest Harry Potter shop sets opening date",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0U1BaQXpjTy1zenE2LThSVnFOQ3VKeWZuSmxqZnI5UFVHYmhTVmZaSVRDc3NyOWVldFdxZmc2TUN3VDdkN0UwaTdZUmp6Rkx3SmVJdXdTVnBCcmhrdnE4N3MwODVVVkFaMkN4Mw?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T10:44:16.000Z",
    "keepDays": 21,
@@ -3044,7 +3413,7 @@
    "title": "Airbnb partners with Tripadivsor to scale experiences",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGeUZlZ0xYeF9YNHFGYUNwWVREbDVQazZPdFV2V1o2SmQzZHB5YWw2U2VmUC04T19TNGpqR19kNVNJNzdtOGhtNWc4ZUNHOFhCeWVnWFA2RlFqcGNYSkFhSmpsaXpKT0ZuT0x0S0xnWEwwWG8?oc=5",
    "source": "shorttermrentalz.com",
-   "category": "Competitors",
+   "category": "Experiences economy",
    "publishedAt": "2026-08-12T10:13:22.000Z",
    "keepDays": 21,
    "country": null
@@ -3088,9 +3457,18 @@
   {
    "title": "Downtown FabWorks named on 2026 Inc. 5000 list",
    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yR3VTVVhCa2JjMjBzQUI1UVEzN1N4ZE1PMkRSU0pyUVI1Q0cyWmsxRmZqMjM2Q3ZadlE3QWRWSmhnUS1LUjkzU3Y3b3VLQzB6V3I0MG85elI5d2YyTnotZ0d3RQ?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T09:39:04.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "[Expired] Capital One Shopping Deal Alert: 39% Back at Klook [Today Only]",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yb2dLU0VQbnllU1NsMEpLdzVLQmo5QjN5bGRqR3gwWlBEWWRGX21QWE1jWEdfMWVjQmo5dDdGZWNKcUNrTGRoVFppS3FQMzY0dnpFMnZ0djZJZDlyY3VyNDgtbUF4NXo2c1FuVHhjR0MzOVk?oc=5",
+   "source": "Upgraded Points",
+   "category": "Competitors",
+   "publishedAt": "2026-08-12T09:37:08.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -3129,6 +3507,15 @@
    "publishedAt": "2026-08-12T09:12:15.000Z",
    "keepDays": 21,
    "country": null
+  },
+  {
+   "title": "AEG Presents Partners With Creativeman To Expand Live Music And AXS In Japan",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbUtGclVkQkViWVQ2NUNUa2VxOE1Fa2VtU1BWdDVPa3FURmFXdkE4YWhnVGZlY2x4Mm5GemhOVFZZVnhyYWU1WTUzU3pmQnFhVGljWEV6WDVoMTRDc0h0cl90QS1pSXotSW5zbmdCRTJMZkdOTjFNYXdXcS1BNTBKY2lGeFRFV01sS0MycWEzb3VJYnRmb2ZKd04zdWd4Z1NzSW5SZENaVlFFWXh6?oc=5",
+   "source": "famemagazine.co.uk",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-12T09:10:47.000Z",
+   "keepDays": 21,
+   "country": "Japan"
   },
   {
    "title": "Klook Launches Global Search To Reward Five Travel Planners With An All-Expenses-Paid Trip To Switzerland",
@@ -3187,7 +3574,7 @@
   {
    "title": "Spice Lounge Hits 10% Upper Circuit After Bagging Live Entertainment Deal Worth ₹21 Cr",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1JQcTdpNVZONVlvVENRUEktWDZCRjk5RVMyc0w3cEZSOElveFJSZm1uUlJncVl0X2lja1ZoYzRrNGY4cWtYLVVwc3lfSUtNTVlhT1VPR0pSbmZyQTF5eG9vZ3c0OHR0RlNrZEhBZ1ZFd1FsYzAwYXZVcUg1MGQwRFN6YVlLODRnTE5seFJzNHQ0Tm9lWEJuUHpoV29ZNnlfQWxvRWtsMjYyUmRX?oc=5",
-   "source": "tradebrains.in",
+   "source": "Trade Brains",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T07:30:00.000Z",
    "keepDays": 21,
@@ -3199,6 +3586,15 @@
    "source": "Billboard",
    "category": "Live entertainment",
    "publishedAt": "2026-08-12T07:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Opinion News, Articles, Links & Posts",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45YXVENXVjR2dCYXVHUHFaakptR3N0NEMtUEJCNXJTNnFrNFNPOFNDUjh6VHBDaEJYRWpTZHQxaFlPUUs3bmdUMHE4VV9tbWs?oc=5",
+   "source": "Blooloop",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-12T06:54:17.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -3232,7 +3628,7 @@
   {
    "title": "Klook launches new ‘Get Your Travel Right’ global campaign via BBH Singapore",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xTllfMlFfT0NEaTBvWTVNUmVfVWxCaGlDLUF2b3gzMWM5Q183M01GTDl0OXZoUXNXWDZ1eTl4RUFkUUZyWFVMdm5UVjQwUFhSUlFDUkItZVE2TlhyUkQzemZnb2Y1THotaTdDYkZhbFJPTjR6aUwxUngyRk1jdw?oc=5",
-   "source": "mediabrief.com",
+   "source": "MediaBrief",
    "category": "Competitors",
    "publishedAt": "2026-08-12T04:51:00.000Z",
    "keepDays": 21,
@@ -3253,6 +3649,15 @@
    "source": "Nomad Lawyer",
    "category": "Competitors",
    "publishedAt": "2026-08-12T04:24:14.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "2026 MLR Championship Match: The Perfect Season vs. The Fastest Rise in MLR",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORWV3SXRoYW96ZDF5TkFiMlFTVDlDUDYtNkFHTEozUWVWdHQzeWd0M1ZfYTZIZWNmMUpTQkZDeHdaSm5RSDRXTEVWb1BNbEZNbVBvQ2dRa1pNZVR1V2FiSllKQnlZV0JDdVJfVE5BNWZQNU0yMzJUSEdEZDJlTEtGc1pXNWR5TzZIMFd0NnBPWmhhcGVTZTlLQ0doamd5TTRuOVpINTQ0MWRqRnpM?oc=5",
+   "source": "Major League Rugby",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-12T04:09:05.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -3356,6 +3761,15 @@
    "country": "Japan"
   },
   {
+   "title": "Convert 10000 BRL (BRL) to AXS (Axie Infinity)",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VLW1lTDQzbXVrbC1tT2xhcUZYMjJjMjNMNWJPU1JfaE93NWYzRml4VV9uOTB1aVh3LXBOUmhTd01YREhNaGZxZkNxaE4wR0tyVVlITFU0dldJZkwzQjhv?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-12T00:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "TripAdvisor's Visibility Into Recovery Remains Limited, UBS Says",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS1drV2I5VF81RGc3U19vam5ncDUyenZHWi12Q1RNVk5jZm1ZamM0ZXRQVXBHU05LOHM4MWRieDlXQkN3dDR3UWZMQ2dPMkNqcWRtVEVZTjRoQjBlRkk5cGVTN3d6MS01QkJQZzBRZ0J6LU5hV014X2ljSnpSOFJRcDlyX3dvWDVDU3lVTkZ3NHEyMF81cU5LNkdxRVIycDA3elU2SmZ5X2Q?oc=5",
    "source": "Moomoo",
@@ -3367,7 +3781,7 @@
   {
    "title": "The StubHub Customers Who Battled for Tickets—and Battle Harder for a Refund",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfUGQ2WHBuZ1pWSWZtLXpmRVpjUDB1RTd1QW9lcFBzSWxRR0VVWF9XaXhOQzh0U2NIUlYxZzNVc3F0dHE1aEhhUVpyMDhYcVl0S25NaHpFdmE3bzJObUw4WjNyQ0RPZlJVcFRXeXBJaEUxajI3U0E?oc=5",
-   "source": "wsj.com",
+   "source": "WSJ",
    "category": "Live entertainment",
    "publishedAt": "2026-08-11T23:00:00.000Z",
    "keepDays": 21,
@@ -3386,7 +3800,7 @@
    "title": "UBS Sees TripAdvisor’s Experiences Growth Losing Momentum",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ0VacjliUldMTjhzYUpCemZid2d4eTRQNFVuN2JZclI1c2FOOVpWOHhIX3lPckRYNU9kbTJSX1NhM3gtb3lxS3VDVWJRZVY3UjZBeGU0MUVLVlZjZEU2WkNyTk0xOHRfX1Rmd3VnS2ZfeWZvUXpwaEdIc3NyZm5vQXdCOXZjSUJRUXpRWm9n?oc=5",
    "source": "Finimize",
-   "category": "Competitors",
+   "category": "Experiences economy",
    "publishedAt": "2026-08-11T22:29:11.000Z",
    "keepDays": 21,
    "country": null
@@ -3545,15 +3959,6 @@
    "country": "USA"
   },
   {
-   "title": "Stateside Live! Unveils VIP World Cup Match Day Experiences in Philadelphia",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONFJsRl9Rc3hmMkEtclBsamZwNW9QTldENHR1ZlpRblE3RTJEdjlGa0h6UWduWXF4eGwxMlpDcG0yM2RNdTBodEtBSjQ3TnJONHFaUEwzenh6bjRXMlNhbGxSLS1McHdhYk1aYXlmX3I2UThNVDZkV1lyWWtlWXF2alhBeWU4TGJnVWREdWNJaDh6VFh5?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-11T19:41:41.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Live Nation Responds to Monopoly Verdict With Defiance, Vows to Fight Jury Findings",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeEZEdXpoMEZTaDcwOVVDWGY0RW4tTk9reGhuT014VEJaYWZBdWJQZ1p3SGxIM2VUeVhZN0owNEMwY0VvVDFuUXI5dFo4Q1dWb29PNkM4clZWb05OUWw5YUlZelhaRG4zX29uMjBXMjFHb0RIdFZEVGl1THZ2X2ZJYXRpZTF2eFBuaGVmaXJjenFGSEsxdTJGYm9hMGJXZ04tYmY0V2IwWnJGUmlscThSQllOQmFxanduREE?oc=5",
    "source": "TicketNews",
@@ -3682,7 +4087,7 @@
   {
    "title": "How to save on Philadelphia 76ers tickets",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aV3pIMFo3N3RIVG14UHlGeTFNcURHWFUyVWxVTGEyWWJiUVRpN1dGSUl0WDZ0NlFoSDhLQ0hTYVM1TmJza1UxVzFpYUJQbmJRcDc1N2pBbFFaa1lwdXJVZmpEeW9UMGJvTDB2UzZmOE9fOHItYnfSAXtBVV95cUxNLWkydjdVY2RiLUJXLU0yTTE3Nmhrd2lhaDNMTnFjX1RpSWduQUVyVnJ1UXZxRmJhQ2Y3WEdwbDVCMURMZU5HSEJXdkJaUU5aUW9xZGZRLTE0Skh0aVpISHEzdmxQZTVKTFZyTElINWRYbGt1Z2hLNHQ1Rmc?oc=5",
-   "source": "6abc Philadelphia",
+   "source": "6abc.com",
    "category": "Live entertainment",
    "publishedAt": "2026-08-11T17:02:12.000Z",
    "keepDays": 21,
@@ -3721,15 +4126,6 @@
    "source": "Skift",
    "category": "Industry reads",
    "publishedAt": "2026-08-11T16:41:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "2026 MLR Championship Match: The Perfect Season vs. The Fastest Rise in MLR",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORWV3SXRoYW96ZDF5TkFiMlFTVDlDUDYtNkFHTEozUWVWdHQzeWd0M1ZfYTZIZWNmMUpTQkZDeHdaSm5RSDRXTEVWb1BNbEZNbVBvQ2dRa1pNZVR1V2FiSllKQnlZV0JDdVJfVE5BNWZQNU0yMzJUSEdEZDJlTEtGc1pXNWR5TzZIMFd0NnBPWmhhcGVTZTlLQ0doamd5TTRuOVpINTQ0MWRqRnpM?oc=5",
-   "source": "Major League Rugby",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-11T16:25:13.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -3916,7 +4312,7 @@
   {
    "title": "ATG Entertainment acquired by Mari",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS0RIY0JLRmp3SE96TXpBd0NzY0Z5ei0tZWloT19ueEtiZ3E2Z1N2aG1va3FSejdjcEF2YTdvUVFsRG1rU0Z5Sy1aWUNZVnhTNUVGN0hkLS1jeDN4bExiLUNvUDM2eHltd0RqMi1URjM1Q1ZyUF9oWkh5NmUxcExLTEZmRQ?oc=5",
-   "source": "WhatsOnStage",
+   "source": "whatsonstage.com",
    "category": "Competitors",
    "publishedAt": "2026-08-11T13:57:51.000Z",
    "keepDays": 30,
@@ -3977,15 +4373,6 @@
    "country": "USA"
   },
   {
-   "title": "Live Nation Invests in Greek Promoter as Concert Demand Continues to Grow",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTFNBelZWTkN1OHZrd0RLYjN3N0lIRkdjcnF1aFJyMlNYa1pxMnc1aDZsVjBfMmFTUEdJbE1mck5TOFBNbEprdS1WZkxEMmpvNjhCTGowM2lhWXgyR2xhTVVTNGRVUFhaUTlSeTF5RTlEZllBcG1yeHBDWmk2OHNTanZXY0JEVlg3U3EtOGU3cTdIWHNNWGEwTVdaYnZpR3o0QlV1VUNjQWNoSjZManc?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-11T13:36:14.000Z",
-   "keepDays": 21,
-   "country": "Greece"
-  },
-  {
    "title": "Ari Emanuel's Mari Acquires Theater Venue Giant ATG Entertainment",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV1FZSXN6b3NLSjU5ak1aY2hfZ3NidThpUGR6VHh3TS1MLVpjVTBuSVFyZVlEX1RZT0pSMG5HejVKRWlQU2dCSmRuUDdVRm16UUNiYXBmUXlaYng2VzdUM1pfN0MxOTM5MEJNUEZRMGl0ZFRpcDYyQkFRR1JxZXBkUk10UlFvYXpwcUZPVHVabWhQV1AyM2FSVEJLejlnUTN2VEJuYTNyTTlySGRPSzlpRQ?oc=5",
    "source": "Variety",
@@ -4006,7 +4393,7 @@
   {
    "title": "Stubhub Holdings Inc (STUB) Q2 2026 Earnings Report Preview: What To Look For",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFByd1l0YmRlSExvR2QwbjNNTm5odlVGNE5OckxOa1oxR205dF9Rcmp3VEU4bUpfbjhCRDM4aklYaUwtOEZsVE9qdll1MnZ5akEtM05CSDZSbU5GbGloaFp3al8xWkdUMFVaZEJBTTNYTXNNLWJqaFZoeTdWSGNKOUtLMTlYdUhNUS1GSWx4Qzk5T3F1Qk1JaQ?oc=5",
-   "source": "finance.yahoo.com",
+   "source": "Yahoo Finance",
    "category": "Live entertainment",
    "publishedAt": "2026-08-11T13:18:08.000Z",
    "keepDays": 21,
@@ -4060,7 +4447,7 @@
   {
    "title": "ECOWAS to offer $65,000 to Nigerian startups — How to apply",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRkhSdU8wa1dYU0tZcFNZcEZ2S2s0aHZmeXNvRl9JRjBUNktHSS11M1NGaGpHNHZQaG9qOW5YZThjX1BxRTdFQzRIUnYxZUd4dVRnMjV0YWZpaXFiMHRBaXJ2WHlLazRZOTk5eVFCUjdrSUVraGo0cGl4NFBaajBJLTVyLWNCblBNMFhuRHczeXJPZS1TNFpV0gHwAkFVX3lxTE9reWlkZEp2VEtRVm80UUFYR0N2WGEwRDJXS01od1FhWUVEWFBhLTJIbWdhWHV6T2ZNOGhxRjlydTVqcDNsakNJWklRRmVVTnVyQkxCQi1YamtWVndtT0V6emxwaW81aHhSdm1JOUtHRk41azhFajlhM29FaWVKT3Z3c1JMSVhhTWp3UWV4UzVoV1M2cFk4c2tULTJ2bUM4dGRoM1dxNlFaVXlxajNQWElwRk5sSTkzR29uZkF3eV80U0ZRUU84SlJ5OXFORUxJQlR4V2phd3lUQzlBeWY1R05KQm1hd1ZVU3JEejd4eWRrZ0hkVklQNVBXYU9vdHhrVmlVLThwaDJjaWlBM18yWlBQVWJkRWJvVWZrQXlzZXNuM2d5b3NUSWdkV2tjeHlMdmRMbXdtdFE2SUc2bVA5Z1B0TXdfVVpoQ1FrSG50OFY4Zkl5UjV1b0hKcFpJY2h3VE1seHdPa1dhR3N2TmxQX0N5?oc=5",
-   "source": "Vanguard News",
+   "source": "vanguardngr.com",
    "category": "Travel tech & funding",
    "publishedAt": "2026-08-11T12:20:43.000Z",
    "keepDays": 21,
@@ -4211,15 +4598,6 @@
    "country": null
   },
   {
-   "title": "Bangladeshi GoZayaan Startup Shuts Down Pakistan Operations",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wdUhVWTRYWEt2bVBQNkZkX0VKSkk2bjVoNGczcE5IU1ZBSnlHaUlRLXA4Y012YVFoUnE3RlpsbkRBek9ORENqRVVrb0NMenFtTllILXJZSG9Kc3B2YnNJRGlDb1pzQVVjYk9ldGE1bEp5Vnc?oc=5",
-   "source": "TechJuice",
-   "category": "Travel tech & funding",
-   "publishedAt": "2026-08-11T08:18:36.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Booking platform survey shows Taiwanese spend hours planning group trips",
    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40a1FRQWVFMEh3THdMdklGalh4cU9idUpNSW1vaFNaVHhMYl92ZFlIYlNDblJzOUlLNDdNWEFWX0NXQkVqcmRpa2t5VUUxSVJkZERMQg?oc=5",
    "source": "Taiwan News",
@@ -4267,7 +4645,7 @@
   {
    "title": "Upcoming music events in Singapore (August & September 2026)",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZmVmR0FmOGQwU2h6TGZYSHY0S0RncW9wdDdLZ09KV1Fvd01Sd041emdPSzhRZGVWeXRMcldIV2J3Snh4LWhaaTdvUU9WRGE1M28tOWFOMVFjd3J1UVRyNld1YUx6Q2t3WS1OTGZMX2JkWk9xRGdTOVpCMnVyaFk?oc=5",
-   "source": "confirmgood.com",
+   "source": "Confirm Good",
    "category": "Competitors",
    "publishedAt": "2026-08-11T08:00:00.000Z",
    "keepDays": 21,
@@ -4472,6 +4850,15 @@
    "country": null
   },
   {
+   "title": "Convert 100 AXS (Axie Infinity) to UAH (Ukrainian Hryvnia)",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qV21TNUpTbTB1UVR0TVFEM0NRbGw5eFp1MHJEVVp5c05lTE9fSW1vR0ZrazJSWVA1S00tcVIxX1puQXlaNGhKcndCU04zYlZ5dTRhRjZRMHRxVk9L?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-11T00:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Convert 10000 ARS (ARS) to AXS (Axie Infinity)",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kUjA5Mm5QMjI1THlBaDBkczBVdURSWnczWjVxWDNZVk9CQmZtWWptbTk4WHVJTFhtdmRTRnhhWHZjVTE1R0FfX0JOMVJwSXhldWRtY29hMmxDdzJBNi1n?oc=5",
    "source": "Bybit",
@@ -4490,15 +4877,6 @@
    "country": "USA"
   },
   {
-   "title": "Convert 100 MXN (Mexican Peso) to AXS (Axie Infinity)",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mSnhkVklJWmVsSXpQVExMd3lfR1JZY2FvQk9sMXNXZ3pzaU1SY2dPVkdtNUVFeW5icklNWjFrSDFmY2I0ZEpMMlpMOUpXRWVZWUc0NjdmUnhIbnZt?oc=5",
-   "source": "Bybit",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-11T00:00:00.000Z",
-   "keepDays": 21,
-   "country": "Mexico"
-  },
-  {
    "title": "Convert 100 AXS (Axie Infinity) to BRL (BRL)",
    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PX1Y3WW1oTHBxTkRKdEZkUl9YQ0FFYTNpdkFSYnBmbG44M2U4UnZqSktfdGZEWWdRNFVWa2ZCN0dzUkNJN1Rwd0RwWE8wcjFpVUtjU3hROWFHajc4Ny1xUg?oc=5",
    "source": "Bybit",
@@ -4506,6 +4884,24 @@
    "publishedAt": "2026-08-11T00:00:00.000Z",
    "keepDays": 21,
    "country": null
+  },
+  {
+   "title": "Convert 100 AXS (Axie Infinity) to ARS (ARS)",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiNm9SRFQ3RVNodzN3QTdGTDF3VnlsOUxCS1lVUWVFR1VKaDNjcTVOVFptN2VaYXJOQlpURXRNWnNRR2Z0UnktZUdRQnhhSkFHNzNaTWFKSHpzajdp?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-11T00:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Convert 100 MXN (Mexican Peso) to AXS (Axie Infinity)",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mSnhkVklJWmVsSXpQVExMd3lfR1JZY2FvQk9sMXNXZ3pzaU1SY2dPVkdtNUVFeW5icklNWjFrSDFmY2I0ZEpMMlpMOUpXRWVZWUc0NjdmUnhIbnZt?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-11T00:00:00.000Z",
+   "keepDays": 21,
+   "country": "Mexico"
   },
   {
    "title": "Convert 1000 MXN (Mexican Peso) to AXS (Axie Infinity)",
@@ -4549,15 +4945,6 @@
    "source": "Mshale",
    "category": "Live entertainment",
    "publishedAt": "2026-08-10T23:26:50.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Features News, Articles, Links & Posts",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91bXlCN3BONGl0aVdoZWVpZ1FHNWNDTTIycW44TkZnN25vNFlMbVgzcDh2YlNjck96Y0s2d1ItRVdOblBocFdGZlNIUC1mVGRtakE?oc=5",
-   "source": "blooloop",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-10T23:21:03.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -5021,6 +5408,15 @@
    "country": null
   },
   {
+   "title": "Press Release: Yatra Online, Inc. to Host First Quarter 2027 Financial Results Call on August 13, 2026",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeWU2RDFxX0QyTTFIZlVGeUdxM3d5azRSSHFUQ1ZPU0NQVjNQTy03SUNsS0pZMW1qdngya2pCMTFaQVR6V1FWRU5Pai1mdjZ0QkNNTFd0OFVZNlRwLWpCcGxYNkhrTG5nMXFHR045NWhNamJzNHRKc2tlcnBtdzVFOGlWWF9NQlNVSDQ2cEU4Q3pRQzF5SG1JLTJvYkdNYU5w?oc=5",
+   "source": "Moomoo",
+   "category": "India travel",
+   "publishedAt": "2026-08-10T13:32:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Yatra Online, Inc. to Host First Quarter 2027 Financial Results Call on August 13, 2026",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPanlKcS0tcmFZUUsxZ2s2NGdUZ1RveEx0T2ttWkhTdGdYWWdwUFBXSFBlbXQzM0RMcFpQLWxxY0t2OWRpWFotSUpzYU96VnBIaGN4a3ljYjBkOXFxdU82a3JtbUx1R0VKSUJTNkhEODVyLVN2Zlh2S1otcUVLam43V1lMSW1zMGhob0ZwM2Qwb0VjVXhtWWRLN0JNWHNhYlFfZFRmelRkNHp4LVdJS3k2NHU1aXJnUFAyamsxdHFXVFA5d0NsQUJKcDBwbnd2eEFuMmhNVGVPZUJCUQ?oc=5",
    "source": "Business Wire",
@@ -5121,10 +5517,10 @@
   },
   {
    "title": "Ben Jones, 'Dukes of Hazzard' star and former Georgia Congressman, dies at 84",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV2tMakFPclg1MWRlNHc4bGYxeElKclYyckxmeVJTc09TT29WZ0VWUlVuckdSRHFrY0puc2hoUjAyZXg2NjIzU0lYM2J3Q2hRUm5BXzNtSjBFMmF5R3FhOFN0NlFXSHJLdnZ4aVU3YWV5amlOcVBXbXJaWUxPdUE4NUI5MTkyMHlsTk1IbHpGS1B3ZjBxZXpQMmtJeV9lOVdX0gGgAUFVX3lxTE9Xa0xqQU9yWDUxZGU0dzhsZjF4SUpyVjJyTGZ5UlNzT1NPb1ZnRVZSVW5yR1JEcWtjSm5zaGhSMDJleDY2MjNTSVgzYndDaFFSbkFfM21KMEUyYXlHcWE4U3Q2UVdIckt2dnhpVTdhZXlqaU5xUFdtclpZTE91QTg1QjkxOTIweWxOTUhsekZLUHdmMHFlelAya0l5X2U5V1c?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcFVMZUpVNWV3SDFvZGhwTkliQnZ4bFYyS2VKR0gxSWdUUjhYS1Y4VVBaTjc0b0NGXzdVcFVPUFFzZ0MtMm9fRHc0RjZrUFVWeWpNUWduT3hSNkRPT28wc04zQTFLM25pWGlGTmhfWFF4Qk1HQnlzNEJwbzBmVlRQRXdJMlJmbU1HTGNZZFJXdm1HOTQ4OVNEVm1yMNIBoAFBVV95cUxPV2tMakFPclg1MWRlNHc4bGYxeElKclYyckxmeVJTc09TT29WZ0VWUlVuckdSRHFrY0puc2hoUjAyZXg2NjIzU0lYM2J3Q2hRUm5BXzNtSjBFMmF5R3FhOFN0NlFXSHJLdnZ4aVU3YWV5amlOcVBXbXJaWUxPdUE4NUI5MTkyMHlsTk1IbHpGS1B3ZjBxZXpQMmtJeV9lOVdX?oc=5",
    "source": "ABC7 Los Angeles",
    "category": "Competitors",
-   "publishedAt": "2026-08-10T11:51:42.000Z",
+   "publishedAt": "2026-08-10T11:55:07.000Z",
    "keepDays": 21,
    "country": null
   },
@@ -5221,7 +5617,7 @@
   {
    "title": "SeaWorld San Antonio welcomes seven beluga whales as part of rescue effort",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlS3B5Y2FSX2syV3NjZmMyRjBpR1lTNjBtN2NOWmNoWnJJdFF2WUhpanhFeDJGSlExV2FUbFVMZjNaWWFVdGY5TE9vazNhMGt0akxTVjFJWmhEQ1RqRGd1T3NLVjhJZTNPTEZxUXJR?oc=5",
-   "source": "blooloop",
+   "source": "Blooloop",
    "category": "Live entertainment",
    "publishedAt": "2026-08-10T10:15:19.000Z",
    "keepDays": 21,
@@ -5309,10 +5705,19 @@
    "country": "USA"
   },
   {
-   "title": "Tripadvisor Inc (TRIP) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sS3hyMUJKeXIwRjU2ZmNtc1VCNW5WUkp0WVdPUEVZTFNqRlNzRHVjUDFOS0xXdzZpMEtuZlNVeUR0UHFaVTc2UHR2a2NYcU41OElGdUNqYWNaX1RQTERSbHpLdXNZQQ?oc=5",
-   "source": "TradingKey",
+   "title": "Off-Broadway Rush and Inexpensive Ticket Policies",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWEJSRmpKS1RHNlhFN3BuRU1wZWtsLUFnOS1FaGFFN2lad3dnRjFDSld5SEVDT1I1VmszclI4UTA1MVlqOS1fUWFNSXV4MTdrUkNsN1BzTVM2Z0VpQWxvWnlNQ3pnUFhMRDdiMmVKeHhIQzVjSVFEamJSdWw0Y3drM3lGX3h6cFhEZmktQnBBZmIxRnQyNzhhcXIwWE16THdQ?oc=5",
+   "source": "Playbill",
    "category": "Competitors",
+   "publishedAt": "2026-08-10T07:00:00.000Z",
+   "keepDays": 30,
+   "country": "USA"
+  },
+  {
+   "title": "Peek Travel Inc. Revenue 2024: $119M Est. ARR",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aanAtZkgzWVZrWHJWVy1idnlhQXVXX2JGTWpja1NsUG1ocEcwR1AzdW45Z20tZXJ0WFNMTFVFdFNZRk5DYVFwdEE3OWRZRHlkU0VTQjRwaldRUQ?oc=5",
+   "source": "GetLatka",
+   "category": "Experiences economy",
    "publishedAt": "2026-08-10T07:00:00.000Z",
    "keepDays": 21,
    "country": null
@@ -5331,6 +5736,15 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTW5GSmVmOXN6aUlvSFY4V01lTjRsaEUtdVZFZjllVzBWU3dvNXYxcXZWcDBGTUxNZDJkN1BFMGFlYmV6MGRRMGZuOVVQT2VGWTJnTjRxQjQxWU43VWxjbE04NkJDZnl4N1BCV0hsYjQyS1JsTll1UEJneWN2MjdVRFdweEFadE1QMUZHUWZRWVJJV3Nhbi1NQWNJaXJTak9CUGcyUTdjbXVBdVdZTVpoLTVEZU5OWEE3d0E?oc=5",
    "source": "scanx.trade",
    "category": "India travel",
+   "publishedAt": "2026-08-10T07:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
+   "title": "Tripadvisor Inc (TRIP) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sS3hyMUJKeXIwRjU2ZmNtc1VCNW5WUkp0WVdPUEVZTFNqRlNzRHVjUDFOS0xXdzZpMEtuZlNVeUR0UHFaVTc2UHR2a2NYcU41OElGdUNqYWNaX1RQTERSbHpLdXNZQQ?oc=5",
+   "source": "TradingKey",
+   "category": "Competitors",
    "publishedAt": "2026-08-10T07:00:00.000Z",
    "keepDays": 21,
    "country": null
@@ -5383,7 +5797,7 @@
   {
    "title": "NOL World Debuts Accommodation Platform for K-Pop Fans Heading to Korea",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjNlUmtRQ1NUTXBTQVU4TUFRS1BBZDIxbFFiWmNBNmhrR2RPTFNna21nVXRkQXZBUUh0TGJZbmZoSm42MFg3NHZDVW9HWjhiQ3F1Ymloa29KblpiM081X0lWbGRRWDVmRWd1QnBlOE1pSjFOSTlPQUF3U29zNE9DSEJlZVV3d2ZWenJkMTB3X3QyRkNGaDMwZU1BbThBdmhLZ1dVVXJ0MEswaGsxMWfSAbMBQVVfeXFMUEhScXhWZm5KOGQ0TnNrZVNhZmRYdktXZlhfTEJ2UkNWcEZxbEFGYURZbW0xVno3LUd5QkpKak4zQnpfWTQ3NC12NkpCMFJUb2RLMmF5REtKbU01OVZiUUp1LVpicGlBOVdUaUZaRy1GWnFsYzZEZWZFczNiaF9Hb3JVN19ieUpiN25fV1ljMVlRYUtMa3FBSFZ5NWxSRzdLVWlfRnhWVHh5TVVqbHVGRmtpSjQ?oc=5",
-   "source": "en.antaranews.com",
+   "source": "ANTARA News",
    "category": "Experiences economy",
    "publishedAt": "2026-08-10T06:17:13.000Z",
    "keepDays": 21,
@@ -5579,6 +5993,33 @@
    "country": null
   },
   {
+   "title": "Convert 100 USD (United States Dollar) to AXS (Axie Infinity)",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9COUdjWHZ4T0g2QWJUR2dqUERLWGVkVmtLajdsU0JoVExlVEJjMTBnU1pGMlcwR0Z5UW1XWXVhUGg2MDZMbDF5MlRyaHVIRTVfVnpZRWxJdl9xMnJi?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-10T00:00:00.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
+   "title": "Convert 1 USD (United States Dollar) to AXS (Axie Infinity)",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DTTRzY1FwOXlYTUE4V3lGYlo5aFNVdzJFalgza2Y2SWJWR3RaQ3VEQlJiaGNBb0x0OGt5aHE2a1Q1SGM4bmNIeVMyUU1IWGVjaV96VzZPN0s5Zw?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-10T00:00:00.000Z",
+   "keepDays": 21,
+   "country": "USA"
+  },
+  {
+   "title": "Convert 10000 PLN (Poland Złoty) to AXS (Axie Infinity)",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqRHRrc3BXb1lJZlZnX1o4WHk2VFFJZExBbHNIV2plOHQ5S3RmaDJEaWZFcmFEOHJJbFpyeXU1UjBYSzV2Z1RlTnJXTkIxUEtOVkRuWmZSd0FmalM2T1ZB?oc=5",
+   "source": "Bybit",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-10T00:00:00.000Z",
+   "keepDays": 21,
+   "country": null
+  },
+  {
    "title": "Convert 0.1 AXS (Axie Infinity) to SEK (Swedish Krona)",
    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mdGU5WVJ2Zi1uei1CQ1hVcmd6TF9rU1phMERnRUw3b1hqVzlDYkhqa1JuNDR3Q2V1TzB1TGdya1VhOHBLb0xxdk9oeHlsTUE0OTk4UFBCZzk?oc=5",
    "source": "Bybit",
@@ -5723,15 +6164,6 @@
    "country": "Japan"
   },
   {
-   "title": "Convert 10000 PLN (Poland Złoty) to AXS (Axie Infinity)",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqRHRrc3BXb1lJZlZnX1o4WHk2VFFJZExBbHNIV2plOHQ5S3RmaDJEaWZFcmFEOHJJbFpyeXU1UjBYSzV2Z1RlTnJXTkIxUEtOVkRuWmZSd0FmalM2T1ZB?oc=5",
-   "source": "Bybit",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-10T00:00:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Ben Jones, Actor Turned Politician Who Played Cooter Davenport in ‘The Dukes of Hazzard,’ Dies at 84",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX2F2SHhncWlyaUxDMUlaYkJvb0RBaWRWZTUyVkFsVVV0SEdkVF9qeXctYlYyZU52a1NRbHZ1RXo0ZldERUpHNGtjdkxmSjFKV1k5dVdlV0k4c2ZmT3dMSXl0b0pFZUZKTTFZdXdKQXdVbUhGMURCVlVPNGtGUzRqZnd5bWhWQ05uRTJRMHdIblNUS3Q2OG5Va1NOaGVpdw?oc=5",
    "source": "Variety",
@@ -5752,7 +6184,7 @@
   {
    "title": "‘The Dukes of Hazzard’ Star Ben “Cooter” Jones Has Died",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUC1CQTI2RWU4eUx4aFZrTDRNWFdBajI3Smk2ZWRsUkIxWWxZSHZMX2FQTmtDSmJES0RMVGtNSlJ5QXRwMUJSbWpNMGNtbG1sc2ZqMkdrcGtzd01neUc2dDZOTlVNRXUxX016WTdzbEdydTJlSndGWGFfd01VVzhBYnVTVQ?oc=5",
-   "source": "countryrebel.com",
+   "source": "Country Rebel",
    "category": "Competitors",
    "publishedAt": "2026-08-09T22:47:09.000Z",
    "keepDays": 21,
@@ -5805,7 +6237,7 @@
   },
   {
    "title": "Travel planning is India's least appreciated group travel task, reveals Klook study",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNc0RXSTlHb3ZIQnpWeHlyQUJnWHhZajVNSUstWVVzQnJDQjI3UmI5Yl9BbFRmZG5PbV9LNzRjc1F4SEZ2SEFvTDdueFo1WG5Lb25PN205bDJBR0tLZ1R0TlZmTFREUkJ6alhiQWt6ZnowSENKbUZKcEFiVmtjbkx6QWRnWVlITThQcTZsS0p3aFNXRnZNREE2WDB3aGs5clhzT0pTV09talZIRVBPX2xKY05hTF9SU0phWnViUkdqTVdzN09hYlY2cm1oMG51blZFVkpFRE1EbE1KcUpleXZURnhkVHpScjZJaTlyaQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWEhaVXQyTVdVMHVXenM1WlNMVF9MQmtydm5Ob0NFa3VCaUZsSUxpS2xQTEJ4Ynp5XzRaY2c0MFVuQjlna2haRmhaNHRWOTY4d0doNDhYVEhPbEhUTXNMdEUxVVo1WmFvLVVPbFI4Qms1cGs1T29ydnJIdmdhX0M2cEpqWHFUbzdJVVBhUlUwYzFDeVpNVnZwTTkzMWUwZzdHbEMzcmg2ZFFlVTZ1TEJ1aHZ2OUpoNEFWUHFJMmUxTnJXRmI2TmlEUWZVUkJFWjZkZ19faXkzZXlfWXBvWG1rUHVBSGtOenE3ZElz?oc=5",
    "source": "ET TravelWorld",
    "category": "Competitors",
    "publishedAt": "2026-08-09T14:53:40.000Z",
@@ -5851,7 +6283,7 @@
   {
    "title": "Beloved Surrey venue cancels live entertainment after neighbor's noise complaint",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJZFdPYU5vVW85Qi1GSm1rNzd6ZFk4QWxvNjJacWtXQm03REJWSTdwRU9jLWNRdmdHbUdlSHd4NEZKY1hMMjlxWDhlcGxFRThwZmtzY3BiMmM1Q1lDQWllZ2xqcldremFsLVhaQVRqUHpxVkFmSGxQb2w2dWlyOWs?oc=5",
-   "source": "uk.news.yahoo.com",
+   "source": "Yahoo News UK",
    "category": "Live entertainment",
    "publishedAt": "2026-08-09T13:00:00.000Z",
    "keepDays": 21,
@@ -5914,7 +6346,7 @@
   {
    "title": "Indian Startup IPO Tracker 2026",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnS183TEQzMHI1QjlKSDhLSmhWSWhMLTBYanJITEFPYU9wSEJDYTZTMXhMUDAtV1hQYnZETzBCLWJGYTV4aVhUcDUyQ2xDbU5BMnBfWVNSN0YxNVhmakQ1U0tNLXgzOUxhbkJN?oc=5",
-   "source": "inc42.com",
+   "source": "Inc42",
    "category": "Travel tech & funding",
    "publishedAt": "2026-08-09T07:00:00.000Z",
    "keepDays": 21,
@@ -5964,6 +6396,15 @@
    "publishedAt": "2026-08-09T03:47:35.000Z",
    "keepDays": 21,
    "country": "USA"
+  },
+  {
+   "title": "Features News, Articles, Links & Posts",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WLXZHYkRWU3VDOVdvb216VFdLeWVmbW9mektFYWdWWVhwNXJ1MDRFclZrOEw0VllWQlozODd6VDFoZjV4a00zUWREYUdLbHFWbHc?oc=5",
+   "source": "Blooloop",
+   "category": "Live entertainment",
+   "publishedAt": "2026-08-09T03:36:35.000Z",
+   "keepDays": 21,
+   "country": null
   },
   {
    "title": "How to secure My Chemical Romance concert tickets for under $100 to their New York show",
@@ -6110,15 +6551,6 @@
    "country": null
   },
   {
-   "title": "Convert 10000 BRL (BRL) to AXS (Axie Infinity)",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VLW1lTDQzbXVrbC1tT2xhcUZYMjJjMjNMNWJPU1JfaE93NWYzRml4VV9uOTB1aVh3LXBOUmhTd01YREhNaGZxZkNxaE4wR0tyVVlITFU0dldJZkwzQjhv?oc=5",
-   "source": "Bybit",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-09T00:00:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "Convert 100 COP (Colombian Peso) to AXS (Axie Infinity)",
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUYjlaaEtITWc3RWxPM1hwVDZfSlVBc1hIeEU2Q2RfRDNibkRhcjNHQ0VKckNDVUxmdC1FVEtVbVNLZHBNbjdhblV6TDBBX0Vuajg2QU82a1lYMUkw?oc=5",
    "source": "Bybit",
@@ -6139,15 +6571,6 @@
   {
    "title": "Convert 100 CRC (Costa Rican Colón) to AXS (Axie Infinity)",
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vc3FjVDRRLTNiNnI4dGo2NXE2NWEtSFRZcUFCVE9Dc2hVM1NWSGFyQTFaRzExcG1lbEk3cXNBM2FzdlBPMHc3WGxjNXFrV3NnS2FUcHFhSzgySTVN?oc=5",
-   "source": "Bybit",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-09T00:00:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Convert 100 AXS (Axie Infinity) to ARS (ARS)",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiNm9SRFQ3RVNodzN3QTdGTDF3VnlsOUxCS1lVUWVFR1VKaDNjcTVOVFptN2VaYXJOQlpURXRNWnNRR2Z0UnktZUdRQnhhSkFHNzNaTWFKSHpzajdp?oc=5",
    "source": "Bybit",
    "category": "Live entertainment",
    "publishedAt": "2026-08-09T00:00:00.000Z",
@@ -6198,15 +6621,6 @@
    "publishedAt": "2026-08-09T00:00:00.000Z",
    "keepDays": 21,
    "country": null
-  },
-  {
-   "title": "Convert 100 USD (United States Dollar) to AXS (Axie Infinity)",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9COUdjWHZ4T0g2QWJUR2dqUERLWGVkVmtLajdsU0JoVExlVEJjMTBnU1pGMlcwR0Z5UW1XWXVhUGg2MDZMbDF5MlRyaHVIRTVfVnpZRWxJdl9xMnJi?oc=5",
-   "source": "Bybit",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-09T00:00:00.000Z",
-   "keepDays": 21,
-   "country": "USA"
   },
   {
    "title": "Convert 10 MXN (Mexican Peso) to AXS (Axie Infinity)",
@@ -6506,15 +6920,6 @@
    "country": null
   },
   {
-   "title": "Agoda’s Tim Hughes on online travel’s broken promise and AI’s “Reddit” dilemma",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcEY5bTFCZWFQc0lGY2NTUFlEb2gwOUtfOHJOT2hZdEREUzdaYkE2alQ0ZXhaSkVnZ3NOVHZPTTl3cXNzQ2pSeTc2YV9uUV96c3JManQtLXZPYlpMaUpXN3FsLUkxN2p1SzRLTzd6enlWYi1VcFlUYTRQSUJkaHRpWDlfZWxLS1hQVTlXMVd0anVFTjhaZ043eTJyLVN2cWFGbmVsMw?oc=5",
-   "source": "webintravel.com",
-   "category": "Experiences economy",
-   "publishedAt": "2026-08-08T03:58:24.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
    "title": "‘Return of Jero’ reimagines Soyinka’s classic",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12a1E0V3hlbnRvTWVyZ2RLVEh2Ri1fZTQteVJHOGN3ZUxjNHdSdEVVVlA0UG5jTWRKOTNpZ25HNXdoWmxlZVg5dlZSQmE2SVRlWUpiWHhHMURzVmJFZ2EyeEpOc29VQ2luVFAwd01VRVA?oc=5",
    "source": "Punch Newspapers",
@@ -6697,7 +7102,7 @@
   {
    "title": "Million Dollar Quartet transfers to London Arts at Marble Arch this Autumn",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNEFYZG50eUlfVUJxNm5sdE1rZkdGZ0FmY1NjUG43TnU0OFFTMUNmZm1Sd21HR3NacjZidEZ5ajRYX0NFVVFXTFdGUk1TUjVNejNOV3Bsclp2aFVzUW5XWlU0em1XTHdPaWhnTVc1UkJ5cFR4SWtWYlNfM1pjZW1XdlNJVW0yMGlLbTdkYV9NQk85aS1lVEk2T1BkdlBQLUxFeTc3bkVpNjVYUUpFMF9aTVZkNDhSbkZxenc?oc=5",
-   "source": "theatre-news.com",
+   "source": "Theatre-News.com",
    "category": "Competitors",
    "publishedAt": "2026-08-07T21:09:22.000Z",
    "keepDays": 30,
@@ -6848,393 +7253,6 @@
    "country": null
   },
   {
-   "title": "StubHub Holdings, Inc. (STUB) Stock Price, News, Quote & History",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jN0hnY0p0UVo4Z0lNNGNDVF9MVVdjM3RQcXFwQS1tSWhzT3hMQjdWX29PUkpoWURsNTJ2S05IUU4tbk1oRnRmWDFiVXo4dnJ1c3c?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T16:23:45.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "StubHub (STUB) News, Articles, Events & Latest Updates",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB1UTF4X2ZYSmwxaDdJSEZUQndjM2xxZ3hEX2NDQXhuLXp6eUlyZmtGMVhFNnpQcVJZMlZRVHhvbzM4a25RWW5QaEdFaDZoeEFf?oc=5",
-   "source": "Stocktwits",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T16:22:02.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Learn More About ReelWorks Denver—The City’s Premium Live Entertainment Venue",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yNENjRjdDbGN5WDRIZlBSOVA0Z0lfdmprWFI3eTVlaW84Z2ZkOVExdjdBeVVkMTEwNklHZGZ3eEQxWFprdFgyb1o4alhNOThBZlA4dzFHeUQxaFk?oc=5",
-   "source": "Secret Denver",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T16:22:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "PlaySimple Games, Garuda Aerospace and 7 others secure Sebi nod for IPOs",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUUViZWxza2NScGVLZGR3MUFicE9yY0U3WkgxcE1pVXp5LXJHSW9GcFhMMlRyS1ZVQVdtdV9oeHE3QW93aWl5TnhIcVV1dzNNMXE2V3hmNTlMX1J1aTRsbXhYWE5xMTBnZUpicll6dmowX2owQ0Qxb1l2OFM1TDllaXhscmNjWWNFeVluSnFnSC1NRFVPc2NTaTBMd2t3RzVXRGs0REV4X28tdnpHZG9ac21ENHhHNE51UkVGbXY3WVRJZXZxZkxoeDlYV2s0QTlnOWpFSVVodGl0Njd2bGhvQ3p30gHnAUFVX3lxTE90aDRvZ3gtUW1oZ1hNQTZxX1Vhazg4cUE4VGU2bWEzQ190NzdXMzh0WHhHM01yeXdJa3lSVy1sYTIyejNCN3JCaHpJRVc3R25QSkFkRHBKYTZCbkVOUDNVU3UwM2xwUXFnTVloT2NkaDd1YzNZclRMTlpBajZ0SGR3dm9laGpselJKcHdNMWxfUjk2Q3RXSmJtcGY5dXFfSWtfUVJzbGN0U3AxemJTeW9ZVi1CTThvbGdnUzRmSno2TnFPMEZBbDk2WXl2MGJkT3BMaDFzbkVKWWNHem4yNExtZzd1SHAxbw?oc=5",
-   "source": "ETLegalWorld.com",
-   "category": "Travel tech & funding",
-   "publishedAt": "2026-08-07T16:18:51.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Live Nation to Acquire Majority Stake in Three Prague Live Entertainment Venues",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXZ1RHcyMmdKMUFSQzJYcUtyTTl6dXVYalpfX25JdzIxWml2UVJleGNaV2tMa3lGZ1NIMWFXVzJvYVJKN0g5VWNRNk5kbGM3emlZVTRNcmdCRWFHN0tIdGFjdkFfaVp5N1hJMkIydlNiUXdzVHhtX0tHSFR2eHdSYjN2SjUwUW9VUjVHQm0zNzBuZVVyVnFWVDJwMTF6WmZfOTk5QlgzZU00S2h3YmlKNTVsZ3Utdw?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T16:13:07.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Virtuoso to spotlight AI, advisor innovation at annual Travel Tech Summit",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYk11M254amdYb2xxNkpRSVBkTVREbzd4czA1ckRsQXVveWJRdTVoOHg4d3ctd1lWS01IOG5pQURkdFNhUE1hZngyZ3FBTWVyc19QMDFrOEtqNVA1M0czSkF1N25ET1VvSThkSHZBeHpxNWtXNmlaTFBKU3IzOF9IMjhkYW9vcXZkU2lWVTVwM0Nnc2doQzlGM21tWnJyaWM0eFQ1NQ?oc=5",
-   "source": "PAX News",
-   "category": "Travel tech & funding",
-   "publishedAt": "2026-08-07T16:12:31.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Live Nation Purchases FirstBank Amphitheater",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV3dLREQtMTlFdGlKb3hoaGhKeE92cm5xYkhMN1piN1RUZkJ6T2cwejJzSFFrN1ktUzUxajE2QzdBOFdZS2xzVlRfSnUxYjZRbUg4ZEx4Z0xvLWFYUUltWUg3UmFwTjhzQlh5VFlDQmhnSkVsUGwxQm56WG5weWwxdlZyZl93MWM?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T15:46:35.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "ixigo delivers all-time high PAT of Rs 34.24 crore with record GTV & revenue from operations in Q1 FY27",
-   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSkFBajBBN01YS0RpUmV3QmVqeVBIbGRGMUhFYVBXZmlFMGlFVmV0ZUhEMnl0WEFMRHlkS3BKU2M5T1VFM1FCeGJkemRRZTVIRXFNdFIwMHk4TW5aeGxvNGd2bXVYd2lIVFh2RFU3WkMybHd3RE1xUEVmS1ZSSmh4RVcwSnY2TEVTUkxWOTJ3V0R1TFRMc2RvVE5EbzhiZ3l5TXJaVkE4a0tzX29FZy0tZjdUU2RzSEJsRzQ3RGEyLWRSbXAzekJidnFhS0t1d2ZYRHhqVGFkN01Yck1UTHVjTExqUURlQm1mWFlUZmt1SVAzRzVXNUdvMkFFZWFiNGpodkHSAYcCQVVfeXFMTXNueXJkLV9MdWR5Z3hxMWNUM3B5OVlpRk5GSzJUZjVwRGhUeUhzdFQzVWYyZ2hIMk9pN3lxZVZGRXlaYm1UcTlhRG1XTEZZZ1Z3eTJtRFBIX1NMQUVqN0w4T3ZYNHVGaGlHQktQUmtfQzQ2dXByc3cyeEhMaXNxZ2JPVU13UjF6cmc0c0lPZjZXOHVYWXdjV09LdzE1ZGUwbXpMbWluaEFHSFRrR1RrV2V6Z0g3U3p4SDE4UHZrWFZWOERqTU1WMy1XOGFwNXdudEItQ3ExQXNFcEFzeE16eXdqaDM0cE81YWE1WEFvanFoRkJzYUJ6WDBUZDRTR2o0bXFoVXRWREE?oc=5",
-   "source": "hospitality.economictimes.indiatimes.com",
-   "category": "India travel",
-   "publishedAt": "2026-08-07T15:30:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "How Nevis Built a Tourism Strategy Around Refusal",
-   "link": "https://skift.com/2026/08/07/how-nevis-built-a-tourism-strategy-around-refusal/",
-   "source": "Skift",
-   "category": "Industry reads",
-   "publishedAt": "2026-08-07T14:56:19.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "A 2026 Live Music Venue Guide to São Paulo",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zWDJNaUgtLWFEWEdaN0hVenhfd2xVdndEb0RUd0JaWllwWE9IMzU4RzVRTHhjMjRSSkd0Sl9wejlPNXJYdEhZZkxsMmhxRk9ITlo0ZzBlRUMySXRMd1NxbVVSUFpkcHJpaTN3UkFnOVhMRW40cWc?oc=5",
-   "source": "Hypebot",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T14:45:19.000Z",
-   "keepDays": 21,
-   "country": "Brazil"
-  },
-  {
-   "title": "How Hilton Overhauled B2B Sales and Taught Reps to ‘Scrimmage’",
-   "link": "https://skift.com/2026/08/07/how-hilton-overhauled-b2b-sales-and-taught-reps-to-scrimmage/",
-   "source": "Skift",
-   "category": "Industry reads",
-   "publishedAt": "2026-08-07T14:22:14.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "UM6P Report: Morocco’s Startup Funding Spread Across More Companies in 2025",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWnhFQ285TzNIbUR4aVV3TmRsdjZhRHE4ZzdhR0NINndCTUxsWUZDalRiOWdTaWIxdm5rSVpxQ1BJeGZmalBRMnItZlNtUXk4ODg0Q0NySzNwNHJQZ1ZfRVpFSTlEa0tJY05kTU1lbGxzdWFNd2k1U1c2SVZ1TXZ3QTc2al84QVJnMGkycjNpRnBRc29EZTdQLVVxdEJINE9YMXdEZDFQUEdXZFRreTdUNVI1emMtV3FNRFdXeGhobw?oc=5",
-   "source": "Morocco World News",
-   "category": "Travel tech & funding",
-   "publishedAt": "2026-08-07T14:17:24.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Gen Z Business Travelers Are Anxious, and Brands Aren’t Helping",
-   "link": "https://skift.com/2026/08/07/gen-z-business-travelers-are-anxious-and-brands-arent-helping/",
-   "source": "Skift",
-   "category": "Industry reads",
-   "publishedAt": "2026-08-07T14:03:57.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "2026 Skift IDEA Awards: Meet the Finalists",
-   "link": "https://skift.com/2026/08/07/2026-skift-idea-awards-meet-the-finalists/",
-   "source": "Skift",
-   "category": "Industry reads",
-   "publishedAt": "2026-08-07T14:00:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-   "link": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back/",
-   "source": "Skift",
-   "category": "Industry reads",
-   "publishedAt": "2026-08-07T13:48:06.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Live Nation makes Czech move with Prague venues deal",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMUhLNHV2M2l4M2VaWkVxenJ2eHlTN2wyRmgwWWU2dWJBOUxVaU1GRU5QUlFTRkdaLWJiYVFTNGpVa2Nka3pNb05JVEg2QzhGcU9neDk2dnFQUlhHTEhrRUZNemZwakcweHo4SkRxNHJLc0UwS3paRmR1TnlkdFJWZ2VaNWlCYnNSVTN6TV9samNpM210X2ROLVZ3M2YzQnp4?oc=5",
-   "source": "thestadiumbusiness.com",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T13:43:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Ixigo Q1 profit jumps 81% to Rs 34 crore despite aviation slowdown, train booking changes",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVWFDXzZEdHdVVHRxclFtV2U3ektLZEtRa2hSdXVneUw0T2lkeWpCV2dUX2RHTlJKRVR2dmlpaFFrc2ZPMl9kcGZjTXl0WHB1RG0tVjhtclpHQ3dmZEcydUx5eDZkUGNWX0xfRldMaWdGNjFZZUxTYjlRakRYMG5fLTFhd2tUQWJZdEVpZ19KdTFmMmloTWtpalhvREZ5Tm01MHRLNFR5WV9IbFJyU1VVLTcxTjNWbUt0R283R2x6WTBKUFVmWmZPUlhvd9IBywFBVV95cUxNVWFDXzZEdHdVVHRxclFtV2U3ektLZEtRa2hSdXVneUw0T2lkeWpCV2dUX2RHTlJKRVR2dmlpaFFrc2ZPMl9kcGZjTXl0WHB1RG0tVjhtclpHQ3dmZEcydUx5eDZkUGNWX0xfRldMaWdGNjFZZUxTYjlRakRYMG5fLTFhd2tUQWJZdEVpZ19KdTFmMmloTWtpalhvREZ5Tm01MHRLNFR5WV9IbFJyU1VVLTcxTjNWbUt0R283R2x6WTBKUFVmWmZPUlhvdw?oc=5",
-   "source": "Indian Startup News",
-   "category": "India travel",
-   "publishedAt": "2026-08-07T13:38:22.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "StubHub Holdings, Inc. (STUB) stock price, news, quote and history",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MSHAtX3kxbWFRZldIWlhsZ2RPSjlsVWJ1azJQZVRwcTY5dWlTdWE5dkQ0emlXalh6WC1wdkZ4UjVMNjBRR0dFZlk1UGZTZnBuZEV5UzdDNUFIUXNrV2EydlVR?oc=5",
-   "source": "Yahoo Finance Singapore",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T13:38:17.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "MakeMyTrip Ltd (MMYT) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94ZWp5T2x5QjhzaHVQN2ZuQVZUcnhzX2piaUo3eGstQjJBZS1ha1piLWhrVnpjbDY3UWZwLS1QVkVjcDByWXJoRzZMRzZDcWE2bjVTdGk2dFFBXzJMNHItMi1mazVmQQ?oc=5",
-   "source": "TradingKey",
-   "category": "India travel",
-   "publishedAt": "2026-08-07T13:33:12.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "StubHub says the Rick Springfield concert was postponed, but it wasn’t. Can I get a refund?",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTVB1M1VjbFhzS2lheDRJNENLYUFkOWNGR0MzWkluNnFfZ2xITVJzR1lrWmhaWkgzRVU0WUJhZzhmcmNwNkg3MW8wU2JETV9kQTdWdXRuR3FEWmFtaGl2SnprZTd2TFd6a0xseUZ3WUdENF9vVEVUTl8wLTJnX2VBM3Y5b3hxcC03SDBwUWxMd3lHY0w2MlBsUkt4dnNKVlhIX1RoZVB3RXFNSDZIUjhhX3I5OWJUaGJIOGRQeGdIWkUtc2RuMGfSAcsBQVVfeXFMTmZlVGp0YUZ3andlNHVTbk5aRTJwUXZSMUttemM1VnJLb0xQOGJFZ0t6Q245U1RnUVMzRzNQaU1SbWdNOFdvbWNycXR6SDNfN0JOZndpSjNrZU43bVVaUlFfTkZpcGlXOEs5X0xKM21mc0Jkd2pWYVQxNVBsbE84UlkzNG9DZldMNnAxLXU1cWdLcFNLWmNlOEhqbmxHNEw0Q0lRTTlRRFdEbWZzRkxUa2lHSTVndEtfRUZaWFdmVVM0V2NGdDRmcmJqenc?oc=5",
-   "source": "The Mercury News",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T13:30:41.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Virtuoso Travel Tech Summit returns to Virtuoso Travel Week",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORmVfVUFNdkZ0XzBxdDUwU2VRMS13clZ0SVdVaTBTdEdQbzlBbW1pSTliYnlud1J5aVRYdDAxekFNM05tZzRRQ2F6Y2RXN3R2ZDF6eW9mUmUxTWtmS01RWGozNG0yUnlpWjlaeHpRNThyTGR3T0N1RlZPZW9XUnhEZGgyR1dWM0hSZjgwX3VrdFVKQQ?oc=5",
-   "source": "TravelPress",
-   "category": "Travel tech & funding",
-   "publishedAt": "2026-08-07T13:20:23.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Heritage Days 2026 in Colombes (92): the schedule of tours and activities around town",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVmtrRHQ2MGZfYXgtakVaT0gtVWJFWUNEdHg5SlotNWFrNDZsTlpTcGtxTTdGMGtPbVBoRkZxTTNCWm9icEVRdjlBVXJqWnlZaGZkUGo2VGd3ZGwzME5aQmt0NDRyQ1R2cHluX0tkd0poa2dGdzI3eW9CSERZYTEwdlpwa0hNb3NPYm5ObTZMcGJjb0Z5ME9xeTcxWUdDbTFDVXVoRVcxZllGMmxxUF91ZjVNYmdIQ19rY0FSdFFlblRFWm1BZzN6enZtT1dERUhQelIzVWRtLVg1UkVkRGtIQTRuMTN0Uzg?oc=5",
-   "source": "sortiraparis.com",
-   "category": "Experiences economy",
-   "publishedAt": "2026-08-07T13:07:05.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Ixigo Posts Record Profit as Bus Bookings Surge in Q1",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTXJYTk9JQmZjLUNLaW8tQm9oMnV1QWRUTTR3dVlyTnFBZkpuQlZSaW4xMXdxblFMNVRzYndOcmNxcV9hempkeVFmdFBvSnR6bDI5dTFPZV9Wcl9TMHJSRFR1elNiVHF6SlFYX3Jma0xyRHFEeVVqcmdCVVhxcUcyNzB6V0xEaUtYZWJR?oc=5",
-   "source": "Equitypandit",
-   "category": "India travel",
-   "publishedAt": "2026-08-07T12:53:05.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "PPF and Live Nation Form Partnership for Prague’s Leading Event Venues",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdmlIdV8yRGFtQ3VhRzV6eG5JM3RaUkdpc1RSLTBiUDBoRnVjR25zbC1PS0pHdDV3eVR2TkVla18wVkVySFRBOHk1a3NjbkNoVGJKMWVSWnVwM1ZkOTR1VGxaNUZOSUJ5T1phWWNKZVlWSENWWU51bkgxV3dubWNndzVyMkZVNzc4bm9DQnNfcFhDT0QxVUc5cXlOTXRSd0lZNXFqWXBkN20yYTloNmtFTQ?oc=5",
-   "source": "Prague Daily News",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T12:43:00.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "LeBron James Sparks Massive 76ers Ticket Surge, StubHub Says: Exclusive",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOHRLNHJqVmluOXotTmpuc2NkS01ldG9vdDkxLUl5bzEyRDRVV1hRdVZ2WUZiU3lkMWlXTm5ja3poZFY2VlI3bUpuWERCZUthY3JxZUM1Zjd6YjRzTUl0SXM1TWIxM250cXpyUXotcXA2dzRWZGZSa0xVME54amhDRDFJX1NERXQxNUtzaHJGMl8?oc=5",
-   "source": "heavy.com",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T12:34:06.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "ixigo posts record Q1 FY27 profit as PAT jumps 81% to INR 34.24 crore",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPT1NMNGJRbWNEREtIbGNmbzE0OXlUSjZpR09oLTBqalp0a2NPazRyVXEyOHZNR3Y5YzZuNGh6SkFiUGxWNm5UNGZnaVNsUzNJOXdJYjhib3dLMWFxQjVIMjRiVzAxTFFPdXhpVldZdkRCbXRhNDVKSDktVVpZTDZCNnU1V1BGUlBXRjdnTVkybTM2YllIY2lBYmp4c3pKTGZUaVEzSU1janVaZDFjMnExeU8tYml5UWd0MkU2bWZ6TTg0RERSYk9uNUlhRVhoa0xoN0daRjMzQlVtc2RyTVNnQWwweE0wWm8tR3p3MmFYUXc?oc=5",
-   "source": "ET TravelWorld",
-   "category": "India travel",
-   "publishedAt": "2026-08-07T12:32:58.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Cats review: A polished production of Lloyd Webber's baffling o-puss",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdTVIZGVuVHNlWUZnOEFJY1Q4RFUtc2ZXMVN3clVjb0xmN29lRXdpeEtTbk9uTk1PZWpuMlZ2ZTRVWW5Ka2VWV2gzYjAwTjR4cVdvY0lGd0dhN0xBUl9pbjlQOW55V2NBbUl5ODlfYno2alN1NEt4ZUNuZ0NYVzJydEhTdUtLc1k?oc=5",
-   "source": "Radio Times",
-   "category": "Competitors",
-   "publishedAt": "2026-08-07T11:51:21.000Z",
-   "keepDays": 30,
-   "country": null
-  },
-  {
-   "title": "Live Nation Acquires Majority Stake In Three Leading Czech Venues",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUVRpYmtSM0lkZW85LUs3OW10QUp2VlRaVDljMHh1WXdhdjJZY2pyUlpBdkhlcURZS3hhV0JhVFdJaFNlQzNxZml3QjlUSkw4RjlocnpxckZsLWE4VE1BeGZWbWFVWEU2Tkp3VE9jMW94Si1DOHlqQXZmRXl0aHdqSHRNeXU2aDNBNkQ5ZDYtdDRSU0tXM0M3ck5vRzhHMHdiUFBta05B?oc=5",
-   "source": "Pollstar News",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T11:41:13.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Tripadvisor Inc (XSWX:TRIP) Stock Earnings Transcripts",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zOHBVQnpNR0MtYmVkdE45amNfU0s1aC1kZENPbVVQUmFRS1F5WlBfUVpMNWI4eVhvLXo0N1lKNmM5U2dYNEdnNFdmV1BHOXhTQnBfR3oxOHBLb3VHanpYX015NA?oc=5",
-   "source": "GuruFocus",
-   "category": "Competitors",
-   "publishedAt": "2026-08-07T11:16:33.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Barn Theatre’s MILLION DOLLAR QUARTET to transfer to London this Autumn",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeS1pSHJwUC1sN2EtTzdNbldkVzA1VjZGc1hfcExNR3NDYnZCR3hlelAtY015SEwwVk85UmJMNVgwU1JWQ3ZnNzZ0NHptaXU5ZDJzQ0pjaDF0VUFDVDdYdzV1RnNMNHNOSG5pR1k0WVpKVnM4b2VlYlM3YWRVSlJfTHlfN2tuV0h0SzZzbU9kSEVrM0xtbmxXMThLMmlzaVhvM0xlLQ?oc=5",
-   "source": "West End Best Friend",
-   "category": "Competitors",
-   "publishedAt": "2026-08-07T11:16:13.000Z",
-   "keepDays": 30,
-   "country": "UK"
-  },
-  {
-   "title": "Moove secures $250 million to expand AV infrastructure",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQUhFTFQ4RFVpdm5vNlctZzhjSEE4QklobEVCd2ZKUVdUWG5EZVhsdUF2Z3pSQzlRbHFCYzVvVTEtbXdWRmhVazE1eWNBMl9vVHZaZWUyUzhxMm5uM0QxMTV5b3hlRUlmWEEyR0RFcGRGSGFPdi1xMzU2T3IxQjVvTk1femdNT2czWjhGaVVaY2hnTmxi?oc=5",
-   "source": "PhocusWire",
-   "category": "Industry reads",
-   "publishedAt": "2026-08-07T11:00:12.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "McNeese Set for First Fall Camp Scrimmage on Saturday",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBzNm5hX3ZtUnUydTAzZ1FUbUxVMTVxeWRvakJaVWw2Sk1TQzAwVHo0X3ZoOEhRUzFvejc2NEh4cklPUTNWMlRqN2RsYUVPaTJuZVBaX2lkLV9vUmZyck5pYkQ2eF84TUJyZW9mZ0RMX0lhVGh2a3MtYUFmYUhZdw?oc=5",
-   "source": "107 JAMZ",
-   "category": "Competitors",
-   "publishedAt": "2026-08-07T10:50:10.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Barn Theatre's Million Dollar Quartet lands London transfer",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYUJDNXFZLVFzbUNNSDBZMjlPb0V4dDR5NlM0QlJ0RWJXWDVXZ2x5US1OWXlReTl2V1NDU1NXeWJQeUFjME5FY3NYVnFpalZoSl9hSEY0MERqbWRoQ3E0NDJwOE5CRTdvRG5FcDY2c0NaUnFzRDRsTHFuRVpsSWF1VTVORGtkSVZHQXg1ZTVncTVzdEVtNDRn?oc=5",
-   "source": "The Stage",
-   "category": "Competitors",
-   "publishedAt": "2026-08-07T10:41:00.000Z",
-   "keepDays": 30,
-   "country": "UK"
-  },
-  {
-   "title": "Barn Theatre’s Million Dollar Quartet to Transfer to London for Limited Autumn Season",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLTFYWm1xVmUzbGZ0WFA1dTgxRFIyMXBfcWZMbFNhSDJEOHhrWHdfYjg4MGMwSHNBOHN5UVNkME9VR1FaekVzbXhaZTZLM1JqdjhEaHhzZFhkVjNJa0l6em9DZGphLWJfZWRqQ2ZEN2FZQTlHbDRLOHhxaTh6dnlWLTNvRzJPWEhQSEhsZ1hMdU5uNzA5czRYTFozS0RRQklid2xkYnV6czdXMmhFV19MWQ?oc=5",
-   "source": "Theatre Weekly",
-   "category": "Competitors",
-   "publishedAt": "2026-08-07T10:40:23.000Z",
-   "keepDays": 30,
-   "country": "UK"
-  },
-  {
-   "title": "Six Flags Great America unveils new Camp Timber Trail with family coaster",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81ckJiV3p0b2JJVTZBTVFBbklVSHZvOWY0RkJKWS1ScXVzYTQtLVUwRlJQM2c2ajNBQ2d1TkFnVkRYV1N1VnppUlYxbnEtMm5YSWVKT2hZS3UxM1IzSDY4RDdtYw?oc=5",
-   "source": "Blooloop",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T10:37:14.000Z",
-   "keepDays": 21,
-   "country": "USA"
-  },
-  {
-   "title": "Apollo’s: The Johannesburg Venue Where Great Food Meets Queer Community",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUxVcG9hR19oU2hOVnZ6N2JFMzZpZ3VjMmNYUzM0NmVRYTFBbXNRU00zOGRYT1FWRXVobDZUbHU1SmFZUGJRNzVCMnhFRmhtVnBaRTFvZXEyeTF4OTNzQzJFSWlhUWJzVVJRUmZSN0xyTURJUWY0Zk9sbEpJVWtveFBudHFEUHNnWWcxZWQ5SGJwcXJmWkhZUHkxOGJvbDZ6ckNpUHAwbzRabGlWLUE?oc=5",
-   "source": "MambaOnline",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T10:19:29.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Ixigo stock falls 15.4% after FY27 Q1 EBITDA miss",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaW1oNC1NWHN4Umt3UUtvLUdXSTVXT042aC1yYmtiMkpydl9ncjdiVVQ3Y1hOZXdfdC1zekQyUmxMdGd5d3lPTExiV1dENkZNTXoyNEI5eDA2dHVIdTB3YlAtSEZtZ3pfNUtWdm5FbDYzdnJXbWNnVWt0TTZwNUZOX0tVMnZ3aWhtcUpHZGJydmI2LUUwNXh6YkR5MA?oc=5",
-   "source": "NewsBytes",
-   "category": "India travel",
-   "publishedAt": "2026-08-07T10:14:50.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Ticketmaster President’s Queue Comments Open New Transparency Questions Over Ticket Sales Process",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ2xjc0ZvdVhvd1AzbTU4dmZsRGFEMlhUbTRoSjlyTHZkd2x4MGcxWk12MnR5b25FUk9LOGNGZW5kTXZhZ1Nxb0ZuNjF3T3Nzc2Fpa0E4RUswc2h0XzFxRDVfT0IyU3RvWE4tcDdqbEdPREZEUlotWEhYd3VfWXh4WUZUeDhubU9GVGtJOVBhU2YzOXlRVnpJeW4yam1HS0ZDWlpJYXVQN3ZNeUJaei0tZV9VUlA0NzFab2ZCMEhHcFdlZXhPenZ5TWFLc24?oc=5",
-   "source": "TicketNews",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T10:13:10.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Earnings roundup: Uber, Amex GBT, Ixigo and more...",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1hkSFRGSDF1Sl9vWE95cDQtRlIyT3l4RExSM21HSlhpMVJaR3dyWjlsRldqN0lNY3dGajZQekYtYnVUSFduSkxLWHMwRXpDQzZvb2xSSE5MZW5PTHprMDlpbDhnQ19wVGNpejA0TUJjUGR1MzIxQmZZbWJQU1lzQmZkVDdIalBGN0tkQmZxSU0zZw?oc=5",
-   "source": "PhocusWire",
-   "category": "Industry reads",
-   "publishedAt": "2026-08-07T10:05:10.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Smithsonian’s Hirshhorn sculpture garden to reopen after four-year overhaul",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJYXNDUzl3YWllaFZLSzFNelNqZ2FIeVF3MVFEb0RsdU5lcFE5U0V6aUpEQWRhTkF6cWFtTFNQY1l6QjF3TnpGTC1DZk9RcUhrTlhXOUU4TF8tY1licUZpRW4xOThtT0NlMnZEUEZGbnlNT1EtcE1GNTZ5ZHJiazQ?oc=5",
-   "source": "blooloop.com",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T09:57:07.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Ixigo shares fall up to 15% amid miss on Q1 margins",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXZBRVpwM3lkMFRxT1Nabi1LTC0xRFlmVU4tMWgwVkYzaXpSMDdlQTJ0d3lGVnJzcm5hWU5WZGlzZ0Q4TVBDWDlKNXUwTTdJb0pxM1BMN2ZJMFJGbVhhazRLWjBnMkNwdlg1cmhBdEZVZElESFE4Q0Q4SEdrZkZYVEs3bmZXQWRWeFpUQjVKWXZrQTAzY1pueWh6aEpXa0pGd2xFUnVYdWtlVGxNVW1YZzRIQk1fUdIBuwFBVV95cUxOdTU2SDNVaGx0TmZWRFozb2FuYUtpVlBBQTNrVW1VeWUwdjRmb2hsRGM5ZXhLdHY3Q0x0SmVacUx1U0NsVUxHUDc3UnpCZ3VEVmQwaVF1M25sX2FtRjl3OGVtYjJmd1dTeFFiaGFTLTVnWDIwV1JyU0I3UHluYzB5ZzdBejhfaExOUC04V2ltbm5iYXFjUG1PNVFCbW9CUmVlVG8yaWVxRFlleU8xaHJhcF93eUtPQTRta18w?oc=5",
-   "source": "Moneycontrol.com",
-   "category": "India travel",
-   "publishedAt": "2026-08-07T09:49:44.000Z",
-   "keepDays": 21,
-   "country": null
-  },
-  {
-   "title": "Water Lantern Festival returns to London this September",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWVNLU5TOUpSejJEbjF5c2ZwM2tCMEtEVnU5Y3Uta1lVd2ltSWJtSFRmMFVXMWVDWjA2c1JKRUZBYm9aWTNLb3ZsSjZ6UmZVVmpQZkNMemdqbWRIemtBcjVkX2JmOS1jWG90NUpSZ0F4R0lFY0s4YmxUZENfWG1xVThWUF9kZEE?oc=5",
-   "source": "London TV",
-   "category": "Competitors",
-   "publishedAt": "2026-08-07T09:48:25.000Z",
-   "keepDays": 21,
-   "country": "UK"
-  },
-  {
-   "title": "borabora studios presents Forest of Time interactive experience at Happitat Bangkok",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yYm93Q3FtcEVoelRoRUNabG9yRzZuaG1kMEp0OHQ5N0d6bU1YcHJvN1NQX1dCWk9uU3NHZGV4NWtDNlhTMHRPbTZLU1p6NkxfcnFOajV5Vng2bFY2LVRST1l5bw?oc=5",
-   "source": "blooloop.com",
-   "category": "Live entertainment",
-   "publishedAt": "2026-08-07T09:42:03.000Z",
-   "keepDays": 21,
-   "country": "Thailand"
-  },
-  {
    "title": "Team Member – 205 New Neely Ferry Road, Mauldin, SC 29662",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb0s3eVZDaHVqdS1SVThzTWdVSEJRVHBnR1BjQS1Od2NCaUlOM3dfRXd0M0JrRU1iWU5RanY3ZHRVNlpJVjlSaEpaeEhWNVNBV2RrckhRMy1zMXh2WHBpaWllY3RPWjlZM1dnVGRKcy1ocWk0cmpmczQxOXQ2Wi15REYtcUt0RXc?oc=5",
    "source": "Arival",
@@ -7262,15 +7280,6 @@
    "country": null
   },
   {
-   "title": "Retail Manager – Patriots Point Naval & Maritime Museum",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQmx2SzN4dUJkZGNrQjhlTHR3QWlOTUJ3WEREeVdBV0xOSGVLLUcyN2hHcE9seVZQZlQwa1duZEtRZnhiT090YkxLQkp1TWdHdHlMRVhQY1hENWdMMVNReUJvV3pJT0EzamUyQ0VGNXBXOG1HN0NQSlZPcFA2QWhRaEVfYkU?oc=5",
-   "source": "Arival",
-   "category": "Industry reads",
-   "publishedAt": "2026-07-16T07:00:00.000Z",
-   "keepDays": 30,
-   "country": null
-  },
-  {
    "title": "How to get cheap London Eye tickets, advance and last-minute bookings",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfdkhQNzFWbTV4WUQxdGhhY1UtbHpBb01BajhpakMzZUd6MVVNQnVpQ2tsWUI2MTJabFF3WEphZU1OckNzVktBSnlzMER3MVlQYy1KNHRwa3pqZXVwMXNNc0RmNTVRSEFicGpuX05RelV4VHFzdlE2VWxn?oc=5",
    "source": "Radio Times",
@@ -7294,15 +7303,6 @@
    "source": "Radio Times",
    "category": "Headout",
    "publishedAt": "2026-05-20T07:00:00.000Z",
-   "keepDays": 90,
-   "country": null
-  },
-  {
-   "title": "Open thread: Maryland men’s basketball (Archived: 5/17-6/17)",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMFdrckwwUnR6bnJ2cHc4SmFiODVQczd5dkkxV3VDcUV2czBKTkl4VTI2djVLTHJ5dExCckR1bmItNnhhZjZqRUVLR2lEeEZ4MnhVQU42YlBCMWh4bzZDRVhqVzM0aUN6QmlkSFFpZ295a3lsUzJfejVrekg5dWRuMzk0QjQwdw?oc=5",
-   "source": "Testudo Times",
-   "category": "Headout",
-   "publishedAt": "2026-05-17T07:00:00.000Z",
    "keepDays": 90,
    "country": null
   }
